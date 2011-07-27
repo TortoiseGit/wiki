@@ -1,0 +1,23 @@
+#summary One-sentence summary of this page.
+
+<wiki:toc max_depth="2" />
+
+= How to delete branch and tag =
+Press "Shift" key, right-click -> Browse Reference, 
+Choose branch or tag, right-click, choose "delete".. 
+
+Or open log dialog -> choose commit with branch\tag, right->click->delete
+
+= How to remove file from version control and keep local copy =
+Press "shift" key, right-click -> Delete (keep local)
+
+
+= How to show extended menu item =
+Press "shift" key, right-click
+
+= How to hide some menu items =
+setting -> Set Extend Menu Item. 
+Choose menu you want to hide
+
+= How to use 32bit extension at 64bit system =
+install both 32bit and 64bit tortoisegit
