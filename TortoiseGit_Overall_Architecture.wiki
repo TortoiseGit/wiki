@@ -1,0 +1,9 @@
+#TortoiseGit Overall architecture
+
+= Introduction =
+
+This page introduce Tortoisegit overall architecture.
+
+*src/TortiseShell* -- Explorer Shell extension, finial output is tortoiegit.dll, which load by Explorer. Which check if directory is git repository and file\dir status to add tgit command to context menu. 
+
+*src/TortoiseProc* -- The main TGit GUI program, handle all tgit command such log, commit and so on.  The finial output is tortoiseproc.exe. 
