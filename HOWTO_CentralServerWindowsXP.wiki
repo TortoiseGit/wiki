@@ -1,0 +1,107 @@
+#summary TortoiseGit + msysgit + CopSSH + WindowsXP as server
+
+= Introduction =
+
+This guide will show you how to set up a centralized Git repository, which
+offers an option similar to a conventional subversion work-flow, with
+a centralized server.
+
+This is not a difficult process; it is only a long sequence of simple steps.  
+
+= Software Requirements =
+
+Software requirements are the following:
+
+  * [http://msysgit.googlecode.com/files/Git-1.7.0.2-preview20100309.exe msysgit 1.7.0.2] (Client and Server)
+  * [http://sourceforge.net/projects/sereds/files/copSSH/3.0.3/Copssh_3.0.3_Installer.zip/download CopSSH 3.0.3] (Server only)
+  * [http://tortoisegit.googlecode.com/files/TortoiseGit-1.4.4.0-32bit.msi TortoiseGit 1.4.4.0] (Client only)
+
+The 32bit versions of the software packages are linked.  If installing for x64 on the _server_, substitute installation packages (and paths) appropriately.  The x64 versions have not been tested on the server, and only the versions mentioned here have been tested; ymmv.
+  
+= On The Server =
+
+  #. Install [http://msysgit.googlecode.com/files/Git-1.7.0.2-preview20100309.exe msysgit 1.7.0.2]
+    * Choose plink, _not OpenSSH_
+    * Choose Git only on windows path (middle option)
+  #. Install [http://sourceforge.net/projects/sereds/files/copSSH/3.0.3/Copssh_3.0.3_Installer.zip/download CopSSH 3.0.3] on the server machine
+    * Use default options during installation
+    * By default, CopSSH installs to {{{C:\Program Files\ICW\}}}
+  #.  Modify CopSSH configuration:
+    * In {{{C:\Program Files\ICW\etc\sshd_config}}}, make sure the following is uncommented and set to "no":
+{{{
+PasswordAuthentication no
+}}}
+  #.  On server, in Windows: 
+    * Control Panel > User Accounts > Create new account
+    * Create an account for each user to whom you wish to allow SSH access.
+    * It is fine for these accounts to be "Limited", or non-Administrators.
+  #.  Activate these new user accounts in CopSSH:
+    * Start > Programs > Copssh > "Activate a user"
+    * Choose user account, leave other options as default (`/bin/bash`, etc.)
+    * Type a passphrase.  *You must remember this passphrase*: it is associated with the private key of the user being activated.
+    * Finish.
+  #. In `C:\Program Files\ICW\home`, there is a subfolder for each user account:
+    * Inside each subfolder, send the `<user>.key` and `<user>.key.pub` files to the user, along with the pass phrase selected in (5) FOR THAT USER. They will need this information.
+  #.  Make a git repository:
+    * Lets assume we want to serve 2 repos: one on C: drive and one on D: drive
+    * On C: `C:\SeeDriveRepos\Repo1\.git`
+    * On D: `D:\DeeDriveRepos\Repo2\.git`
+    * For each parent folder, e.g. `C:\SeeDriveRepos`:
+      * Right Click > Sharing and Security > Security > Users: "Modify" = Checked (note that "Write" becomes checked as well, which is fine)
+      * This is needed for when a remote client wants to Push.
+    * NOTE: It will be more likely that the central server will host a bare git repository.  In this instance, the *folder* name will be something like `\SeeDriveRepos\Repo.git`.  This does not change the subsequent discussion, except that the URL when specified from the client side must obviously match the folder name above, in terms of `Repo.git`.
+    * _Potential Gotcha_: If you access and commit into this repository locally, in other words, while logged into the server directly, and using file-based access from a clone of this repository on the same server, then the HEADS file representing that branch will take on the security privileges of that user.  In other words, doing this while logged in as Administrator will prevent all other non-admin users from modifying that HEADS file: they will be unable to make commits to that branch.  There are various workarounds for this, including changing the write permissions on the folder tree of that repository to be valid for all ssh-enabled users, or making all ssh-user accounts (the Windows accounts) administrators, and so on.  
+  #. On server, ensure that the Firewall has port 22 open. This will allow incoming SSH traffic.  Any other port-blocking software or hardware should have the same port open.
+  #. The ssh server won't be able to find the required Git EXEs yet.
+    #. Start > CopSSH > Start a unix bash shell. _On at least Windows 7, this action must be performed while logged in under an Administrator account_.
+    #. `cd /Bin`
+    #. Create a symbolic link to `git.exe`, `git-receive-pack.exe`, `git-upload-archive.exe`, `git-upload-pack.exe`:
+{{{
+$ ln -s /cygdrive/c/Program\ Files\ \(x86\)/Git/bin/git.exe git.exe
+$ ln -s /cygdrive/c/Program\ Files\ \(x86\)/Git/libexec/git-core/git-receive-pack.exe git-receive-pack.exe
+$ ln -s /cygdrive/c/Program\ Files\ \(x86\)/Git/libexec/git-core/git-upload-archive.exe git-upload-archive.exe
+$ ln -s /cygdrive/c/Program\ Files\ \(x86\)/Git/libexec/git-core/git-upload-pack.exe git-upload-pack.exe 
+}}}
+
+= On The Client =
+
+== Requirements for client configuration ==
+
+You must have been given:
+  #) A *private* key file, e.g. `<user>.key`
+  #) a *pass phrase* for the same private key
+  #) a user name to use, e.g. `<user>`
+  #) The name of a server, e.g. `<server>`
+
+== Configuration procedure ==
+
+(NOTE: The path for program files below is for Windows XP x64, i.e. `C:\Program Files (x86)\`; For 32bit windows, just use `C:\Program Files`.)
+
+  #. Install [http://msysgit.googlecode.com/files/Git-1.7.0.2-preview20100309.exe msysgit 1.7.0.2]
+    * Choose plink
+    * Choose git only on windows path
+  #. Install [http://tortoisegit.googlecode.com/files/TortoiseGit-1.4.4.0-32bit.msi TortoiseGit 1.4.4.0]
+    * After installation, under Settings > Network > SSH:
+    SSH Client = {{{C:\Program Files (x86)\TortoiseGit\bin\TortoisePlink.exe}}}
+    * Potential gotcha: if you only work with other windows developers, you should consider disabling the auto-line-endings adjustment, and select the option to leave line endings unchanged.  Spurious diffs related to line-endings transformations have been [http://stackoverflow.com/questions/783906/git-under-windows-msys-or-cygwin/1747710#1747710 observed].
+  #. Run `C:\Program Files (x86)\TortoiseGit\bin\puttygen.exe`:
+    * The keys generated in CopSSH are _OpenSSH_ keys, but we want to use _putty_ keys with !TortoiseGit; here, we convert the private key to a putty type.
+    * Click button "Load" > Select file `<user>.key`
+    * Save the converted private key somewhere, e.g. `<user>.ppk`
+    * Close puttygen
+    * Run `C:\Program Files (x86)\TortoiseGit\bin\Pageant.exe`
+    * *Add* the newly created `<user>.ppk`
+    * Enter the pass phrase for the private key when asked
+    * NOTE: On every reboot, `Pageant.exe` must be started, and the key loaded, and the pass phrase entered.
+  #. Clone the repositories from the server.  Let's start with the C drive repo:
+    * find a suitable location, and Right Click > Git Clone:
+      * URL = `<user>@<server>:c:/SeeDriveRepos/Repo1`
+      * If `Pageant.exe` is not running, and/or not correctly set up with the right key and passphrase, then set "Load Putty Key" (yes) = (path to `<user>.ppk`).  Without `Pageant.exe`, you will be asked for your passphrase on every action.
+    * click OK
+    * A dialog will come up, asking whether ssh host information should be saved (yes/no): choose yes.
+    * The repository should be successfully cloned.  *If this is not the case, make sure that `Pageant.exe` is running, and has the correct `.ppk` key loaded*.
+  #. Cloning the repository on the D: drive of the server:
+    * URL = `<user>@<server>:d:/DeeDriveRepos/Repo2`
+  #. For repositories on the C: drive of the server, the following URL will also work:
+    * URL = `ssh://<user>@<server>/SeeDriveRepos/Repo1`
+    * This format cannot be used for repositories on other drives of the server. 
