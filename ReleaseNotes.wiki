@@ -1,3 +1,94 @@
+= Release 1.7.2.0 =
+== Features ==
+ * Added shortcuts to the Windows 7 taskbar jumplist
+ * Allow to clone recursively
+ * Fixed issue #841: Pull dialog should have "no fast-forward" option like the merge dialog
+
+== Bug Fix ==
+ * Fixed blame crash at XP system.
+ * Upgraded TortoisePlink to TortoiseSVN rev. 21694, fixes a bug with shipped Pageant under x64
+ * Updated shipped apr library to version 1.4.5
+ * Updated shipped apr-util library to version 1.3.12
+ * Updated shipped zlib library to version 1.2.5
+ * Fixed issue #783: Git Command Progress window should close with Escape
+ * Fixed issue #499: Git Command Progress window does not close from X-closebutton
+
+= Release 1.7.1.0 =
+== Features ==
+ * Fixed issue #828: disable the commit button if there's no comment entered
+
+== Bug Fix ==
+ * Fixed issue #796: plz add code page name "cp949"
+ * Fixed Issue #795: Switch/Checkout Dialog, "Switch To Version" is confusing
+ * Fixed issue #757: TortoiseGit Blame not working from working dir with autocrlf-enabled.
+ * Fixed issue #691: 64-bit version should include the 32-bit shell extension too
+ * Updated shipped PuTTY binaries to version 0.61
+ * Updated shipped notepad2 binaries to version 4.2.25 and added x64 version
+ * Updated shipped TortoiseOverlay to version 1.1.3.21564
+ * Fix crash for init repository
+ * Fixed issue #799: Explore crash with empty directory
+ * Fixed issue #819: Output in Git Command Progress is broken
+
+= Release 1.7.0.0 =
+== Features ==
+ * Fixed issue #724: BrowseRefs: Made branch renaming possible.
+ * Use fetch-dialog for "Fetch" in BrowseRefs
+ * Allow to edit user signingkey in TortoiseGit->Settings->GitConfig
+ * Allow to sign tags (requires GPG and a key without passphrase)
+ * Allow to enter CC recipients with MAPI
+ * Do not add Signed-off-by if already included
+ * Do not add another empty line if there are already some Reviewed-by or Signed-off-by lines at the end of the commit message on signing.
+ * Allow to start push dialog from log
+ * Show changes to revision before the last commit on amend and perform actions relatively to this revision (old behavior is still possible)
+ * Remember (de)selected files in "Commit dialog" after refreshing or ordering the list
+ * Fixed issue #745: Added checkbox to commit dialog to disable autoselection of submodules
+ * Show status on taskbar button on Windows 7
+ * Allow to add a "Signed-Off-By" line to patches on applying
+ * Fixed issue #781: Allow to push all branches at once
+ * Fixed issue #784: Rebase window should allow easier selection of Pick/Squash/Edit/Skip (keys: space: shifts the state, s: skip, e: edit, p: pick, q: squash)
+ * Fixed issue #785: Rebase window should list the contents of a commit just like Log window does
+ * Fixed issue #768: Display modified files in "Reset" dialog
+
+== Bug Fix ==
+ * Fixed tab indices (activation order)
+ * Fixed missing putty-key for deleting a remote branch
+ * Fixed issue #728: Shell "Diff With Previous" doesn't work when there are more than 2 revisions for that file and diff working copy to HEAD~1
+ * Fixed 32/64-bit MAPI inconsistency-issues
+ * Do not include patch in mail if user selected attachment
+ * Fix attaching of patches to mails with some MAPI clients
+ * Fixed sending patches combined in one mail w/o attachments (files were always attached)
+ * Make change setting "hide TGit menu" work
+ * Fixed issue #729: SVN DCommitt incorrectly executes with --rmdir
+ * Fixed issue #732: Synch-dialog layout broken
+ * Fixed issue #734: git not found: Fixed possible problems with folders containing spaces
+ * Fixed issue #735: Log generates file stats from shown parent instead of actual parent
+ * Do not show "Diff with previous" for added files
+ * Fixed issue #737: Diffing of added files does not work with Shell
+ * Fixed issue #738: Lost the commit id on file name when use a external diff tool
+ * Fixed issue #714: add "FETCH_HEAD" to reference drop down list
+ * Fixed Issue #548:  tortoisegit use incorrect case sensitive comparison
+ * Fixed issue #727: /CloseOnEnd not working for commit
+ * Fixed issue #754: Allow to show log for files in "Changes files" dialog
+ * Fixed issue #749: Ask before delete files.
+ * Fixed issue #125: Export files from revision or range of revisions in "Changes files" dialog.
+ * Fixed issue #512: Git sync lose local commits (remote update, fetch and rebase)
+ * Fixed issue #766: "Switch/Checkout" dialog: "Track" should be disabled when no new branch is created
+ * Fixed issue #765: "Check for Updates" in about box doesn't work
+ * Fixed issue #731: Git Command Progress Window text box doesn't have a context menu.
+ * Rebase failed at revision with empty commit message.
+ * Fixed sorting of columns of file lists (e.g. commit dialog).
+ * Fixed issue #757: TortoiseGit Blame not working from working dir.
+ * Fixed layout issues with Windows 7 Aero
+ * TortoiseProc.exe sometimes didn't exit correctly after closing the log dialog
+ * Fixed issue #761: Settings should correctly deal with backslashes (windows path separators) in entered remote URLs
+ * Patch Viewer might display no horizontal scrollbar
+ * Fixed issue #779: Show correct text in taskbar when rebasing finished.
+ * Pushing required a remote-branch name
+ * Fixed issue #790: Add minimize button to progress window
+ * Fixed some optical issues in Rebase-Dialog
+ * Fixed issue #791: /CloseOnEnd not working for switch
+ * TortoiseGitCache Partly rewritten to fix various issues.
+
 = Release 1.6.5.0 =
 == Bug Fix ==
  * Fixed issue #715: Unable to show log when there are old version cache file
