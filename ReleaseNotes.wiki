@@ -1,3 +1,30 @@
+= Release 1.7.4.0 =
+== Features==
+ * Add Show Environment variables at setting dialog to help debug user problem.
+ * Allow users to be warned if there is no Signed-Off-By line in a commit message
+ * Fixed issue #375: Implement --date/time option gui interface in the commit dialog
+ * Fixed issue #814: Remember last selected commit/line on log filtering
+ * Allow to "Update submodules" after pull or hard reset
+
+== Bug Fix ==
+ * Fixed issue #899: Push via Showlog  use Push with force option
+ * Fixed issue #893: "Show Unified Diff" on file entry in "show log" has changes backwards
+ * Fixed issue #881: "Create repository here" should warn if target directory is not empty
+ * Fix wrong contextmenu icon display position when install TSVN 1.7 on WinXP
+ * TGitCache: Fix sometime project root show as unversioned icon
+ * Fixed issues #862, #870: TGitCache: Fix sometime show "+" at tracked items
+ * Upgraded libgit2 to 0.15.0
+ * Fixed issue #716: Aborted clone leaves git process running
+ * Fixed issue #787: Problem of setting proxy for work using HTTPS
+ * Fixed issue #908: TortoiseGit crashes if .git/config-file is broken
+ * Fixed issue #909: Cannot amend initial commit
+ * Fixed issue #829: "Remote" combobox in "Push" window updates only after losing focus
+ * Fixed issue #906: Add ability to add files with options -force.
+ * Fixed issue #914: unifiled diff always show wrong changes (base files compare with new files)
+ * Fixed issue #673: Applying a patch does not honour CRLF in files
+ * Fixed issue #713: apply serial patch window need to improve
+ * Fixed issue #922: Settings / Git / Config / Edit global .gitconfig uses wrong path
+
 = Release 1.7.3.0 =
 == Features ==
  * Fixed issue #872: 32 shell extension should be made optional on x64 installation
