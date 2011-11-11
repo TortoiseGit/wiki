@@ -1,3 +1,22 @@
+= Release 1.7.5.0 =
+== Features==
+ * Fixed issue #260: Added support for bisect
+ * Fixed issue #916: Fixed wrong contextmenu icon display position with installed TSVN 1.7
+ * Add new command to diff two selected files in the CGitStatusListCtrl.
+
+== Bug Fix ==
+ * Fixed issue #931: TGitCache: Missing NULL check
+ * Fixed issue #935: TortoiseMerge removes newlines at file end
+ * Fixed issue #931: libgit2 had problems with big pack files
+ * Fixed issue #486: Resolving conflicts can result in nothing to commit and branch merge not concluded
+ * Fixed issue #938: *Backlash* between user name and domain name is incorrectly replaced by *Slash*
+ * Fixed issue #941: Performing diff on an unchanged file behaves like a diff with an added file
+ * Fixed issue #928: Mark diff-tempfiles as read-only
+ * Fixed issue #951: Alt+S conflict for sign and set date
+ * Fixed issue #949: TortoiseMerge does not allow copying to the clipboard via Ctrl+Insert
+ * Fixed issue #950: avoid possible crash if .git/packed-refs contains annotated tags
+ * Fixed issue #915: TortoiseProc memory corruption on empty repo
+
 = Release 1.7.4.0 =
 == Features==
  * Add Show Environment variables at setting dialog to help debug user problem.
