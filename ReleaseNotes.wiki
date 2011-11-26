@@ -424,7 +424,7 @@
  * Fixed issue #454: Fix "check Now" can't work at setting dialog
  * Fixed issue #457: Git copy versioned item(s) here adds all unversioned files
  * put pull, push and fetch to external manual.
- * Fixed issue #460: ¡°Show changes as unified diff¡± compares files in reverse order.
+ * Fixed issue #460: "Show changes as unified diff" compares files in reverse order.
  * Fix history combobox show twice item
 
 = Release 1.5.1.0 =
