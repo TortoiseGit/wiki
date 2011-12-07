@@ -1,37 +1,3 @@
-= Release 1.7.6.0 =
-== Features==
- * Fixed issue #972: Add "fast forward only" checkbox in pull dialog
- * Fixed issue #976: Compare Revisions should inherit path filter
- * Fixed issue #869: TortoiseProc CloneCommand is ignoring "url" command line parameter
- * Fixed issue #820: Missing menu item for "git svn fetch"
- * Fixed issue #792: Fetch progress window should have a "Log" button
- * Fixed issue #451: rebase (maybe be for any conflicts) select multiple files to mark
- * Fixed issue #894: Make images "open with" TortoiseIDiff
- * Fixed issue #985: Store status for view patch in commit dialog
- * Fixed issue #977: Fetch does not have an option to fetch tags
- * Fixed issue #801: Be able to enter a custom stash message
- * Fixed issue #933: implement git stash --include-untracked
- * Fixed issue #987: Add Stash save/pop to "Working Dir Changes" dialog
- * Fixed issue #988: Stash pop/apply fail should have a button for viewing conflicts
- * Fixed issue #676: Add remove remote tag ability
- * Fixed issue #678: TortoiseGitBlame log incomplete (integrated --follow into TortoiseGitBlame)
-
-== Bug Fix ==
- * Fixed issue #747: TortoiseProc & less process not closing
- * Fixed issue #808: Less: file viewer stop work when use show-low
- * Fixed issues #931, #934 ,#948: TortoiseProc crashes when repo contains huge files (on x86)
-   Upgraded gitdll, libgit and tgit.exe to 1.7.7.2
- * Fixed issue #936: Applying a stash from the list fails
- * Fixed issue #962: git_init in gitdll.c uses USERPROFILE for creating home
- * Fixed issue #964: Can't mark conflict as resolved
- * Fixed issue #867: Add should not run a new Git process for each file
- * Fixed issue #981: After Aborting a Rebase a different Commit is checked out
- * Fixed issue #670: Cannot delete/apply individual stash entries
- * Fixed issue #863: Commit and revert gets stuck on repositories with mixed line-endings
- * Fixed issue #378: CRLF/LF conversion causes commit dialog to freeze
- * Fixed issue #858: Tortoise Git Client crash when showing the log dialog
- * Fixed issue #920: TortoiseGitBlame and UTF-16 LE
-
 = Release 1.7.5.0 =
 == Features==
  * Fixed issue #260: Added support for bisect
