@@ -1,13 +1,14 @@
 #summary Tips and tricks for SSH/PuTTY
 
 = Introduction =
-PuTTY comes with a great session management, this page describes how to make use of it - partly in form of a FAQ. For this to work, you need the PuTTY.exe-application.
+PuTTY comes with a great session management, this page describes how to make use of it - partly in form of a FAQ. For this to work, you need the [[http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html PuTTY.exe-application]].
 
-One special "session" is the _Default Settings_ session, where you can set default values for all new connections (e.g. a key, a default username, enable compression or change the default port).
+== How to use sessions ==
+One special "session" is the _Default Settings_ session, where you can set default values for all new connections (e.g. a key, a default username, enable compression, force SSH version 2 or change the default port and so on).
 
-You can also save settings for (single) ssh connections as sessions. Take one server with a different port, then you can set up all settings and save it to e.g. "SERVERNAME". Now you can access this save setting by starting PuTTY and double clicking "SERVERNAME" in the saved sessions list *OR*, when using plink or other putty applications, the given servername will be matched against the saved sessions list and if found, the settings of the saved session are used.
+You can also save settings for (single) ssh connections as sessions. Take one server where the ssh server only listens on a different port, then you can set up all settings and save it to e.g. "SERVERNAME". Now you can access this save setting by starting PuTTY and double clicking "SERVERNAME" in the saved sessions list *OR*, when using TortoiseGit, plink or other putty applications, the given servername will be matched against the saved sessions list and if found, the settings of the saved session are used.
 
-The session name does not need to be the exact servername, you can also use different names, like "SERVERNAME1" if you want to use two different keys with the same username on one server. So it is also possible to have a saved session called "test.com", but when access a connection to example.com is established.
+Session names do not need to be the exact servername, you can also use different names, like "SERVERNAME1" or "SERVERNAME-adminkey" if you want to use different keys with the same username on one server. This way it is also possible to have a saved session called "test.com", but when accessed a connection to example.com (saved hostname) is established.
 
 = FAQ and examples section =
 
