@@ -1,7 +1,7 @@
 #summary Tips and tricks for SSH/PuTTY
 
 = Introduction =
-PuTTY comes with a great session management, this page describes how to make use of it - partly in form of a FAQ. For this to work, you need the [[http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html PuTTY.exe-application]].
+PuTTY comes with a great session management, this page describes how to make use of it - partly in form of a FAQ. For this to work, you need the [http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html PuTTY.exe-application].
 
 == How to use sessions ==
 One special "session" is the _Default Settings_ session, where you can set default values for all new connections (e.g. a key, a default username, enable compression, force SSH version 2 or change the default port and so on).
