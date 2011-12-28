@@ -1,4 +1,5 @@
 #summary Tips and tricks for SSH/PuTTY
+#sidebar TableOfContents
 
 = Introduction =
 PuTTY comes with a great session management, this page describes how to make use of it - partly in form of a FAQ. For this to work, you need the [[http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html PuTTY.exe-application]].
