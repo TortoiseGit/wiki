@@ -19,7 +19,7 @@ The examples assume that you want to clone {{{git@example.com:/test.git}}}.
 == How to use a default key for all SSH connections ==
 Start PuTTY, go to _Connection->SSH->Auth_ and select your key. Then go to _Session_, select _Default Settings_ and hit _Save_.
 
-Now PuTTY will try to use this key for all new connections (no need to configure it in TortoiseGit). If the PuTTY agent is running, putty and plink try to use an already loaded key, but will ask for the password themselves (as a fallback).
+Now PuTTY (TortoiseGit and plink) will try to use this key for all new connections (no need to configure it in TortoiseGit). If the PuTTY agent is running, putty and plink try to use an already loaded key, but will ask for the password themselves (as a fallback).
 
 == How to connect to a SSH server on a different port ==
 
