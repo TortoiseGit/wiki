@@ -8,7 +8,7 @@ One special "session" is the _Default Settings_ session, where you can set defau
 
 You can also save settings for (single) ssh connections as sessions. Take one server where the ssh server only listens on a different port, then you can set up all settings and save it to e.g. "SERVERNAME". Now you can access this saved settings by starting PuTTY and double clicking "SERVERNAME" in the saved sessions list *OR*, when using TortoiseGit, plink or other putty applications, the entered servername (e.g. git@*SERVERNAME*:/test.git) will be matched against the saved sessions list and if found, the settings of the saved session are used.
 
-Session names do not need to be the exact servername, you can also use different names, like "SERVERNAME1" or "SERVERNAME-adminkey" if you want to use different keys with the same username on one server. This way it is also possible to have a saved session called "test.com", but when accessed a connection to example.com (saved hostname) is established.
+Session names do not need to be the exact servername, you can also use different names, like "SERVERNAME1" or "SERVERNAME-adminkey" (e.g. git@SERVERNAME-adminkey:/test.git) if you want to use different keys with the same username on one server. This way it is also possible to have a saved session called "test.com", but when accessed a connection to example.com (saved hostname) is established.
 
 = FAQ and examples section =
 
