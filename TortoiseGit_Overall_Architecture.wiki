@@ -7,3 +7,24 @@ This page introduce Tortoisegit overall architecture.
 *src/TortiseShell* -- Explorer Shell extension, finial output is tortoisegit.dll, which is loaded by Explorer. Which checks if a directory is git repository and file\dir status to adds the TortoiseGit-submenu/commands to the context menu. 
 
 *src/TortoiseProc* -- The main TGit GUI program, handles all tgit commands such log, commit and so on.  The finial output is tortoiseproc.exe. 
+
+= How to get into TortoiseGit? =
+At best install the latest nightly build and enable "Debug" in the
+Advanced Settings, now you will see all calls made to TortoiseProc.
+
+Inside TortoiseProc all different commands have their own handler class
+and maybe dialogs (in MSVC you can see all the project directories for them).
+
+Main class for functionality is the AppUtils.cpp, which is called by
+many commands.
+
+The log dialog and other revision lists are handled by the
+GitLogListBase.cpp or derived classes (action handlers are in
+GitLogListAction.cpp).
+
+GitStatusListCtrl.cpp is used everywhere where file lists are displayed
+in dialogs.
+
+
+= How to build TortoiseGit? =
+Get the source code and see http://code.google.com/p/tortoisegit/source/browse/build.txt.
