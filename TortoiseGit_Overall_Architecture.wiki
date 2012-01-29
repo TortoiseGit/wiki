@@ -4,9 +4,8 @@
 
 This page introduce Tortoisegit overall architecture.
 
-*src/TortiseShell* -- Explorer Shell extension, finial output is tortoisegit.dll, which is loaded by Explorer. Which checks if a directory is git repository and file\dir status to adds the TortoiseGit-submenu/commands to the context menu. 
-
-*src/TortoiseProc* -- The main TGit GUI program, handles all tgit commands such log, commit and so on.  The finial output is tortoiseproc.exe. 
+ * *TortiseShell* -- Explorer Shell extension, final output is tortoisegit.dll, which is loaded by Explorer. Which checks if a directory is git repository, provides the overlay icons (in conjunction with TGitCache) and adds the TortoiseGit-submenu/commands to the context menu.
+ * *TortoiseProc* -- The main TGit GUI program, handles all commands such log, commit and so on.  The final output is tortoiseproc.exe.
 
 = How to get into TortoiseGit? =
 At best install the latest nightly build and enable "Debug" in the
