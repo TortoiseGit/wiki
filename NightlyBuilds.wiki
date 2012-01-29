@@ -1,4 +1,4 @@
-# Where to find the nightly builds?
+#summary Where to find the nightly builds?
 
 = Where can I find nightly builds? =
 
