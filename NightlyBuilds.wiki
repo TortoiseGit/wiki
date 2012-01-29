@@ -1,0 +1,3 @@
+= Where can I find nightly builds? =
+
+Go to the [http://code.google.com/p/tortoisegit/downloads/list Downloads] tab and select [http://code.google.com/p/tortoisegit/downloads/list?can=1 "All Downloads"].
