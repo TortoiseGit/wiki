@@ -20,4 +20,4 @@ setting -> Set Extend Menu Item.
 Choose menu you want to hide
 
 = How to use 32bit extension at 64bit system =
-install both 32bit and 64bit tortoisegit
+Since version 1.7.2 the 32-bit extension is also included in the 64-bit installer.
