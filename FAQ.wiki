@@ -1,6 +1,7 @@
-#summary One-sentence summary of this page.
-
 <wiki:toc max_depth="2" />
+
+= How to add new Wiki pages or update Wiki pages? =
+Feel free to clone https://code.google.com/p/tortoisegit.wiki/ or https://github.com/TortoiseGit/wiki and send a pull request. 
 
 = How to delete branch and tag =
 Press "Shift" key, right-click -> Browse Reference, 
