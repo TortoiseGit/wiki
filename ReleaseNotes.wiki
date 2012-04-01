@@ -1,3 +1,31 @@
+= Release 1.7.8.0 =
+== Features==
+ * Updated shipped zlib library to version 1.2.6
+ * Updated shipped apr library to version 1.4.6
+ * Updated shipped libgit2 to version 0.16.0
+ * When deleting remote branch on log dialog one can also delete branch in remote repository now.
+ * Fixed issue #1103: cherrypick option to indicate original commit
+ * Fixed issue #1094: Support filter command line options for log
+ * Fixed issue #435, issue #1102: Feature: "Save as patch" from Diff window
+
+== Bug Fix ==
+ * Fixed issue #1085: Small commit with lots of unversioned and not ignored files takes very long
+ * Fixed issue #1098: 'In ChangeList' is cleared when you click a table header
+ * Fixed issue #1073: Correct default name in Switch/Checkout dialog
+ * Fixed issue #1110: Tracking branches when you don't want to/incorrectly
+ * Fixed issue #1115: Detached HEAD message has no cancel/abort option
+ * Fixed issue #1112: Rebase corrupt commit message (ignores windows codepage and converts everything to utf-8)
+ * Fixed issue #985: Correctly store status for view patch in commit dialog
+ * Fixed issue #1116: Make remote branch in pull dialog default to the current branch (or remote tracking branch)
+ * Fixed issue #1060: tgit rebase process can get stuck
+ * Fixed issue #1107: Wrong font used in MessageBoxes on Windows XP
+ * Fixed issue #1105: Wrong status for missing files
+ * Fixed some TortoiseMerge patch apply issues (includes issue #1117)
+ * Fixed issue #718: When pulling it should be possible to directly open the modifications window for editing conflicts
+ * Fixed issue #982: TortoiseGit messes up TortoiseSVN and TortoiseCVS menu icons on WinXP
+ * Fixed issue #1118: Exporting from Changed Files dialog stops on checkout failure
+ * Fixed issue #1108: Allow users to disable the "show unversioned files" messagebox in commit dialog
+
 = Release 1.7.7.0 =
 == Features==
  * Fixed issue #758: Make the log of a bare repository available
