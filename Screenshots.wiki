@@ -4,7 +4,7 @@
 
 =Explorer integration=
 
-==Context menu==
+==(Configurable) Context menu==
 [http://tortoisegit.googlecode.com/git/doc/images/en/ContextMenuDirControl.png]
 
 ==Overlay icons in explorer==
