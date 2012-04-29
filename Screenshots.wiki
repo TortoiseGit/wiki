@@ -1,0 +1,67 @@
+#summary Some Screenshots
+
+<wiki:toc max_depth="0" />
+
+=Explorer integration=
+
+==Context menu==
+[http://tortoisegit.googlecode.com/git/doc/images/en/ContextMenuDirControl.png]
+
+==Overlay icons in explorer==
+
+[http://tortoisegit.googlecode.com/git/doc/images/en/Overlays.png]
+
+==Integration in properties==
+
+[http://tortoisegit.googlecode.com/git/doc/images/en/Properties.png]
+
+=Common tasks=
+
+==Cloning==
+[http://tortoisegit.googlecode.com/git/doc/images/en/GitClone.png]
+
+==Commit Dialog==
+Support spell checking (English) and autocompletion of filenames
+
+[http://tortoisegit.googlecode.com/git/doc/images/en/Commit.png]
+
+==Log Dialog==
+[http://tortoisegit.googlecode.com/git/doc/images/en/LogMessages.png]
+
+==Compare (Revisions) Dialog==
+[http://tortoisegit.googlecode.com/git/doc/images/en/CompareRevisions.png]
+
+==Merge Dialog==
+[http://tortoisegit.googlecode.com/git/doc/images/en/Merge.png]
+
+==Conflict handling==
+[http://tortoisegit.googlecode.com/git/doc/images/en/ResolveConflict.png]
+
+==Rebase Dialog==
+[http://tortoisegit.googlecode.com/git/doc/images/en/GitRebase.png]
+
+==VS Style Blame==
+[http://tortoisegit.googlecode.com/git/doc/images/en/TortoiseBlame.png]
+
+==Handling patches==
+[http://tortoisegit.googlecode.com/git/doc/images/en/CreatePatch.png]
+
+[http://tortoisegit.googlecode.com/files/sendmail.jpg]
+
+[http://tortoisegit.googlecode.com/git/doc/images/en/SendPatch.png]
+
+[http://tortoisegit.googlecode.com/git/doc/images/en/ApplyPatch.png]
+
+==TortoiseMerge: Diffing/Merging files/patches==
+TortoiseMerge can open Git patch file directly, you review it and patch to working copy. 
+
+[http://tortoisegit.googlecode.com/git/doc/images/en/TMerge_TwoPane.png]
+
+[http://tortoisegit.googlecode.com/git/doc/images/en/TortoiseIDiff.png]
+
+==Browse references==
+[http://tortoisegit.googlecode.com/git/doc/images/en/BrowseRef.png]
+
+==Supports bisecting==
+[http://tortoisegit.googlecode.com/git/doc/images/en/bisect.png]
+[http://tortoisegit.googlecode.com/git/doc/images/en/ContextMenuBisect.png]
