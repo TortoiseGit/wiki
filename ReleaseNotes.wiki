@@ -26,6 +26,9 @@
  * Fixed issue #1118: Exporting from Changed Files dialog stops on checkout failure
  * Fixed issue #1108: Allow users to disable the "show unversioned files" messagebox in commit dialog
 
+== Known Issue ==
+ * separate-git-dir .git-directories do not work for overlays
+
 = Release 1.7.7.0 =
 == Features==
  * Fixed issue #758: Make the log of a bare repository available
