@@ -4,6 +4,8 @@
 
 we have setup a web based translation platform at http://transifex.net like TortoiseSVN project. This makes it easier for new translators to get started. If you want to help to translate TortoiseGit, please register an account at transifex.net, then request membership of one of our translation teams or request to create a new team, if your language is not yet listed. 
 
+https://www.transifex.net/projects/p/tortoisegit/
+
 #We will run some sanity checks on it and commit it into our #repository. From that moment on, an installer for your language will #be available in the nightly developer builds for testing. It'll become #part of the nexet official release. We will also put your name on the #list of contributors. 
 
 #Now go ahead and download your favourite language pack
