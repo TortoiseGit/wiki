@@ -6,6 +6,20 @@ we have setup a web based translation platform at http://transifex.net like Tort
 
 https://www.transifex.net/projects/p/tortoisegit/
 
-#We will run some sanity checks on it and commit it into our #repository. From that moment on, an installer for your language will #be available in the nightly developer builds for testing. It'll become #part of the nexet official release. We will also put your name on the #list of contributors. 
+=Download ResText tools=
+  http://code.google.com/p/tortoisesvn/downloads/list
 
-#Now go ahead and download your favourite language pack
+restext apply TortoiseProcLang.dll ..\bin\TortoiseProcNNNN.dll Tortoise_CC.po
+restext apply TortoiseMergeLang.dll ..\bin\TortoiseMergeNNNN.dll Tortoise_CC.po
+
+where NNNN is your four digit country code (1031 for germany)
+and CC is your 2 letter country code (de for germany)
+
+You can find the four digit country code at
+http://www.microsoft.com/globaldev/reference/lcid-all.mspx
+under the column LCID dec.
+
+After successfully creating your dlls, copy them into:
+C:\Program Files\TortoiseGit\Languages
+Now you should be able to select your language from the combobox on the
+TortoiseGIT main setting page.
