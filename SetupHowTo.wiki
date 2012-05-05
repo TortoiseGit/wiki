@@ -1,0 +1,24 @@
+#labels Featured
+= System prerequisites =
+
+ * For the latest version of TortoiseGit Windows XP SP3 or newer is required.
+ * [http://code.google.com/p/msysgit msysGit] is required by TortoiseGit
+   * You do not need to download the whole msysGit development package, the [http://code.google.com/p/msysgit/downloads/list?can=2&q="Full+installer+for+official+Git+for+Windows" "Full installer for official Git for Windows"] download package is sufficient
+   * msysGit 1.7.10+ is recommended for TortoiseGit 1.7.9+ (msysGit 1.7.10 adds utf-8 support and is compatibility to `*`nix git)
+   * minimum compatible version is 1.6.1 (for TortoiseGit < 1.7.9 you should use msysGit 1.7.6)
+
+= Installation =
+
+Just [http://code.google.com/p/tortoisegit/downloads/list download] the setup package for your system (32 or 64 bit) and install it. If you are running a 64 bit system, you do not need to download and install the 32 bit version: The 32 bit shell extension is included in the 64 bit installer since TortoiseGit 1.7.3.0.
+
+== Windows 2000 ===
+
+If you want to use TortoiseGit in a Win2K environment (only 1.6.5 and below support Win2K), please install [http://www.microsoft.com/download/en/details.aspx?id=18909 GDI+] before you install TortoiseGit. However, running these old versions is not recommended (no utf-8 and separate-git-dir support).
+
+= Upgrade =
+
+Before upgrading you should read the ReleaseNotes.
+
+Just [http://code.google.com/p/tortoisegit/downloads/list download] the setup package for your system (32 or 64 bit) and install it. The old version will be replaced automatically.
+
+If you are upgrading from 1.7.3.0 or older and you have installed the 32-bit version on a 64-bit system you have to deinstall the 32-bit version first.
