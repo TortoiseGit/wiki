@@ -1,4 +1,5 @@
 #summary Some Screenshots
+#labels Featured
 
 <wiki:toc max_depth="0" />
 
