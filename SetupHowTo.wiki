@@ -2,6 +2,7 @@
 = System prerequisites =
 
  * For the latest version of TortoiseGit Windows XP SP3 or newer is required.
+ * Admin privileges for the installation
  * [http://code.google.com/p/msysgit msysGit] is required by TortoiseGit
    * You do not need to download the whole msysGit development package, the [http://code.google.com/p/msysgit/downloads/list?can=2&q="Full+installer+for+official+Git+for+Windows" "Full installer for official Git for Windows"] download package is sufficient
    * msysGit 1.7.10+ is recommended for TortoiseGit 1.7.9+ (msysGit 1.7.10 adds utf-8 support and is compatibility to `*`nix git)
