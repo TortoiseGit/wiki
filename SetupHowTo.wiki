@@ -23,3 +23,10 @@ Before upgrading you should read the ReleaseNotes.
 Just [http://code.google.com/p/tortoisegit/downloads/list download] the setup package for your system (32 or 64 bit) and install it. The old version will be replaced automatically.
 
 If you are upgrading from 1.7.3.0 or older and you have installed the 32-bit version on a 64-bit system you have to deinstall the 32-bit version first.
+
+= Common problems (installer aborts with an error message) =
+== "This installation package is not supported by this processor type. Contact your product vendor." ==
+This means you are trying to install the 64-bit version of TortoiseGit on a normal 32-bit operating system. You need to download and use the correct msi file for your OS. For normal 32-bit OS, make sure the msi filename does not have "64-bit" in it. 
+
+== "Please wait while the installer finishes determining your disk space requirements." ==
+Cleanup/empty the temp-directory (e.g. C:\Users\<your user>\AppData\Local\Temp, C:\User and Settings\<your user>\Local Settings\Temp, c:\Windows\Temp\).
