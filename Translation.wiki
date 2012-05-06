@@ -16,6 +16,7 @@ Download Tools:
  * restext apply TortoiseProcLang.dll ..\bin\TortoiseProcNNNN.dll Tortoise_CC.po
  * restext apply TortoiseMergeLang.dll ..\bin\TortoiseMergeNNNN.dll Tortoise_CC.po
  * restext apply TortoiseIDiffLang.dll ..\bin\TortoiseIDiffNNNN.dll Tortoise_CC.po
+ * restext apply TortoiseGitBlameLang.dll ..\bin\TortoiseGitBlameNNNN.dll Tortoise_CC.po
 
  where NNNN is your four digit country code (1031 for germany)
 and CC is your 2 letter country code (de for germany)
