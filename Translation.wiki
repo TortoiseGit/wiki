@@ -10,7 +10,7 @@ A good starting point for new languages might be existing .po-files in our git r
 
 Goal is to provide language files starting with the next releases.
 
-=Setup language package for TortoiseGit=
+=For Developers: Setup language package for TortoiseGit=
 
 Download Tools:
   http://code.google.com/p/tortoisesvn/downloads/list
