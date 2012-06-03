@@ -9,3 +9,5 @@ https://www.transifex.net/projects/p/tortoisegit/
 A good starting point for new languages might be existing [http://tortoisegit.googlecode.com/git/Languages/ .po-files] in our git repository (download the "old" .po file, the po-file from Transifex and diff the two).
 
 Goal is to provide language files starting with the next releases.
+
+You can find the language pack on our [http://code.google.com/p/tortoisegit/downloads/list download page].
