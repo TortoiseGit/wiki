@@ -10,7 +10,7 @@
 
 = Installation =
 
-Just [http://code.google.com/p/tortoisegit/downloads/list download] the setup package for your system (32 or 64 bit) and install it. If you are running a 64 bit system, you do not need to download and install the 32 bit version: The 32 bit shell extension is included in the 64 bit installer since TortoiseGit 1.7.3.0.
+Just [http://code.google.com/p/tortoisegit/downloads/list download] the setup package for your system ([http://code.google.com/p/tortoisegit/downloads/list?q=label:x86 32] or [http://code.google.com/p/tortoisegit/downloads/list?q=label:x64 64 bit]) and install it. If you are running a 64 bit system, you do not need to download and install the 32 bit version: The 32 bit shell extension is included in the 64 bit installer since TortoiseGit 1.7.3.0.
 
 == Windows 2000 ===
 
