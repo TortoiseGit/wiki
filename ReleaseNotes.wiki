@@ -1,3 +1,31 @@
+= Release 1.7.10.0 =
+Released: 2012-06-03
+
+== Features==
+ * Updated shipped zlib library to version 1.2.7
+ * Synced TortoiseIDiff with TortoiseSVN
+ * Synced TortoiseUDiff with TortoiseSVN
+ * Fixed issue #1150: Add support for ANSI Color Codes in log Outputs
+ * Fixed issue #969: Support for localization (you can download/create language packs for TortoiseGit, see http://code.google.com/p/tortoisegit/wiki/Translation)
+ * Added Repository Browser
+ * Updated shipped libgit2 to version 0.17.0
+ * Fixed issue #1169: Show Branch for Commits
+ * Fixed issue #337: TortoiseGit Log doesn't apply --follow (added basic support for --follow)
+
+== Bug Fix ==
+ * Fixed issue #1162: Sync dialog should use same font as progress dialog (use log font for both)
+ * Fixed issue #1174: Clone Dialog incorrectly extracts name from URL that contains ".git" in the middle
+ * Fixed issue #1184: diff of "Working dir changes" uses incorrect line endings (AutoCrLf=true)
+ * Fixed issue #1193: Not properly handling submodule meta information (.git-file contains relative path)
+ * Fixed issue #1167: TGitCache.exe crashes under Win7/64bit
+ * Fixed issue #1195: Problems with tags containing non-ascii chars
+ * Fixed issue #1185: In TortoiseGit log dialog info text, diff dialog and TortoiseGitBlame, git shows 7 chars of the hash by default (as git does)
+ * Fixed issue #1197: Create branch: Alt+S doesn't mark "Switch to new branch"
+ * Fixed issue #1152: Log-Dialog constantly crashes when diffing a file while loading
+ * Fixed issue #719: TortoiseGit is ignoring Global excludesfile for overlays
+ * Fixed issue #1199: TortoiseGitBlame shows wrong revision history
+ * Fixed issue #1157: Custom screen DPI causes wrong text size calculation
+
 = Release 1.7.9.0 =
 Released: 2012-05-05
 
