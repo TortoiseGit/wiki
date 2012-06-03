@@ -10,4 +10,4 @@ A good starting point for new languages might be existing [http://tortoisegit.go
 
 Goal is to provide language files starting with the next releases.
 
-You can find the language pack on our [http://code.google.com/p/tortoisegit/downloads/list download page].
+You can find the language packs on our [http://code.google.com/p/tortoisegit/downloads/list download page].
