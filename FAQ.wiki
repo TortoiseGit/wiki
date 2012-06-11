@@ -22,3 +22,6 @@ Choose menu you want to hide
 
 = How to use 32bit extension at 64bit system =
 Since version 1.7.2 the 32-bit extension is also included in the 64-bit installer.
+
+= TortoiseGitBlame shows menu in wrong language =
+You have to reset the menu bar (even if you did not make any changes to it). Left click -> Customize -> Menu tab and hit Reset/Restore.
