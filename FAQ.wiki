@@ -9,6 +9,9 @@ Choose branch or tag, right-click, choose "delete"..
 
 Or open log dialog -> choose commit with branch\tag, right->click->delete
 
+= How to delete a remote tag =
+Open the push dialog, select the remote archive, no local branch, fill in the tag name into the remote branch field and click on OK.
+
 = How to remove file from version control and keep local copy =
 Press "shift" key, right-click -> Delete (keep local)
 
