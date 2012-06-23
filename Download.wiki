@@ -17,7 +17,7 @@ Please make sure that you choose the right installer for your PC, otherwise the 
 == Language Packs ==
 
 || *Country* || *32 Bit* || *64 Bit* ||
-|| Chinese, simplified|| [http://tortoisegit.googlecode.com/files/LanguagePack_1.7.10.0-32bit-zh_CN.msi Setup] || [http://tortoisegit.googlecode.com/files/LanguagePack_1.7.10.0-64bit--zh_CN.msi Setup] ||
+|| Chinese, simplified|| [http://tortoisegit.googlecode.com/files/LanguagePack_1.7.10.0-32bit-zh_CN.msi Setup] || [http://tortoisegit.googlecode.com/files/LanguagePack_1.7.10.0-64bit-zh_CN.msi Setup] ||
 || Chinese, traditional|| [http://tortoisegit.googlecode.com/files/LanguagePack_1.7.10.0-32bit-zh_TW.msi Setup] || [http://tortoisegit.googlecode.com/files/LanguagePack_1.7.10.0-64bit-zh_TW.msi Setup] ||
 || French|| [http://tortoisegit.googlecode.com/files/LanguagePack_1.7.10.0-32bit-fr.msi Setup] || [http://tortoisegit.googlecode.com/files/LanguagePack_1.7.10.0-64bit-fr.msi Setup] ||
 || German|| [http://tortoisegit.googlecode.com/files/LanguagePack_1.7.10.0-32bit-de.msi Setup] || [http://tortoisegit.googlecode.com/files/LanguagePack_1.7.10.0-64bit-de.msi Setup] ||
