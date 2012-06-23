@@ -2,7 +2,7 @@
 
 = Download =
 
-*The current version is: 1.7.10*.
+*The current version is: 1.7.10*
 
 For detailed info on what's new, read the ReleaseNotes. 
 
@@ -30,7 +30,7 @@ Before reporting an issue, please check that your problem isn't fixed in our lat
 [http://code.google.com/p/tortoisegit/downloads/list Traditional Google Code download list]
 
 === Preview releases ===
-The [http://code.google.com/p/tortoisegit/downloads/list?q=label:Preview preview releases] are build from the latest code and represend the cutting edge of the TortoiseGit development. This version is used by the TortoiseGit developers for their daily work. Preview releases are provided on an irregular basis, however, w/o translations.
+The [http://code.google.com/p/tortoisegit/downloads/list?q=label:Preview&sort=-uploaded preview releases] are build from the latest code and represend the cutting edge of the TortoiseGit development. This version is used by the TortoiseGit developers for their daily work. Preview releases are provided on an irregular basis, however, w/o translations.
 
 === Older releases ===
 Older releases are available [http://code.google.com/p/tortoisegit/downloads/list?can=1&sort=-uploaded+-filename here].
