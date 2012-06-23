@@ -1,0 +1,31 @@
+#summary Download overview page
+
+= Download =
+
+*The current version is: 1.7.10*.
+
+For detailed info on what's new, read the ReleaseNotes. 
+
+[SetupHowTo System prerequisites and installation howto]
+
+Please make sure that you choose the right installer for your PC, otherwise the setup will fail.
+|| *for 32-bit OS* || *for 64-bit OS* ||
+|| [http://tortoisegit.googlecode.com/files/TortoiseGit-1.7.10.0-32bit.msi Download TortoiseGit 1.7.10 - 32-bit] || [http://tortoisegit.googlecode.com/files/TortoiseGit-1.7.10.0-64bit.msi Download TortoiseGit 1.7.10 - 64-bit] ||
+
+[http://code.google.com/p/tortoisegit/downloads/list Traditional Google Code download list]
+
+== Language Packs ==
+
+|| *Country* || *32 Bit* || *64 Bit* ||
+|| Chinese, simplified|| [http://tortoisegit.googlecode.com/files/LanguagePack_1.7.10.0-32bit-zh_CN.msi Setup] || [http://tortoisegit.googlecode.com/files/LanguagePack_1.7.10.0-64bit--zh_CN.msi Setup] ||
+|| Chinese, traditional|| [http://tortoisegit.googlecode.com/files/LanguagePack_1.7.10.0-32bit-zh_TW.msi Setup] || [http://tortoisegit.googlecode.com/files/LanguagePack_1.7.10.0-64bit-zh_TW.msi Setup] ||
+|| French|| [http://tortoisegit.googlecode.com/files/LanguagePack_1.7.10.0-32bit-fr.msi Setup] || [http://tortoisegit.googlecode.com/files/LanguagePack_1.7.10.0-64bit-fr.msi Setup] ||
+|| German|| [http://tortoisegit.googlecode.com/files/LanguagePack_1.7.10.0-32bit-de.msi Setup] || [http://tortoisegit.googlecode.com/files/LanguagePack_1.7.10.0-64bit-de.msi Setup] ||
+|| Portuguese, Brazil|| [http://tortoisegit.googlecode.com/files/LanguagePack_1.7.10.0-32bit-pt_BR.msi Setup] || [http://tortoisegit.googlecode.com/files/LanguagePack_1.7.10.0-64bit-pt_BR.msi Setup] ||
+|| Russian || [http://tortoisegit.googlecode.com/files/LanguagePack_1.7.10.0-32bit-ru.msi Setup] || [http://tortoisegit.googlecode.com/files/LanguagePack_1.7.10.0-64bit-ru.msi Setup] ||
+|| Spanish, Spain || [http://tortoisegit.googlecode.com/files/LanguagePack_1.7.10.0-32bit-es_ES.msi Setup] || [http://tortoisegit.googlecode.com/files/LanguagePack_1.7.10.0-64bit-es_ES.msi Setup] ||
+
+== Other Releases ==
+
+=== Older releases ===
+Older releases are available [http://code.google.com/p/tortoisegit/downloads/list?can=1 here].
