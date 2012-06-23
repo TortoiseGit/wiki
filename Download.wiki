@@ -33,4 +33,4 @@ Before reporting an issue, please check that your problem isn't fixed in our lat
 The [http://code.google.com/p/tortoisegit/downloads/list?q=label:Preview preview releases] are build from the latest code and represend the cutting edge of the TortoiseGit development. This version is used by the TortoiseGit developers for their daily work. Preview releases are provided on an irregular basis, however, w/o translations.
 
 === Older releases ===
-Older releases are available [http://code.google.com/p/tortoisegit/downloads/list?can=1 here].
+Older releases are available [http://code.google.com/p/tortoisegit/downloads/list?can=1&sort=-uploaded+-filename here].
