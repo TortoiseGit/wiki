@@ -10,7 +10,7 @@
 
 = Installation =
 
-Just [http://code.google.com/p/tortoisegit/downloads/list download] the setup package for your system ([http://code.google.com/p/tortoisegit/downloads/list?q=label:x86 32] or [http://code.google.com/p/tortoisegit/downloads/list?q=label:x64 64 bit]) and install it. If you are running a 64 bit system, you do not need to download and install the 32 bit version: The 32 bit shell extension is included in the 64 bit installer since TortoiseGit 1.7.3.0.
+Just [Download download] the setup package for your system and install it. If you are running a 64 bit system, you do not need to download and install the 32 bit version: The 32 bit shell extension is included in the 64 bit installer since TortoiseGit 1.7.3.0.
 
 == Windows 2000 ===
 
@@ -20,7 +20,7 @@ If you want to use TortoiseGit in a Win2K environment (only 1.6.5 and below supp
 
 Before upgrading you should read the ReleaseNotes.
 
-Just [http://code.google.com/p/tortoisegit/downloads/list download] the setup package for your system (32 or 64 bit) and install it. The old version will be replaced automatically.
+Just [Download download] the setup package for your system and install it. The old version will be replaced automatically.
 
 If you are upgrading from 1.7.3.0 or older and you have installed the 32-bit version on a 64-bit system you have to deinstall the 32-bit version first.
 
