@@ -1,4 +1,6 @@
+#summary System prerequisites, Installation and upgrade howto
 #labels Featured
+
 = System prerequisites =
 
  * For the latest version of TortoiseGit Windows XP SP3 or newer is required.
