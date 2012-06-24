@@ -17,6 +17,9 @@ Open the push dialog, select the remote archive, no local branch, fill in the ta
 = How to remove file from version control and keep local copy =
 Press "shift" key, right-click -> Delete (keep local)
 
+== How to use PuTTY for git cli and git bash? ==
+Create an environment variable called "GIT_SSH" with the path to the PuTTY plink.exe.
+This can be done on the command line by executing "set GIT_SSH=PATH_TO_PLINK.EXE" ("C:\Program Files\TortoiseGit\bin\TortoisePLink.exe" on default installations) or [http://www.computerhope.com/issues/ch000549.htm permanently].
 
 = How to show extended menu item =
 Press "shift" key, right-click
