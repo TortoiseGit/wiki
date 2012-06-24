@@ -1,3 +1,5 @@
+#summary Frequently Asked Questions
+
 <wiki:toc max_depth="2" />
 
 = How to add new Wiki pages or update Wiki pages? =
