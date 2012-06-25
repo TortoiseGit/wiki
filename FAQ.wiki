@@ -11,6 +11,11 @@ Choose branch or tag, right-click, choose "delete"..
 
 Or open log dialog -> choose commit with branch\tag, right->click->delete
 
+= What to do if a crash happened? =
+ * Check if "git gc" resolves the problem
+ * Check if "git fsck" resovles the problem
+ * Test our [http://code.google.com/p/tortoisegit/downloads/list?q=label:Preview&sort=-uploaded preview release] if the problem is still there. If yes: File a [http://code.google.com/p/tortoisegit/issues/list bugreport]. Mention your Windows Version (also x64 or x86), your msysgit version and the used TortoiseGit version there.
+
 = How to delete a remote tag =
 Open the push dialog, select the remote archive, no local branch, fill in the tag name into the remote branch field and click on OK.
 
