@@ -12,7 +12,7 @@ Please make sure that you choose the right installer for your PC, otherwise the 
 || *for 32-bit OS* || *for 64-bit OS* ||
 || [http://tortoisegit.googlecode.com/files/TortoiseGit-1.7.10.0-32bit.msi Download TortoiseGit 1.7.10 - 32-bit] || [http://tortoisegit.googlecode.com/files/TortoiseGit-1.7.10.0-64bit.msi Download TortoiseGit 1.7.10 - 64-bit] ||
 
-Before reporting an issue, please check that your problem isn't fixed in our latest [#Preview_releases preview release].
+Before reporting an issue, please check that your problem isn't fixed in our latest [#Preview_releases preview release]. Also see [FAQ#What_to_do_if_a_crash_happened? What to do if a crash happened?].
 
 == Language Packs ==
 
