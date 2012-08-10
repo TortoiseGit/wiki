@@ -2,7 +2,7 @@
 
 = Download =
 
-*The current version is: 1.7.11.3*
+*The current version is: 1.7.12.0*
 
 For detailed info on what's new, read the ReleaseNotes. 
 
@@ -10,21 +10,21 @@ For detailed info on what's new, read the ReleaseNotes.
 
 Please make sure that you choose the right installer for your PC, otherwise the setup will fail.
 || *for 32-bit OS* || *for 64-bit OS* ||
-|| [http://tortoisegit.googlecode.com/files/TortoiseGit-1.7.11.3-32bit.msi Download TortoiseGit 1.7.11.3 - 32-bit] || [http://tortoisegit.googlecode.com/files/TortoiseGit-1.7.11.3-64bit.msi Download TortoiseGit 1.7.11.3 - 64-bit] ||
+|| [http://tortoisegit.googlecode.com/files/TortoiseGit-1.7.12.0-32bit.msi Download TortoiseGit 1.7.12.0 - 32-bit] || [http://tortoisegit.googlecode.com/files/TortoiseGit-1.7.12.0-64bit.msi Download TortoiseGit 1.7.12.0 - 64-bit] ||
 
 Before reporting an issue, please check that your problem isn't fixed in our latest [#Preview_releases preview release]. Also see [FAQ#What_to_do_if_a_crash_happened? What to do if a crash happened?].
 
 == Language Packs ==
 
 || *Country* || *Completeness* || *32 Bit* || *64 Bit* ||
-|| Chinese, simplified    || 100% || [http://tortoisegit.googlecode.com/files/TortoiseGit-LanguagePack-1.7.11.3-32bit-zh_CN.msi Setup] || [http://tortoisegit.googlecode.com/files/TortoiseGit-LanguagePack-1.7.11.3-64bit-zh_CN.msi Setup] ||
-|| Chinese, traditional   || 100% || [http://tortoisegit.googlecode.com/files/TortoiseGit-LanguagePack-1.7.11.3-32bit-zh_TW.msi Setup] || [http://tortoisegit.googlecode.com/files/TortoiseGit-LanguagePack-1.7.11.3-64bit-zh_TW.msi Setup] ||
-|| French                 || 100% || [http://tortoisegit.googlecode.com/files/TortoiseGit-LanguagePack-1.7.11.3-32bit-fr.msi Setup]    || [http://tortoisegit.googlecode.com/files/TortoiseGit-LanguagePack-1.7.11.3-64bit-fr.msi Setup] ||
-|| German                 || 100% || [http://tortoisegit.googlecode.com/files/TortoiseGit-LanguagePack-1.7.11.3-32bit-de.msi Setup]    || [http://tortoisegit.googlecode.com/files/TortoiseGit-LanguagePack-1.7.11.3-64bit-de.msi Setup] ||
-|| Japanese               ||  93% || [http://tortoisegit.googlecode.com/files/TortoiseGit-LanguagePack-1.7.11.3-32bit-ja.msi Setup]    || [http://tortoisegit.googlecode.com/files/TortoiseGit-LanguagePack-1.7.11.3-64bit-ja.msi Setup] ||
-|| Portuguese, Brazil     || 100% || [http://tortoisegit.googlecode.com/files/TortoiseGit-LanguagePack-1.7.11.3-32bit-pt_BR.msi Setup] || [http://tortoisegit.googlecode.com/files/TortoiseGit-LanguagePack-1.7.11.3-64bit-pt_BR.msi Setup] ||
-|| Russian                ||  73% || [http://tortoisegit.googlecode.com/files/TortoiseGit-LanguagePack-1.7.11.3-32bit-ru.msi Setup]    || [http://tortoisegit.googlecode.com/files/TortoiseGit-LanguagePack-1.7.11.3-64bit-ru.msi Setup] ||
-|| Spanish, Spain         || 100% || [http://tortoisegit.googlecode.com/files/TortoiseGit-LanguagePack-1.7.11.3-32bit-es_ES.msi Setup] || [http://tortoisegit.googlecode.com/files/TortoiseGit-LanguagePack-1.7.11.3-64bit-es_ES.msi Setup] ||
+|| Chinese, simplified    || 100% || [http://tortoisegit.googlecode.com/files/TortoiseGit-LanguagePack-1.7.12.0-32bit-zh_CN.msi Setup] || [http://tortoisegit.googlecode.com/files/TortoiseGit-LanguagePack-1.7.12.0-64bit-zh_CN.msi Setup] ||
+|| Chinese, traditional   || 100% || [http://tortoisegit.googlecode.com/files/TortoiseGit-LanguagePack-1.7.12.0-32bit-zh_TW.msi Setup] || [http://tortoisegit.googlecode.com/files/TortoiseGit-LanguagePack-1.7.12.0-64bit-zh_TW.msi Setup] ||
+|| French                 || 100% || [http://tortoisegit.googlecode.com/files/TortoiseGit-LanguagePack-1.7.12.0-32bit-fr.msi Setup]    || [http://tortoisegit.googlecode.com/files/TortoiseGit-LanguagePack-1.7.12.0-64bit-fr.msi Setup] ||
+|| German                 || 100% || [http://tortoisegit.googlecode.com/files/TortoiseGit-LanguagePack-1.7.12.0-32bit-de.msi Setup]    || [http://tortoisegit.googlecode.com/files/TortoiseGit-LanguagePack-1.7.12.0-64bit-de.msi Setup] ||
+|| Japanese               ||  97% || [http://tortoisegit.googlecode.com/files/TortoiseGit-LanguagePack-1.7.12.0-32bit-ja.msi Setup]    || [http://tortoisegit.googlecode.com/files/TortoiseGit-LanguagePack-1.7.12.0-64bit-ja.msi Setup] ||
+|| Portuguese, Brazil     || 100% || [http://tortoisegit.googlecode.com/files/TortoiseGit-LanguagePack-1.7.12.0-32bit-pt_BR.msi Setup] || [http://tortoisegit.googlecode.com/files/TortoiseGit-LanguagePack-1.7.12.0-64bit-pt_BR.msi Setup] ||
+|| Russian                ||  75% || [http://tortoisegit.googlecode.com/files/TortoiseGit-LanguagePack-1.7.12.0-32bit-ru.msi Setup]    || [http://tortoisegit.googlecode.com/files/TortoiseGit-LanguagePack-1.7.12.0-64bit-ru.msi Setup] ||
+|| Spanish, Spain         || 100% || [http://tortoisegit.googlecode.com/files/TortoiseGit-LanguagePack-1.7.12.0-32bit-es_ES.msi Setup] || [http://tortoisegit.googlecode.com/files/TortoiseGit-LanguagePack-1.7.12.0-64bit-es_ES.msi Setup] ||
 
 == Other Releases ==
 
