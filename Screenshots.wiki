@@ -26,6 +26,12 @@ Support spell checking (English) and autocompletion of filenames
 
 [http://tortoisegit.googlecode.com/git/doc/images/en/Commit.png]
 
+==Push Dialog==
+[http://tortoisegit.googlecode.com/git/doc/images/en/GitPush.png]
+
+==Sync Dialog==
+[http://tortoisegit.googlecode.com/git/doc/images/en/GitSync.png]
+
 ==Log Dialog==
 [http://tortoisegit.googlecode.com/git/doc/images/en/LogMessages.png]
 
@@ -55,6 +61,11 @@ Support spell checking (English) and autocompletion of filenames
 [http://tortoisegit.googlecode.com/git/doc/images/en/SendPatch.png]
 
 [http://tortoisegit.googlecode.com/git/doc/images/en/ApplyPatch.png]
+
+==Handling Submodules==
+[http://tortoisegit.googlecode.com/git/doc/images/en/SubmoduleDiff.png]
+
+[http://tortoisegit.googlecode.com/git/doc/images/en/SubmoduleUpdate.png]
 
 ==TortoiseMerge: Diffing/Merging files/patches==
 TortoiseMerge can open Git patch file directly, you review it and patch to working copy. 
