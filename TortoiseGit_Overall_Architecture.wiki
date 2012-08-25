@@ -4,26 +4,26 @@
 
 This page introduce Tortoisegit overall architecture.
 
- * *TortiseShell* -- Explorer Shell extension, final output is tortoisegit.dll, which is loaded by Explorer. Which checks if a directory is git repository, provides the overlay icons (in conjunction with TGitCache) and adds the TortoiseGit-submenu/commands to the context menu.
- * *TortoiseProc* -- The main TGit GUI program, handles all commands such log, commit and so on.  The final output is tortoiseproc.exe.
+ * *!TortiseShell* -- Explorer Shell extension, final output is tortoisegit.dll, which is loaded by Explorer. Which checks if a directory is git repository, provides the overlay icons (in conjunction with !TGitCache) and adds the !TortoiseGit-submenu/commands to the context menu.
+ * *!TortoiseProc* -- The main TGit GUI program, handles all commands such log, commit and so on.  The final output is tortoiseproc.exe.
 
-= How to get into TortoiseGit? =
+= How to get into !TortoiseGit? =
 At best install the latest nightly build and enable "Debug" in the
-Advanced Settings, now you will see all calls made to TortoiseProc.
+Advanced Settings, now you will see all calls made to !TortoiseProc.
 
-Inside TortoiseProc all different commands have their own handler class
+Inside !TortoiseProc all different commands have their own handler class
 and maybe dialogs (in MSVC you can see all the project directories for them).
 
-Main class for functionality is the AppUtils.cpp, which is called by
+Main class for functionality is the !AppUtils.cpp, which is called by
 many commands.
 
 The log dialog and other revision lists are handled by the
-GitLogListBase.cpp or derived classes (action handlers are in
-GitLogListAction.cpp).
+!GitLogListBase.cpp or derived classes (action handlers are in
+!GitLogListAction.cpp).
 
-GitStatusListCtrl.cpp is used everywhere where file lists are displayed
+!GitStatusListCtrl.cpp is used everywhere where file lists are displayed
 in dialogs.
 
 
-= How to build TortoiseGit? =
+= How to build !TortoiseGit? =
 Get the source code and see http://code.google.com/p/tortoisegit/source/browse/build.txt.

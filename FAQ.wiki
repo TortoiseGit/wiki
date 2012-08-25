@@ -14,7 +14,7 @@ Or open log dialog -> choose commit with branch\tag, right->click->delete
 = What to do if a crash happened? =
  * Check if "git gc" resolves the problem
  * Check if "git fsck" resovles the problem
- * Test our [http://code.google.com/p/tortoisegit/downloads/list?q=label:Preview&sort=-uploaded preview release] if the problem is still there. If yes: File a [http://code.google.com/p/tortoisegit/issues/list bugreport]. Mention your Windows Version (also x64 or x86), your msysgit version and the used TortoiseGit version there.
+ * Test our [http://code.google.com/p/tortoisegit/downloads/list?q=label:Preview&sort=-uploaded preview release] if the problem is still there. If yes: File a [http://code.google.com/p/tortoisegit/issues/list bugreport]. Mention your Windows Version (also x64 or x86), your msysgit version and the used !TortoiseGit version there.
 
 = How to delete a remote tag =
 Open the push dialog, select the remote archive, no local branch, fill in the tag name into the remote branch field and click on OK.
@@ -24,7 +24,7 @@ Press "shift" key, right-click -> Delete (keep local)
 
 = How to use PuTTY for git cli and git bash? =
 Create an environment variable called "GIT_SSH" with the path to the PuTTY plink.exe.
-This can be done on the command line by executing "set GIT_SSH=PATH_TO_PLINK.EXE" ("C:\Program Files\TortoiseGit\bin\TortoisePLink.exe" on default installations) or [http://www.computerhope.com/issues/ch000549.htm permanently].
+This can be done on the command line by executing "set GIT_SSH=PATH_TO_PLINK.EXE" ("C:\Program Files\!TortoiseGit\bin\TortoisePLink.exe" on default installations) or [http://www.computerhope.com/issues/ch000549.htm permanently].
 
 = How to show extended menu item =
 Press "shift" key, right-click
@@ -36,5 +36,5 @@ Choose menu you want to hide
 = How to use 32bit extension at 64bit system =
 Since version 1.7.2 the 32-bit extension is also included in the 64-bit installer.
 
-= TortoiseGitBlame shows menu in wrong language =
+= !TortoiseGitBlame shows menu in wrong language =
 You have to reset the menu bar (even if you did not make any changes to it). Left click -> Customize -> Menu tab and hit Reset/Restore.

@@ -11,7 +11,7 @@ Released: 2012-08-10
  * Allow users to store pushremote and pushbranch on push dialog for local branches
  * Fixed issue #1205: Add "Last modified" column to commit dialog
  * Fixed issue #1295: Browse Ref Dialog ref name order consider numbers in string
- * Added unicode big-endian text file support to TortoiseMerge and TortoiseGitBlame
+ * Added unicode big-endian text file support to !TortoiseMerge and !TortoiseGitBlame
  * Fixed issue #277: Add the ability to run the 'assume-unchanged' command
  * Fixed issue #626: add "show log" in Git Sync dialog
  * Fixed issue #884: Blame dialog Commit Info doesn't allow copy-paste
@@ -19,22 +19,22 @@ Released: 2012-08-10
 
 == Bug Fix ==
  * Fixed issue #913: Merge does not cope with ambiguous tag and branch names
- * Fixed issue #1266: gitdll can cause stack overflow becasue of endless recursion in mark_parents_uninteresting (revision.c)
+ * Fixed issue #1266: gitdll can cause stack overflow because of endless recursion in mark_parents_uninteresting (revision.c)
    Upgraded gitdll and libgit to 1.7.11.1
  * Fixed issue #1267: Tortoisegit adding gitignore backslash instead of slash
- * Fixed issue #1260: TortoiseGit crashes if index is broken
- * Fixed issue #1280: TortoiseProc might crash after displaying libgit error
+ * Fixed issue #1260: !TortoiseGit crashes if index is broken
+ * Fixed issue #1280: !TortoiseProc might crash after displaying libgit error
  * Fixed issue #1235: TortoiseGIT commit dialog freezes if index.lock file already exists
- * Fixed issue #1283: TortoiseProc might crash after LogDialog is closed
+ * Fixed issue #1283: !TortoiseProc might crash after !LogDialog is closed
  * Fixed issue #1282: gitdll.dll might crash if a pack file is closed which is still in use
  * Fixed issue #1287: Setting Remote URL not translated to '/' when clicking Apply or OK
  * Fixed issue #1290: When pushing, 'remote' should default to the tracked archive, or empty
  * Optimized remembering of checked/unchecked files on the commit dialog
  * Fixed issue #767: Default column widths in log commit file list are off
- * Fixed issue #1294: TortoiseGit might crash on concurrent access on CGitHeadFileList
+ * Fixed issue #1294: !TortoiseGit might crash on concurrent access on CGitHeadFileList
  * Fixed issue #1279: Nothing seen in Repository Browser without config core.bare=false
  * Fixed issue #1296: Closing log dialog might cause crash
- * Fixed issue #1300: TortoiseProc LogDialog might crash if tortoisegit.index or tortoisegit.data is broken
+ * Fixed issue #1300: !TortoiseProc !LogDialog might crash if tortoisegit.index or tortoisegit.data is broken
  * Fixed issue #1255: Adding non-versioned files from the commit dialog does not always work
  * Fixed issue #620: Unmodified files appear in the Modified File list while committing
  * Fixed issue #774: Revert does not work for submodules
@@ -51,13 +51,13 @@ Released: 2012-08-10
 Released: 2012-07-07
 
 == Bug Fix ==
- * Fixed issue #1256: TortoiseProc crashes on composing invalid ref error message
+ * Fixed issue #1256: !TortoiseProc crashes on composing invalid ref error message
  * Fixed issue #1254: Adding file extensions to root .gitignore
  * Fixed issue #1260: Concurrent write access to git index can crash TGitCache
  * Fixed issue #1261: gitdll.dll can crash if an already closed handle is closed again
  * Fixed issue #1257: HOME environment variable is not set up correctly on x86
- * Fixed issue #1262: TortoiseProc might crash if git.exe version is not parseable
- * Fixed issue #1264: TortoiseProc might crash if commands are executed w/o a working tree directory
+ * Fixed issue #1262: !TortoiseProc might crash if git.exe version is not parseable
+ * Fixed issue #1264: !TortoiseProc might crash if commands are executed w/o a working tree directory
 
 = Release 1.7.11.0 =
 Released: 2012-07-02
@@ -72,16 +72,16 @@ Released: 2012-07-02
  * Fixed issue #1086: Partial commit resets "Added" status on files omitted from checkin
  * Fixed issue #1250: Sync Dialog should reload remote combo box after clicking "Manage"
  * Fixed issue #462: Implement 'All' and 'None' opportunities in the Set Extended menu settings dialog
- * TortoiseGit 1.7.11 comes with a new crash handler (crash-server.com) and lots of crash fixes (found using crash reports in our preview releases)
+ * !TortoiseGit 1.7.11 comes with a new crash handler (crash-server.com) and lots of crash fixes (found using crash reports in our preview releases)
 
 == Bug Fix ==
  * Fixed issue #1213: cannot diff renamed files with Revision Diff Dialog
  * Fixed issue #1215: Branch name in the right click menu (for commit) does not support utf-8
  * Fixed issue #652: "Clean up" should use recycle bin
- * Fixed issue #1166: Unreadable error message in TortoiseMerge
+ * Fixed issue #1166: Unreadable error message in !TortoiseMerge
  * Fixed issue #665: Problem with temporary file creation
  * Fixed issue #1221: Log Dialog revert files shows wrong number of files in message
- * Fixed issue #1207: TortoiseGit 1.7.10 crashes directly when trying to start
+ * Fixed issue #1207: !TortoiseGit 1.7.10 crashes directly when trying to start
  * Fixed issue #1226: Show log crash when path contain some unicode symbols
  * Fixed issue #1229: Progress Window Gains Focus on Command Completion
  * Fixed issue #1231: incorrect behavior of squash in rebase/cherry pick
@@ -97,24 +97,24 @@ Released: 2012-06-03
  * Synced TortoiseIDiff with TortoiseSVN
  * Synced TortoiseUDiff with TortoiseSVN
  * Fixed issue #1150: Add support for ANSI Color Codes in log Outputs
- * Fixed issue #969: Support for localization (you can download/create language packs for TortoiseGit, see http://code.google.com/p/tortoisegit/wiki/Translation)
+ * Fixed issue #969: Support for localization (you can download/create language packs for !TortoiseGit, see http://code.google.com/p/tortoisegit/wiki/Translation)
  * Added Repository Browser
  * Updated shipped libgit2 to version 0.17.0
  * Fixed issue #1169: Show Branch for Commits
- * Fixed issue #337: TortoiseGit Log doesn't apply --follow (added basic support for --follow)
+ * Fixed issue #337: !TortoiseGit Log doesn't apply --follow (added basic support for --follow)
 
 == Bug Fix ==
  * Fixed issue #1162: Sync dialog should use same font as progress dialog (use log font for both)
  * Fixed issue #1174: Clone Dialog incorrectly extracts name from URL that contains ".git" in the middle
- * Fixed issue #1184: diff of "Working dir changes" uses incorrect line endings (AutoCrLf=true)
+ * Fixed issue #1184: diff of "Working dir changes" uses incorrect line endings (!AutoCrLf=true)
  * Fixed issue #1193: Not properly handling submodule meta information (.git-file contains relative path)
  * Fixed issue #1167: TGitCache.exe crashes under Win7/64bit
  * Fixed issue #1195: Problems with tags containing non-ascii chars
- * Fixed issue #1185: In TortoiseGit log dialog info text, diff dialog and TortoiseGitBlame, git shows 7 chars of the hash by default (as git does)
+ * Fixed issue #1185: In !TortoiseGit log dialog info text, diff dialog and !TortoiseGitBlame, git shows 7 chars of the hash by default (as git does)
  * Fixed issue #1197: Create branch: Alt+S doesn't mark "Switch to new branch"
  * Fixed issue #1152: Log-Dialog constantly crashes when diffing a file while loading
- * Fixed issue #719: TortoiseGit is ignoring Global excludesfile for overlays
- * Fixed issue #1199: TortoiseGitBlame shows wrong revision history
+ * Fixed issue #719: !TortoiseGit is ignoring Global excludesfile for overlays
+ * Fixed issue #1199: !TortoiseGitBlame shows wrong revision history
  * Fixed issue #1157: Custom screen DPI causes wrong text size calculation
 
 = Release 1.7.9.0 =
@@ -124,7 +124,7 @@ Released: 2012-05-05
  * Allow to fetch from log dialog
  * Fixed issue #1058: Allow to create tag after commit
  * Fixed issue #101: UTF-8 support
-   This makes TortoiseGit msysgit 1.7.10 compatible. If you have non-ascii chars in filenames in your repository you should consider rewriting your history
+   This makes !TortoiseGit msysgit 1.7.10 compatible. If you have non-ascii chars in filenames in your repository you should consider rewriting your history
    (see https://github.com/kblees/git/wiki#wiki-Migrating_old_Git_for_Windows_repositories).
  * Added "prune/cleanup stale remote tracking branches" option to sync dialog
 
@@ -143,7 +143,7 @@ Released: 2012-05-05
  * Fixed issue #1141: Sync dialog local branch combo box too short
  * Fixed issue #1130: Sync dialog forgets the remote branch every time
  * Fixed issue #1144: Cancel button on commit dialog works very slow
- * Fixed issue #1155: TortoiseGit SVN rebase finish dialog produces very big dialog box
+ * Fixed issue #1155: !TortoiseGit SVN rebase finish dialog produces very big dialog box
 
 = Release 1.7.8.0 =
 Released: 2012-04-01
@@ -159,7 +159,7 @@ Released: 2012-04-01
 
 == Bug Fix ==
  * Fixed issue #1085: Small commit with lots of unversioned and not ignored files takes very long
- * Fixed issue #1098: 'In ChangeList' is cleared when you click a table header
+ * Fixed issue #1098: 'In !ChangeList' is cleared when you click a table header
  * Fixed issue #1073: Correct default name in Switch/Checkout dialog
  * Fixed issue #1110: Tracking branches when you don't want to/incorrectly
  * Fixed issue #1115: Detached HEAD message has no cancel/abort option
@@ -167,11 +167,11 @@ Released: 2012-04-01
  * Fixed issue #985: Correctly store status for view patch in commit dialog
  * Fixed issue #1116: Make remote branch in pull dialog default to the current branch (or remote tracking branch)
  * Fixed issue #1060: tgit rebase process can get stuck
- * Fixed issue #1107: Wrong font used in MessageBoxes on Windows XP
+ * Fixed issue #1107: Wrong font used in !MessageBoxes on Windows XP
  * Fixed issue #1105: Wrong status for missing files
- * Fixed some TortoiseMerge patch apply issues (includes issue #1117)
+ * Fixed some !TortoiseMerge patch apply issues (includes issue #1117)
  * Fixed issue #718: When pulling it should be possible to directly open the modifications window for editing conflicts
- * Fixed issue #982: TortoiseGit messes up TortoiseSVN and TortoiseCVS menu icons on WinXP
+ * Fixed issue #982: !TortoiseGit messes up TortoiseSVN and TortoiseCVS menu icons on WinXP
  * Fixed issue #1118: Exporting from Changed Files dialog stops on checkout failure
  * Fixed issue #1108: Allow users to disable the "show unversioned files" messagebox in commit dialog
 
@@ -224,7 +224,7 @@ Released: 2011-12-10
 == Features ==
  * Fixed issue #972: Add "fast forward only" checkbox in pull dialog
  * Fixed issue #976: Compare Revisions should inherit path filter
- * Fixed issue #869: TortoiseProc CloneCommand is ignoring "url" command line parameter
+ * Fixed issue #869: !TortoiseProc !CloneCommand is ignoring "url" command line parameter
  * Fixed issue #820: Missing menu item for "git svn fetch"
  * Fixed issue #792: Fetch progress window should have a "Log" button
  * Fixed issue #451: rebase (maybe be for any conflicts) select multiple files to mark
@@ -236,12 +236,12 @@ Released: 2011-12-10
  * Fixed issue #987: Add Stash save/pop to "Working Dir Changes" dialog
  * Fixed issue #988: Stash pop/apply fail should have a button for viewing conflicts
  * Fixed issue #676: Add remove remote tag ability
- * Fixed issue #678: TortoiseGitBlame log incomplete (integrated --follow into TortoiseGitBlame)
+ * Fixed issue #678: !TortoiseGitBlame log incomplete (integrated --follow into !TortoiseGitBlame)
 
 == Bug Fix ==
- * Fixed issue #747: TortoiseProc & less process not closing
+ * Fixed issue #747: !TortoiseProc & less process not closing
  * Fixed issue #808: Less: file viewer stop work when use show-low
- * Fixed issue #931, issue #934 and issue #948: TortoiseProc crashes when repo contains huge files (on x86)
+ * Fixed issue #931, issue #934 and issue #948: !TortoiseProc crashes when repo contains huge files (on x86)
    Upgraded gitdll, libgit and tgit.exe to 1.7.7.2
  * Fixed issue #936: Applying a stash from the list fails
  * Fixed issue #962: git_init in gitdll.c uses USERPROFILE for creating home
@@ -252,7 +252,7 @@ Released: 2011-12-10
  * Fixed issue #863: Commit and revert gets stuck on repositories with mixed line-endings
  * Fixed issue #378: CRLF/LF conversion causes commit dialog to freeze
  * Fixed issue #858: Tortoise Git Client crash when showing the log dialog
- * Fixed issue #920: TortoiseGitBlame and UTF-16 LE
+ * Fixed issue #920: !TortoiseGitBlame and UTF-16 LE
  * updated documentation
  * Fixed issue #994: Git clone from SVN - Depth field is useless
  * Fixed issue #996: Compare with Working Copy error on renamed files
@@ -267,16 +267,16 @@ Released: 2011-11-09
 
 == Bug Fix ==
  * Fixed issue #931: TGitCache: Missing NULL check
- * Fixed issue #935: TortoiseMerge removes newlines at file end
+ * Fixed issue #935: !TortoiseMerge removes newlines at file end
  * Fixed issue #931: libgit2 had problems with big pack files
  * Fixed issue #486: Resolving conflicts can result in nothing to commit and branch merge not concluded
  * Fixed issue #938: *Backlash* between user name and domain name is incorrectly replaced by *Slash*
  * Fixed issue #941: Performing diff on an unchanged file behaves like a diff with an added file
  * Fixed issue #928: Mark diff-tempfiles as read-only
  * Fixed issue #951: Alt+S conflict for sign and set date
- * Fixed issue #949: TortoiseMerge does not allow copying to the clipboard via Ctrl+Insert
+ * Fixed issue #949: !TortoiseMerge does not allow copying to the clipboard via Ctrl+Insert
  * Fixed issue #950: avoid possible crash if .git/packed-refs contains annotated tags
- * Fixed issue #915: TortoiseProc memory corruption on empty repo
+ * Fixed issue #915: !TortoiseProc memory corruption on empty repo
  * Fixed issue #959: Overlay icons are not updated immediately
 
 = Release 1.7.4.0 =
@@ -288,7 +288,7 @@ Released: 2011-10-10
  * Fixed issue #375: Implement --date/time option gui interface in the commit dialog
  * Fixed issue #814: Remember last selected commit/line on log filtering
  * Allow to "Update submodules" after pull or hard reset
- * Fixed issue #780: "Merge to [branch]..." should pre-select the chosen commit's branch or tag name
+ * Fixed issue #780: "Merge to `[`branch`]`..." should pre-select the chosen commit's branch or tag name
  * Fixed issue #459: Implement more talkative name than just 'Revert fail'
 
 == Bug Fix ==
@@ -301,7 +301,7 @@ Released: 2011-10-10
  * Upgraded libgit2 to 0.15.0
  * Fixed issue #716: Aborted clone leaves git process running
  * Fixed issue #787: Problem of setting proxy for work using HTTPS
- * Fixed issue #908: TortoiseGit crashes if .git/config-file is broken
+ * Fixed issue #908: !TortoiseGit crashes if .git/config-file is broken
  * Fixed issue #909: Cannot amend initial commit
  * Fixed issue #829: "Remote" combobox in "Push" window updates only after losing focus
  * Fixed issue #906: Add ability to add files with options -force.
@@ -323,7 +323,7 @@ Released: 2011-08-24
  * Fixed issue #864: Show log crashes when commit with "encoding" in comment exists
  * Fixed issue #851: Windows Explorer Shell Crashed when empty repository
  * Fixed open handles in TGitCache
-   Fixed issue #497, issue #623 and issue #892: TortoiseGit locks repository folders so that the user can't delete them
+   Fixed issue #497, issue #623 and issue #892: !TortoiseGit locks repository folders so that the user can't delete them
  * Fixed issue #870: Wrong overlay icons
  * Fixed issue #793: Context menu for files does not contain "Add to ignore list"
  * Fixed issue #860: Commit file moves does not properly remove the source file 
@@ -339,7 +339,7 @@ Released: 2011-08-08
 
 == Bug Fix ==
  * Fixed blame crash at XP system.
- * Upgraded TortoisePlink to TortoiseSVN rev. 21694, fixes a bug with shipped Pageant under x64
+ * Upgraded !TortoisePlink to TortoiseSVN rev. 21694, fixes a bug with shipped Pageant under x64
  * Updated shipped apr library to version 1.4.5
  * Updated shipped apr-util library to version 1.3.12
  * Updated shipped zlib library to version 1.2.5
@@ -356,11 +356,11 @@ Released: 2011-07-29 (internal release)
 == Bug Fix ==
  * Fixed issue #796: plz add code page name "cp949"
  * Fixed issue #795: Switch/Checkout Dialog, "Switch To Version" is confusing
- * Fixed issue #757: TortoiseGit Blame not working from working dir with autocrlf-enabled.
+ * Fixed issue #757: !TortoiseGit Blame not working from working dir with autocrlf-enabled.
  * Fixed issue #691: 64-bit version should include the 32-bit shell extension too
  * Updated shipped PuTTY binaries to version 0.61
  * Updated shipped notepad2 binaries to version 4.2.25 and added x64 version
- * Updated shipped TortoiseOverlay to version 1.1.3.21564
+ * Updated shipped !TortoiseOverlay to version 1.1.3.21564
  * Fix crash for init repository
  * Fixed issue #799: Explore crash with empty directory
  * Fixed issue #816: Output in Git Command Progress is broken
@@ -369,9 +369,9 @@ Released: 2011-07-29 (internal release)
 Released: 2011-05-11
 
 == Features ==
- * Fixed issue #724: BrowseRefs: Made branch renaming possible.
- * Use fetch-dialog for "Fetch" in BrowseRefs
- * Allow to edit user signingkey in TortoiseGit->Settings->GitConfig
+ * Fixed issue #724: !BrowseRefs: Made branch renaming possible.
+ * Use fetch-dialog for "Fetch" in !BrowseRefs
+ * Allow to edit user signingkey in !TortoiseGit->Settings->!GitConfig
  * Allow to sign tags (requires GPG and a key without passphrase)
  * Allow to enter CC recipients with MAPI
  * Do not add Signed-off-by if already included
@@ -405,7 +405,7 @@ Released: 2011-05-11
  * Fixed issue #738: Lost the commit id on file name when use a external diff tool
  * Fixed issue #714: add "FETCH_HEAD" to reference drop down list
  * Fixed issue #548:  tortoisegit use incorrect case sensitive comparison
- * Fixed issue #727: /CloseOnEnd not working for commit
+ * Fixed issue #727: /!CloseOnEnd not working for commit
  * Fixed issue #754: Allow to show log for files in "Changes files" dialog
  * Fixed issue #749: Ask before delete files.
  * Fixed issue #125: Export files from revision or range of revisions in "Changes files" dialog.
@@ -415,17 +415,17 @@ Released: 2011-05-11
  * Fixed issue #731: Git Command Progress Window text box doesn't have a context menu.
  * Rebase failed at revision with empty commit message.
  * Fixed sorting of columns of file lists (e.g. commit dialog).
- * Fixed issue #757: TortoiseGit Blame not working from working dir.
+ * Fixed issue #757: !TortoiseGit Blame not working from working dir.
  * Fixed layout issues with Windows 7 Aero
- * TortoiseProc.exe sometimes didn't exit correctly after closing the log dialog
+ * !TortoiseProc.exe sometimes didn't exit correctly after closing the log dialog
  * Fixed issue #761: Settings should correctly deal with backslashes (windows path separators) in entered remote URLs
  * Patch Viewer might display no horizontal scrollbar
  * Fixed issue #779: Show correct text in taskbar when rebasing finished.
  * Pushing required a remote-branch name
  * Fixed issue #790: Add minimize button to progress window
  * Fixed some optical issues in Rebase-Dialog
- * Fixed issue #791: /CloseOnEnd not working for switch
- * TortoiseGitCache
+ * Fixed issue #791: /!CloseOnEnd not working for switch
+ * !TortoiseGitCache
    Partly rewritten to fix various issues.
  * Fixed issue #415: Fix the Settings/General/Context menu/Apply operation (missing LF trimming)
 
@@ -452,23 +452,23 @@ Released: 2011-02-14
    Fixed issue #364: Log - hot key for "browse refs" dialog
 
  * Improve TortoisePLink 3x transfer perfomance
-   Update TortoisePlink to plink 9078
+   Update !TortoisePlink to plink 9078
 
  * Implemented issue #664: Warn when committing to detached HEAD
  * The context menu can be hidden completely for unversioned items (issue 674)
  * Only show DCommit type dialog if "svn.rmdir" is unset
  * Optionally remember DCommit type setting
- * enable git status column in TortoiseShell
+ * enable git status column in !TortoiseShell
  * Fixed issue #644: Dropped "Check repository" button on check for modifications dialog
- * Allow to diff two revisions of a file by calling TortoiseProc
+ * Allow to diff two revisions of a file by calling !TortoiseProc
  * Fixed issue #480: Implement text copying opportunities in the dialogs
- * Allow to change EOL by pressing CTRL+Return in TortoiseMerge
+ * Allow to change EOL by pressing CTRL+Return in !TortoiseMerge
  * Allow to replace (previously hardcoded) Notepad2 by any other editor
  * Optionally send/mail patches via MAPI, if a default mail client is set up
  * Fixed issue #248: Allow to reorder commits on rebase
  * Fixed issue #702: Added request-pull functionality
 
- * TortoiseGitBlame
+ * !TortoiseGitBlame
    Clicking on a line automatically selects the log entry in the loglist
    Allow to diff to previous revision of a file
    Added new context menu
@@ -479,9 +479,9 @@ Released: 2011-02-14
  * Fixed issue #671: Help not working when choose switch dialog and dcommit dialog
  * Fixed issue #690: Superfluous line in displayed commit message
  * Do not allow to delete-ignore working copy root-directory
- * Starting TortoiseGitBlame might fail to start if folder contains spaces
+ * Starting !TortoiseGitBlame might fail to start if folder contains spaces
  * Fixed window titles of log and statistics window
- * Fixed issue #697: /CloseOnEnd was not working, fixed for fetch&pull
+ * Fixed issue #697: /!CloseOnEnd was not working, fixed for fetch&pull
 
  * Fixed issues with the send mail dialog
    If all three attempts failed, do not show success
@@ -489,13 +489,13 @@ Released: 2011-02-14
    Correctly show retries
    Interpret user cancel as failure
 
- * TortoiseGitBlame
+ * !TortoiseGitBlame
    Fixed issue #448: Disable personalized menu behaviour
-   After blaming an older revision, TortoiseGitBlame was fixed to this.
+   After blaming an older revision, !TortoiseGitBlame was fixed to this.
 
  * Fixed issue #704: cannot open help from diff from previous, browse refs
  * Fixed issue #694: "Clean Up" executes on top level directory
- * Fixed issue #680: StatGraphDlg.cpp min-avg statistics are incorrect
+ * Fixed issue #680: !StatGraphDlg.cpp min-avg statistics are incorrect
  * Fixed issue #705: Fixed comparing added/deleted files on diffing whole revisions
  * Improved "Combine commits" process (prevents possible loss of data)
 
@@ -526,8 +526,8 @@ Released: 2011-01-14
 
  * Include version information for all executables
 
- * Improved TortoiseBlame
-   Fixed issue #490 and issue #436: Allow to blame older revisions in TortoiseGitBlame
+ * Improved !TortoiseBlame
+   Fixed issue #490 and issue #436: Allow to blame older revisions in !TortoiseGitBlame
    Removed useless options from the contextmenu (e.g. compare to working copy)
    Fixed issue #658: Added author column
 
@@ -549,7 +549,7 @@ Released: 2011-01-14
    Fixed possible hangs
    double-click default to open files for unversioned files
    make double-click on newly added file for diff work
- * TortoiseShell
+ * !TortoiseShell
    Fixed an assertion (when executed on ignored files)
  * Optical and smaller optimizations/fixes (missing spaces and typos, issue #654, issue #595 and issue #543)
  * Fixed issue #666: Remote names with dots (e.g., john.doe) do not show properly in fetch dialog box
@@ -560,7 +560,7 @@ Released: 2010-12-22
 
 == Bug Fix ==
  * Fixed issue #650: Settings crashes on setting user name and email address
- * Fixed issue #648: TortoiseProc crash when cloning from a working copy repo
+ * Fixed issue #648: !TortoiseProc crash when cloning from a working copy repo
 
 = Release 1.6.1.0 =
 Released: 2010-12-19
@@ -616,7 +616,7 @@ Released: 2010-12-08
  * Fixed issue #602: Rebase shows overlapping branches
  * Fixed issue #542: Difference between line endings in compared files (external Diff Viewer)
  * Fixed issue #468: Non-ASCII characters in user info aren't stored correctly
- * Fixed issue #593: Fetch and push fails with TortoiseGit but succeeds with git bash
+ * Fixed issue #593: Fetch and push fails with !TortoiseGit but succeeds with git bash
 
 = Release 1.5.8.0 =
 Released: 2010-10-02
@@ -656,19 +656,19 @@ Released: 2010-09-22
  * Enhance Column manage for commit list.
    At log, rebase, sync dialog, reflog, blame. User can customize column position. User can show\hide column. Add commiter date, commiter name, email.
 
- * BrowseRefs: Put focus on a tree node after a branch is deleted.s
+ * !BrowseRefs: Put focus on a tree node after a branch is deleted.s
 
  * Add Note Support
 
  * Icon Overlay (TGitCache)
    Add RW Lock to reduce tgitcache crash.
 
- * SyncDlg: Log output is now in Courier font. This way characters are aligned like in the console.
+ * !SyncDlg: Log output is now in Courier font. This way characters are aligned like in the console.
 
 == Bug Fix ==
  * Fixed issue #535: Wandering label when drag top of progress dialog
  * Fixed issue #478: Fix Blame timing because it shows wrong date and 00000.... commit hash
- * Fix outlook can't get correct attachment send by TortoiseGit-1.5.3.0-32bit.msi
+ * Fix outlook can't get correct attachment send by !TortoiseGit-1.5.3.0-32bit.msi
  * Fixed issue #537: Glitch at "merge to the right" in graph display at log dialog
  * Fixed issue #546: Exporting without specifying a zip filename sends all zip output to stdout and confuses the GUI
  * Fixed issue #545: Switch/Checkout Dialog: Checkbox "Create New Branch" not responding
@@ -682,7 +682,7 @@ Released: 2010-04-21
 == Features ==
  * Add pre and post push hook support
  * Don't show remote branch name if remote branch is track branch at syncdlg
- * RebaseDlg: working at no branch, not upstream branch.
+ * !RebaseDlg: working at no branch, not upstream branch.
 
 == Bug Fix ==
  * Fixed issue #475: Fix 'Save revision to' for 'Working copy'
@@ -692,21 +692,21 @@ Released: 2010-04-21
  * Fixed issue #495: Push dialog does not select remote branch correctly
  * Fixed issue #505: Delete (keep local) results in commit error
  * Fixed issue #503: remote branch drop down doesn't allow enough characters at sync dialog
- * Fixed issue #506: TortoiseGit-1.5.2.0-32bit.msi does not recognize msysGit-fullinstall-1.7.1-preview20100612.exe
- * Fixed issue #492: Remember AutoLoad Putty Key status in Sync dialog
- * Fixed issue #492: Remember AutoLoad Putty Key status in Pull dialog
- * Fixed issue #492: Fix AutoLoad Putty Key operation in push dialog
+ * Fixed issue #506: !TortoiseGit-1.5.2.0-32bit.msi does not recognize msysGit-fullinstall-1.7.1-preview20100612.exe
+ * Fixed issue #492: Remember !AutoLoad Putty Key status in Sync dialog
+ * Fixed issue #492: Remember !AutoLoad Putty Key status in Pull dialog
+ * Fixed issue #492: Fix !AutoLoad Putty Key operation in push dialog
  * Fixed issue #513: Remember "Git Command Progress" window size
  * Fixed issue #519: Icon overlay not working for exclude files
  * Fixed issue #507: Help Spell error and push wrongly link to sync
  * Fixed issue #507: context menu spell error and description error
  * Fixed issue #517: Context menu for folder does not contain "Add to ignore list"
- * Fixed issue #380: TortoiseMerge "Created unified diff file" doesn't work
+ * Fixed issue #380: !TortoiseMerge "Created unified diff file" doesn't work
  * Fixed issue #528: Whole repository context menu actions not visible in Win 7 folders in libraries
  * Fixed issue #412: Create new branch default check at switch\checkout dialog.
- * Fixed issue #477: Commit from "GitShowLog" doesn`t show not versioned files
+ * Fixed issue #477: Commit from "!GitShowLog" doesn`t show not versioned files
  * Fixed issue #527: Fix the dialog after commit for us to be able to continue committing
- * Fixed issue #472: TortoiseGit allows to commit without setting up a username + email
+ * Fixed issue #472: !TortoiseGit allows to commit without setting up a username + email
  * Fixed issue #464: Push and pull missing from context menu
  * Fixed issue #470: auto stash apply/pop for SVN dcommit
 
@@ -724,10 +724,10 @@ Released: 2010-06-10
 Released: 2010-06-03 (internal release)
 
 == Features ==
- * TortoiseMerege
+ * !TortoiseMerge
    Tip show "new file" "delete file" "rename file" status at tortoisemerge
 
- * TortoiseGitBlame
+ * !TortoiseGitBlame
    Add encode support for blame
 
  * Sync Dialog
@@ -736,42 +736,42 @@ Released: 2010-06-03 (internal release)
 
  * Log Dialog
    issue #371: Log offer per-file "revert ..." of working dir changes
-   Add AntiAlias at show log
+   Add !AntiAlias at show log
    Fix version tree graphic line break at Win 7
    Fixed issue #427: Implement enter operation to open a file in the 'Show Log' window
 
  * Fixed issue #355: Implement Show log like history in the Changed Files window after a git pull operation
 
- * ProgressDlg Post Cmd support menubutton
+ * !ProgressDlg Post Cmd support menubutton
 
  * Update the translations.txt for translators
 
  * Fixed issue #421: Implement ctrl+a standard 'Select all' facility
 
- * Change FormatPatch dialog default output directory is project root
+ * Change !FormatPatch dialog default output directory is project root
 
  * Fixed issue #431: Implement commit button in the git add dialog
 
 == Bug Fix ==
  * Fixed issue #401: TGitCache.exe keeps open pack-xxx.idx on git repo
- * Fix issue review patch fail when there are new FilePatchesDlg.cpp
+ * Fix issue review patch fail when there are new !FilePatchesDlg.cpp
  * Fix all file show "+" icon after run git gc
  * Fixed issue #449: Files not in the Commit dialog are committed if in index
  * Fixed issue #450: Log Messages file list wrong when choose children dir firstly.
  * Fixed issue #387: "Automatically check for newer versions every week" remains disabled
  * Show correct file when Add new file at tortoisemerge
- * Fixed issue #381: About screen of TortoiseMerge shows invalid build information
+ * Fixed issue #381: About screen of !TortoiseMerge shows invalid build information
  * Fixed issue #382: TGitBlame encoding problem
- * Fixed issue #400: CrLf options are missing in the help file
+ * Fixed issue #400: !CrLf options are missing in the help file
  * Fixed issue #397: Settings/Set Extended menu/Help button doesn't work
  * Fixed issue #396: Fix 'Copy paths to clipboard' option
  * Fixed issue #398: Settings/Revision Graph/Help button doesn't work
  * Fixed issue #392: Implement refresh button in sync dialog
- * Fixed issue #395: [BUG] Infomation error when "Switch the comparison"
+ * Fixed issue #395: `[`BUG`]` Infomation error when "Switch the comparison"
  * Fixed issue #385: Bug In properties->Git dialog
  * Clear HOME at gitdll dll after load git config
  * Fixed issue #403: Diff Show changes, but commit not
- * Fixed issue #404: GetOpenFileName does not work in Cygwin
+ * Fixed issue #404: !GetOpenFileName does not work in Cygwin
  * Fixed issue #411: Fix the refresh button operation in 'Check for modifications' when only file time change.
  * Fixed issue #406: Putty key can't save when clone
  * Fixed issue #419: wrong error message for empty commit
@@ -781,13 +781,13 @@ Released: 2010-06-03 (internal release)
  * Fixed issue #428: Blame of an old version
  * Fixed issue #410: Change some menu item name to make it clear
  * Fixed issue #440: Don't enable 'Apply' button until the data are ok in Settings/Git/Remote
- * Fixed issue #439: Fix the Help action in the TortoiseGitBlame window
+ * Fixed issue #439: Fix the Help action in the !TortoiseGitBlame window
  * Fixed issue #438: Slow load Switch/Checkout dialog
  * Fixed issue #221: After resolving all merge conflicts, it's not obvious the project needs a commit
  * Fixed issue #437: Blame should be available when there are local changes
  * Fixed issue #444: Crash rebase  dialog when press ESC and move split bar
  * Fixed issue #445: Resolve conflict does not delete temporary files
- * Fixed issue #446: TortoiseMerge crash when "Edit Conflicts"
+ * Fixed issue #446: !TortoiseMerge crash when "Edit Conflicts"
  * Fixed issue #405: Merge commit message when there is a conflict
 
 = Release 1.4.4.0 =
@@ -806,8 +806,8 @@ Released: 2010-04-10
 == Bug Fix ==
  * Fix explore crash when there are ignore patten at .git/info/exclude
  * Fixed issue #367: Last line of .gitignore ignored
- * Fixed issue #368: TortoiseGitBlame should not spell check by default
- * Fixed issue #369: TortoiseGitBlame should expand its menu items by default
+ * Fixed issue #368: !TortoiseGitBlame should not spell check by default
+ * Fixed issue #369: !TortoiseGitBlame should expand its menu items by default
  * Fixed issue: Compare submodule dialog show wrong subject at log dialog
  * Fixed issue #365: Log - enter closes dialog
  * Fixed issue #358: Renamed files are not properly committed, after refreshing the commit dialog
@@ -866,7 +866,7 @@ Released: 2010-03-31
  * Fixed issue #281: show wrong character after finish commit
  * Fix commitdlg can close after commit and progress scroll too much
  * Fixed issue #299: Do nothing "Check For Updates..."  at about dialog
- * Fixed issue #333: Can't abort CherryPick
+ * Fixed issue #333: Can't abort !CherryPick
  * Fixed issue #336: Text of context menu slightly wrong; replace svn with git
  * Fixed issue #340: OpenSSH password dialog focus
  * Fixed issue #312: The number of changed files in 'Show log' window
@@ -914,7 +914,7 @@ Released: 2010-02-03
  * Fixed issue #294: commit template not supported and support msysgit unix path
  * Fixed issue #282: Fom/To/Messages/Authors/Paths filters are eventually disabled
  * Fixed issue #292: Very large dialog when merging
- * Fixed issue #291: Blame makes empty "UserImages.bmp" file
+ * Fixed issue #291: Blame makes empty "!UserImages.bmp" file
  * Fix crash when copy several log message to clipboards
  * Fixed issue #284: Show Log crashes when switching branches wait for log thread exit
  * Fixed issue #285: Cherry picking no longer works
@@ -927,14 +927,14 @@ Released: 2010-01-21
  * Fixed issue #276: Crash on seeing diff with previous version
  * Fixed issue #275: Load gitweb for 'Browse' button
  * Fixed issue #265: Log dialog: Date picker throws multiple error messages when date is before 1.1.1970
- * Fix RefLogDlg crash
+ * Fix !RefLogDlg crash
 
 = Release 1.3.1.0 =
 Released: 2010-01-18
 
 == Features ==
  * Improve Log Dialog. Speed up log fetch speed.
-   Build Git source as a DLL. LogDialog will call gitdll to fetch log instead of capture git.exe output.
+   Build Git source as a DLL. !LogDialog will call gitdll to fetch log instead of capture git.exe output.
    Improve refresh and all branch user experience. refresh can abort runing fetch log commit.
 
  * Improve icon-overlay
@@ -949,7 +949,7 @@ Released: 2010-01-18
 == Bug Fix ==
  * Fixed issue #234: First log(first commit in history) was missing...
  * Fixed issue #232: "No Commit" Option always acitve
- * Fixed issue 236: CGit::GetRemoteList uses bad regular expression
+ * Fixed issue 236: CGit::!GetRemoteList uses bad regular expression
  * Fix blame show wrong when first char is '^'
  * Workaround show "fail" even git run success at sometime by remove "fail" message.
  * Fixed issue #265: Log dialog: Date picker throws multiple error messages when date is before 1.1.1970
@@ -958,7 +958,7 @@ Released: 2010-01-18
 Released: 2009-11-12
 
 == Features ==
- * Add color success and fail at ProgressDlg
+ * Add color success and fail at !ProgressDlg
 
  * Log Dialog
    Show work copy to log dialog. User can commit change at log dialog.
@@ -972,7 +972,7 @@ Released: 2009-11-12
 
  * Add no-commit option at merge dialog
 
- * Enable IBugTraqProvide CheckCommit and OnCommitFinished
+ * Enable IBugTraqProvide !CheckCommit and !OnCommitFinished
 
 == Bug Fix ==
  * Fixed issue #219: Blame Error when git repository is at root directory and path use "/"
@@ -1011,7 +1011,7 @@ Released: 2009-10-13
    Ability to sync submodules in TGit sync dialog
 
  * Statics
-   Sort commits by dates before processed by StatGraphDlg
+   Sort commits by dates before processed by !StatGraphDlg
 
  * Log Dialog
    Show <No branch> replace ref error message at log dialog
@@ -1065,7 +1065,7 @@ Released: 2009-08-29
  * Fixed issue #133: (mv\rename  problem) Command fails on folder with leading dash And -- to separate file and git options
  * Fixed issue #140: Incorrect treatment of "Cancel" action on "Apply patch serial" command
  * Fixed issue #135: Taskbar text says "TortoiseSVN"
- * Fixed issue #142: TortoiseGit Clone of SVN repo does not use PuTTY session for non-standard SSH port
+ * Fixed issue #142: !TortoiseGit Clone of SVN repo does not use PuTTY session for non-standard SSH port
  * Fixed Issue #138: "Format patch" in "Show log" dialog doesn't work
  * Fixed issue #141: Bizarre ordering in commit dialog
  * Fixed issue #137: Proxy Authentification fails
@@ -1078,7 +1078,7 @@ Released: 2009-08-29
 Released: 2009-07-31
 
 == Features ==
- * Add Sync Dialog like TortoiseHg.
+ * Add Sync Dialog like !TortoiseHg.
    Put pull, fetch, push, apply patch and email patch together. You can Know what change pull and push. Show changed file list.
 
  * Enhance Rebase dialog. Add force rebase checkbox. Disable start button when no item rebase. Don't show merge commit
@@ -1112,7 +1112,7 @@ Released: 2009-07-31
  * Fixed issue #124: Incorrect Date header in patch e-mail
  * Fixed issue #122: Garbage text in "Git Command Progress" / suspected buffer overflow Improve commit speed when many added files.
  * Fixed issue #121: Refresh in "Check for modifications" dialog duplicates added state entries when new repository
- * Fixed issue #71: (TortoiseProc problem)Icon Overlays don't work in root of drive When m_CurrentDir =C:\, not C:,  pathlist calulate wrong.
+ * Fixed issue #71: (!TortoiseProc problem)Icon Overlays don't work in root of drive When m_!CurrentDir =C:\, not C:,  pathlist calulate wrong.
  * Fixed issue #116: SVN Rebase doesn't work
  * Fixed issue #115: Windows XP: Initial "Git Clone..." from SVN Repository doesn't work
  * Fix "ESC" = "push" when after commit and Add Alt-P  for Push
@@ -1132,11 +1132,11 @@ Released: 2009-07-03
 
  * Rebase: Select default upstream based on current tracked remote
 
- * Improve BrowseRef Dialog
+ * Improve !BrowseRef Dialog
    Add Option to delete multiple refs
    Added 'Switch to this Ref' option
    Fetch context menu item added.
-   Add "BrowseRef" to shell extension command.
+   Add "!BrowseRef" to shell extension command.
    Add ability to diff two commits
    Added option to delete remote branch
    Always set initial ref
@@ -1166,15 +1166,15 @@ Released: 2009-07-03
    Add compare with working copy at log dialog
    Ref label borders
 
- * FileDiffDlg: Make shift right-left button work
+ * !FileDiffDlg: Make shift right-left button work
 
  * Branch/Tag dlg: Update 'track' option after browse-refs
 
- * StatusListCtrl: Implemented delete unversioned file.
+ * !StatusListCtrl: Implemented delete unversioned file.
 
- * RebaseDlg: Update rebase lines after browserefs
+ * !RebaseDlg: Update rebase lines after browserefs
 
-== BugFix ==
+== Bug Fix ==
  * Fixed issue #64: When the graph column is small, the graph sometimes appears through the text of the next column on Vista
  * Fix log graph tree mass when dragon scroll bar from left to right
  * Fixed issue #104: Doubleclicking changed submodule dir in Check For Modifications dlg, crashes TGit
@@ -1185,10 +1185,10 @@ Released: 2009-07-03
  * Fix submodule update Crash when repository have not submodule
  * Fixed issue #88: Ambiguous dialog message
  * Correct format patch command -num argument
- * PushDlg: Fix: Wrong remote selected after selection via ref-browser.
+ * !PushDlg: Fix: Wrong remote selected after selection via ref-browser.
  * Rebase: Skip in context-menu appeared twice. First one should be pick.
  * Fixed issue #89: Can't locate msysgit on x64
- * Fixed issue #95: TortoiseBlame Icon disappears when selected in the settings treeview
+ * Fixed issue #95: !TortoiseBlame Icon disappears when selected in the settings treeview
  * Fixed issue #94: Commit log showing incorrect timestamps
  * Fix pull don't launch putty key file
 
@@ -1223,10 +1223,10 @@ Released: 2009-05-06
  * Improve fetch overlay speed
    rebase igit.exe to msysgit 1.6.2.2, which is major application to get git status.
 
- * TortoiseMerge Support git format patch file.
-   TortoiseMerge can open git patch file and review diff and merge change.
+ * !TortoiseMerge Support git format patch file.
+   !TortoiseMerge can open git patch file and review diff and merge change.
 
- * SendMail support
+ * !SendMail support
    Right click .patch or .diff file, click "send mail..." to send patch out.
 
  * improve clone dialog
@@ -1235,7 +1235,7 @@ Released: 2009-05-06
 == Bug fix ==
  * Fixed issue #73: Error while reading/writing the registry key MSysGit Access is denied
  * Fixed issue #11: Show differences as unified diff does not use selected item
- * Fixed issue #77: "Show differencess" against a deleted file will cause TortoiseMerge to error
+ * Fixed issue #77: "Show differencess" against a deleted file will cause !TortoiseMerge to error
  * Fixed issue #74: Add multiple files from commit dialog only adds first two in multi-selection
  * Fixed issue #75: About box does not show version information
  * Wrong error message when fail launch pageant
@@ -1270,7 +1270,7 @@ Released: 2009-04-03
 
  * Add Diff with workcopy at file list
 
- * Add MessageBox Tell user Revert Finished
+ * Add !MessageBox Tell user Revert Finished
 
  * Add Notepad2 to setup script to view text file
 
@@ -1278,17 +1278,17 @@ Released: 2009-04-03
 
  * Add Copy File list to clipboard
 
- * Choose Default SSH client when install TortoiseGit
+ * Choose Default SSH client when install !TortoiseGit
 
  * Add user config and remote manage at setting dialog
 
  * Pull and push can autoload putty private key.
 
 == Bug Fix ==
- * Fixed issue #52: TortoiseMerge crashes on x64
+ * Fixed issue #52: !TortoiseMerge crashes on x64
  * Fixed issue #55: "resolved" function doesn't delete temporary files.
  * Fixed issue #57: Data duplication when Clicking Check repository in Check for modification dialog
- * Fix GetString error when edit at HistoryCombo
+ * Fix !GetString error when edit at !HistoryCombo
  * win2k context menu fix (had an issue when shift key was pressed)
  * Fix crash in logviewer on invalid time strings
  * Fixed issue #61: Add/Commit of files with umlauts in filename not working
@@ -1327,12 +1327,12 @@ Released: 2009-03-07
  * Fix Shell menu disappear because ATL library have not installed.
  * Fix Commit Dialog and Log Dialog default column is wrong
  * Fix some dialog can't show after resize and close and open again
- * Fix ProgressDlg Sometime thread is dead blocked.
- * Fixed x64 build of TortoiseProc crashed due to received unexpected messages
+ * Fix !ProgressDlg Sometime thread is dead blocked.
+ * Fixed x64 build of !TortoiseProc crashed due to received unexpected messages
  * Fix tag to head when *force* check box checked
  * Add Git document to help
  * Fixed issue #36: Push not working if no remote branch is specified
- * Default UnCheck untrack file at commit dialog
+ * Default !UnCheck untrack file at commit dialog
  * Fixed issue #40: Commit from subfolder shows unversioned files in parent
  * Fix diff problem when filenames have embedded spaces
  * Fixed issue #24 and issue #45: Commit results not in window with scroll bars
@@ -1363,7 +1363,7 @@ Released: 2009-02-08
 
  * Setting dialog support.
 
- * Enable TortoisePlink.
+ * Enable !TortoisePlink.
    Passwork dialog can prompt when use tortoiseplink as ssh client.
 
  * Git Reset support.
@@ -1397,10 +1397,10 @@ Released: 2009-02-08
 Released: 2009-01-04
 
 == Features ==
- * Add TortoisgeMerge as default compare tools
+ * Add TortoiseMerge as default compare tools
  * Pull, Fetch, Push
  * Create Branch\Tag
- * Switch branch \Chechout
+ * Switch branch\Chechout
  * Compare with previous version
  * Clone(only support local repository, see known issue for detail)
  * Log Dialog support filter
@@ -1415,11 +1415,11 @@ Released: 2009-01-04
  * A2W cause stack overwrite bug when git output is long.
 
 == Known Issue ==
- * ProcessDlg will wait for ever when clone remote repository(ssh, http,git).
+ * !ProgressDlg will wait for ever when clone remote repository(ssh, http,git).
  * push fetch and pull don't support password mode. Just support public key problem.
  * Just fetch first 100 log item.
- * If install TortoiseGit before MsysGit, you need modify register
-	    HKEY_LOCAL_MACHINE\Software\TortoiseGit\\MsysGit\
+ * If install !TortoiseGit before !MsysGit, you need modify register
+	    HKEY_LOCAL_MACHINE\Software\!TortoiseGit\\!MsysGit\
 	   Let it point to correct msysgit install path.
  * Add File, please commit and show unversion file, the choose add file, then right clict, Choose Add file
  * To new initial repository, You will not see add file again in commit dialog box if give up commit when choose add

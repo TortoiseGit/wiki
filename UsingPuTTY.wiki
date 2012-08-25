@@ -6,26 +6,26 @@ PuTTY comes with a great session management, where you can save attributes of co
 == How to use sessions ==
 One special "session" is the _Default Settings_ session, where you can set default values for all new connections (e.g. a key, a default username, enable compression, force SSH version 2 or change the default port and so on).
 
-You can also save settings for (single) ssh connections as sessions. Take one server where the ssh server only listens on a different port, then you can set up all settings and save it to e.g. "SERVERNAME". Now you can access this saved settings by starting PuTTY and double clicking "SERVERNAME" in the saved sessions list *OR*, when using TortoiseGit, plink or other putty applications, the entered servername (e.g. git@*SERVERNAME*:/test.git) will be matched against the saved sessions list and if found, the settings of the saved session are used.
+You can also save settings for (single) ssh connections as sessions. Take one server where the ssh server only listens on a different port, then you can set up all settings and save it to e.g. "SERVERNAME". Now you can access this saved settings by starting PuTTY and double clicking "SERVERNAME" in the saved sessions list *OR*, when using !TortoiseGit, plink or other putty applications, the entered servername (e.g. git@*SERVERNAME*:/test.git) will be matched against the saved sessions list and if found, the settings of the saved session are used.
 
 Session names do not need to be the exact servername, you can also use different names, like "SERVERNAME1" or "SERVERNAME-adminkey" (e.g. git@SERVERNAME-adminkey:/test.git) if you want to use different keys with the same username on one server. This way it is also possible to have a saved session called "test.com", but when accessed a connection to example.com (saved hostname) is established.
 
 = FAQ and examples section =
 
-This section is based on the descriptions above and will bring some examples for the usage with TortoiseGit (and plink).
+This section is based on the descriptions above and will bring some examples for the usage with !TortoiseGit (and plink).
 
 The examples assume that you want to clone {{{git@example.com:/test.git}}}.
 
 == How to use a default key for all SSH connections ==
 Start PuTTY, go to _Connection->SSH->Auth_ and select your key. Then go to _Session_, select _Default Settings_ and hit _Save_.
 
-Now PuTTY (TortoiseGit and plink) will try to use this key for all new connections (no need to configure it in TortoiseGit). If the PuTTY agent is running, putty and plink try to use an already loaded key, but will ask for the password themselves (as a fallback).
+Now PuTTY (!TortoiseGit and plink) will try to use this key for all new connections (no need to configure it in !TortoiseGit). If the PuTTY agent is running, putty and plink try to use an already loaded key, but will ask for the password themselves (as a fallback).
 
 == How to connect to a SSH server on a different port ==
 
 === All connections to a server should use the different port ===
 
-Start PuTTY, fill in the servername ({{{example.com}}} here) in the _Host Name_-field and into the _Saved Sessions_ field. Change the port number to the number you need and click on _Save_. Now, when TortoiseGit/plink uses this servername the port is automatically loaded from the session.
+Start PuTTY, fill in the servername ({{{example.com}}} here) in the _Host Name_-field and into the _Saved Sessions_ field. Change the port number to the number you need and click on _Save_. Now, when !TortoiseGit/plink uses this servername the port is automatically loaded from the session.
 
 === One a special connection should use a different port ===
 

@@ -67,8 +67,8 @@ Support spell checking (English) and autocompletion of filenames
 
 [http://tortoisegit.googlecode.com/git/doc/images/en/SubmoduleUpdate.png]
 
-==TortoiseMerge: Diffing/Merging files/patches==
-TortoiseMerge can open Git patch file directly, you review it and patch to working copy. 
+==!TortoiseMerge: Diffing/Merging files/patches==
+!TortoiseMerge can open Git patch file directly, you review it and patch to working copy. 
 
 [http://tortoisegit.googlecode.com/git/doc/images/en/TMerge_TwoPane.png]
 

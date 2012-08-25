@@ -3,20 +3,20 @@
 
 = System prerequisites =
 
- * For the latest version of TortoiseGit Windows XP SP3 or newer is required.
+ * For the latest version of !TortoiseGit Windows XP SP3 or newer is required.
  * Admin privileges for the installation
- * [http://code.google.com/p/msysgit msysGit] is required by TortoiseGit
+ * [http://code.google.com/p/msysgit msysGit] is required by !TortoiseGit
    * You do not need to download the whole msysGit development package, the [http://code.google.com/p/msysgit/downloads/list?can=2&q="Full+installer+for+official+Git+for+Windows" "Full installer for official Git for Windows"] download package is sufficient
-   * msysGit 1.7.10+ is recommended for TortoiseGit 1.7.9+ (msysGit 1.7.10 adds utf-8 support and is compatible to `*`nix git)
-   * minimum compatible version is 1.6.1 (for TortoiseGit < 1.7.9 you should use msysGit 1.7.6)
+   * msysGit 1.7.10+ is recommended for !TortoiseGit 1.7.9+ (msysGit 1.7.10 adds utf-8 support and is compatible to `*`nix git)
+   * minimum compatible version is 1.6.1 (for !TortoiseGit < 1.7.9 you should use msysGit 1.7.6)
 
 = Installation =
 
-Just [Download download] the setup package for your system and install it. If you are running a 64 bit system, you do not need to download and install the 32 bit version: The 32 bit shell extension is included in the 64 bit installer since TortoiseGit 1.7.3.0.
+Just [Download download] the setup package for your system and install it. If you are running a 64 bit system, you do not need to download and install the 32 bit version: The 32 bit shell extension is included in the 64 bit installer since !TortoiseGit 1.7.3.0.
 
 == Windows 2000 ===
 
-If you want to use TortoiseGit in a Win2K environment (only 1.6.5 and below support Win2K), please install [http://www.microsoft.com/download/en/details.aspx?id=18909 GDI+] before you install TortoiseGit. However, running these old versions is not recommended (no utf-8 and separate-git-dir support).
+If you want to use !TortoiseGit in a Win2K environment (only 1.6.5 and below support Win2K), please install [http://www.microsoft.com/download/en/details.aspx?id=18909 GDI+] before you install !TortoiseGit. However, running these old versions is not recommended (no utf-8 and separate-git-dir support).
 
 = Upgrade =
 
@@ -28,7 +28,7 @@ If you are upgrading from 1.7.3.0 or older and you have installed the 32-bit ver
 
 = Common problems (installer aborts with an error message) =
 == "This installation package is not supported by this processor type. Contact your product vendor." ==
-This means you are trying to install the 64-bit version of TortoiseGit on a normal 32-bit operating system. You need to download and use the correct msi file for your OS. For normal 32-bit OS, make sure the msi filename does not have "64-bit" in it. 
+This means you are trying to install the 64-bit version of !TortoiseGit on a normal 32-bit operating system. You need to download and use the correct msi file for your OS. For normal 32-bit OS, make sure the msi filename does not have "64-bit" in it. 
 
 == "Please wait while the installer finishes determining your disk space requirements." ==
-Cleanup/empty the temp-directory (e.g. C:\Users\<your user>\AppData\Local\Temp, C:\User and Settings\<your user>\Local Settings\Temp, c:\Windows\Temp\).
+Cleanup/empty the temp-directory (e.g. C:\Users\<your user>\!AppData\Local\Temp, C:\User and Settings\<your user>\Local Settings\Temp, c:\Windows\Temp\).
