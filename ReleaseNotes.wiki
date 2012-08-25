@@ -1397,7 +1397,7 @@ Released: 2009-02-08
 Released: 2009-01-04
 
 == Features ==
- * Add TortoiseMerge as default compare tools
+ * Add !TortoiseMerge as default compare tools
  * Pull, Fetch, Push
  * Create Branch\Tag
  * Switch branch\Chechout
