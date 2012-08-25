@@ -7,7 +7,7 @@ Feel free to clone https://code.google.com/p/tortoisegit.wiki/ or https://github
 
 = How to delete branch and tag =
 Press "Shift" key, right-click -> Browse Reference, 
-Choose branch or tag, right-click, choose "delete"..
+Choose branch or tag, right-click, choose "delete". Branches and tags can also be deleted using the Log Dialog.
 
 Or open log dialog -> choose commit with branch\tag, right->click->delete
 
