@@ -7,7 +7,7 @@ Feel free to clone https://code.google.com/p/tortoisegit.wiki/ or https://github
 
 = How to delete branch and tag =
 Press "Shift" key, right-click -> Browse Reference, 
-Choose branch or tag, right-click, choose "delete".. 
+Choose branch or tag, right-click, choose "delete"..
 
 Or open log dialog -> choose commit with branch\tag, right->click->delete
 
@@ -17,7 +17,8 @@ Or open log dialog -> choose commit with branch\tag, right->click->delete
  * Test our [http://code.google.com/p/tortoisegit/downloads/list?q=label:Preview&sort=-uploaded preview release] if the problem is still there. If yes: File a [http://code.google.com/p/tortoisegit/issues/list bugreport]. Mention your Windows Version (also x64 or x86), your msysgit version and the used !TortoiseGit version there.
 
 = How to delete a remote tag =
-Open the push dialog, select the remote archive, no local branch, fill in the tag name into the remote branch field and click on OK.
+ * Since 1.7.12.1: Go to the "Browse References" dialog, right click on a remote and select "Delete remote tags...".
+ * Before 1.7.12.1: Open the push dialog, select the remote archive, no local branch, fill in the tag name into the remote branch field and click on OK.
 
 = How to remove file from version control and keep local copy =
 Press "shift" key, right-click -> Delete (keep local)
