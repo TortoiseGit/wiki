@@ -33,7 +33,7 @@ Before reporting an issue, please check that your problem isn't fixed in our lat
 [http://code.google.com/p/tortoisegit/downloads/list Traditional Google Code download list]
 
 === Preview releases ===
-The [http://code.google.com/p/tortoisegit/downloads/list?q=label:Preview&sort=-uploaded preview releases] are build from the latest code and represend the cutting edge of the !TortoiseGit development. This version is used by the !TortoiseGit developers for their daily work (in the past these also were of good quality). Preview releases are provided on an irregular basis, however, w/o translations.
+The [http://code.google.com/p/tortoisegit/downloads/list?q=label:Preview&sort=-uploaded preview releases] are built from the latest code that represents the cutting edge of the !TortoiseGit development. This version is used by the !TortoiseGit developers for their daily work (in the past these also were of good quality). Preview releases are provided on an irregular basis, however, w/o translations.
 
 === Older releases ===
 Older releases are available [http://code.google.com/p/tortoisegit/downloads/list?can=1&sort=-uploaded+-filename here].
