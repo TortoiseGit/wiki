@@ -6,6 +6,8 @@ we have setup a web based translation platform at http://transifex.net like the 
 
 https://www.transifex.net/projects/p/tortoisegit/
 
+For most (unlisted) languages you do not need to start all over, a large amount of translated strings can be reused from the TortoiseSVN project: Just request a new language team and contact the !TortoiseGit developers!
+
 Goal is to provide language files starting with the next releases as soon as more than 50 % of the strings are translated.
 
 You can find the language packs on our [http://code.google.com/p/tortoisegit/downloads/list download page].
