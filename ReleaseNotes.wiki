@@ -1,5 +1,55 @@
 #summary Release Notes
 
+= Release 1.7.15.0 =
+Released: 2012-11-20
+
+== Features ==
+ * Fixed issue #1436: Clone Dialog add --branch and --no-checkout options
+ * Fixed issue #1450: Option to fetch when adding a remote
+ * Fixed issue #1411: Commit dialog checks submodule dirty state
+ * Fixed issue #1485: Implement a Goto-Line dialog in !TortoiseMerge
+ * Upgraded gitdll and libgit to 1.8.0
+ * Fixed issue #1461: Add progress indicator for stash operations
+ * Fixed issue #1484: Settings dialog default to Git page
+ * Fixed issue #1505: Tell user that author not set in Rebase Dialog
+ * Fixed issue #1503: Passing full file paths and revisions into diff viewer
+ * Fixed issue #1518: Add "Export selection to" menu item in Log Dialog
+ * Fixed issue #1497: Systemwide gitconfig may require UAC elevation when editing
+ * Fixed issue #1512: In Rebase Dialog, ask user to retry after failed "git checkout" and "git reset"
+ * Fixed issue #1330: Preparing for git 1.7.12 new config file location
+ * Fixed issue #1515: Allow Changed Files Dialog to revert selected files
+ * Fixed issue #1458: Shell context menu shows "Commit submodule" if the selected folder is submodule root
+ * Fixed issue #1211, issue #1472: Commit dialog can amend message only without affecting any files
+ * Fixed issue #1200: Ignored folders can be destroyed by "git stash -u"
+ * Fixed issue #1508: Indicate change type in Submodule Diff Dialog
+ * Fixed issue #1527: Rebase Dialog shows Log menu button after rebasing if not launched from log dialog
+ * Fixed issue #1252: wrap commit logs per git conventions (set tgit.logwidthmarker using git-config)
+ * Added basic support for localized spellcheckers in commit dialog (see help file, keyword "spellchecker")
+ * Fixed issue #1531: Clean up should show progress dialog
+
+== Bug Fix ==
+ * Fixed issue #1427: Combine to one commit: Commit-window doesn't show changes from oldest commit
+ * Fixed issue #1443: git svn dcommit: unclear behavior for dirty working tree
+ * Fixed issue #1457: Confusing amend commit behaviour
+ * Fixed issue #1466: Checkout Dialog always track remote branches
+ * Fixed issue #1396: Sync Dialog Pull show wrong commit range in "In commits"
+ * Fixed issue #1465: Clean up does not work with core.quotepath=true
+ * Fixed issue #1419: Push window doesn't load PuTTY key when pushing to multiple remotes
+ * Fixed issue #1482: Allow to show log of other branches if current HEAD points to an orphan branch
+ * Fixed issue #1487: Do not use libgit in !TortoiseShell for displaying HEAD commit (might set %GIT_DIR% permanently)
+ * Fixed issue #1475: Installer resets your SSH preference to ssh.exe when run silently
+ * Fixed issue #1470: Log Dialog: Selected item not remembered after refresh if item is one of the first 100
+ * Fixed issue #1499: Allow to show log if current HEAD and selected ref is orphan branch when show all branches checked
+ * Fixed issue #1507: Submodule Diff Dialog should show dirty state only on working copy revision
+ * Fixed issue #1511: Changed Files Dialog cannot show icons as folder for submodule
+ * Fixed issue #1516: SVN clone strips trailing slashes
+ * Fixed issue #1486: Rebase/Cherry-pick Dialog conflict list fail to refresh the status of resolved deleted file
+ * Fixed issue #1521: Directories with period at beginning are recognized as file extensions showing `*`.dir
+ * Fixed issue #1519: Quotes in notes break Merge command
+ * Fixed issue #1524: Log dialog failed to view revision in alternative editor of the same file more than once
+ * Fixed issue #1459: Refreshing Log Dialog may freeze up to 20 seconds
+ * Fixed issue #1523: Bugtraq Number is checked for number only (inconsistent default value)
+
 = Release 1.7.14.0 =
 Released: 2012-10-14
 
