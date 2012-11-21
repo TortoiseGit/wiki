@@ -16,8 +16,8 @@ Or open log dialog -> choose commit with branch\tag, right->click->delete
  * Check if "git fsck" resovles the problem
  * Test our [http://code.google.com/p/tortoisegit/downloads/list?q=label:Preview&sort=-uploaded preview release] if the problem is still there. If yes: File a [http://code.google.com/p/tortoisegit/issues/list bugreport]. Mention your Windows Version (also x64 or x86), your msysgit version and the used !TortoiseGit version there.
 
-= How to enable overlay Icons on Network drives/RAM drives/Removable drives or CD drives? =
-You have to enable overlay icons for these devices in TortoiseGit settings -> Icon overlays.
+= There are no icon overlays on Network drives/RAM drives/Removable drives or CD drives. How to enable them? =
+You have to enable overlay icons for these devices in !TortoiseGit settings -> Icon overlays.
 
 = How to delete a remote tag =
  * Since 1.7.12.1: Go to the "Browse References" dialog, right click on a remote and select "Delete remote tags...".
