@@ -20,7 +20,8 @@ Or open log dialog -> choose commit with branch\tag, right->click->delete
 You have to enable overlay icons for these devices in !TortoiseGit settings -> Icon overlays.
 
 = How to make !TortoiseGit use OpenSSH or plink? =
-Go to TortoiseGit settings -> Network and enter "SSH.exe" resp. Tortoiseplink.exe into the SSH client text field (http://tortoisegit.googlecode.com/git/doc/images/en/SettingsProxy.png).
+Go to !TortoiseGit settings -> Network and enter "SSH.exe" resp. Tortoiseplink.exe into the SSH client text field:
+http://tortoisegit.googlecode.com/git/doc/images/en/SettingsProxy.png
 
 = How to delete a remote tag =
  * Since 1.7.12.1: Go to the "Browse References" dialog, right click on a remote and select "Delete remote tags...".
