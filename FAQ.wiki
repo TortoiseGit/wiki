@@ -19,7 +19,7 @@ Or open log dialog -> choose commit with branch\tag, right->click->delete
 = There are no icon overlays on Network drives/RAM drives/Removable drives or CD drives. How to enable them? =
 You have to enable overlay icons for these devices in !TortoiseGit settings -> Icon overlays.
 
-= How to make TortoiseGit use OpenSSH or plink? =
+= How to make !TortoiseGit use OpenSSH or plink? =
 Go to TortoiseGit settings -> Network and enter "SSH.exe" resp. Tortoiseplink.exe into the SSH client text field (http://tortoisegit.googlecode.com/git/doc/images/en/SettingsProxy.png).
 
 = How to delete a remote tag =
