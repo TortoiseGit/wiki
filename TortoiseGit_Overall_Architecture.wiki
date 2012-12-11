@@ -4,7 +4,7 @@
 
 This page introduces TortoiseGit overall architecture.
 
- * *!TortoiseShell* -- Explorer Shell extension, final output is TortoiseGit.dll, which is loaded by Explorer. It checks if a directory is git repository, provides the overlay icons (in conjunction with !TGitCache) and adds the !TortoiseGit-submenu/commands to the context menu.
+ * *!TortoiseShell* -- Explorer Shell extension, final output is TortoiseGit.dll, which is loaded by Explorer. It checks if a directory is git repository, provides the overlay icons (in conjunction with !TGitCache) and adds the !TortoiseGit-submenu/commands to the context menu. Since TortoiseGit 1.7.14, !TortoiseShell is no longer directly loaded by Explorer. An extra layer TortoiseStub has been added. TortoiseStub is loaded by Explorer, then TortoiseStub loads !TortoiseShell.
  * *!TortoiseProc* -- The main TGit GUI program, handles all commands such log, commit and so on.  The final output is TortoiseProc.exe.
 
 = How to get into !TortoiseGit? =
