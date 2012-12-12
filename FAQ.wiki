@@ -17,6 +17,9 @@ Or open log dialog -> choose commit with branch\tag, right->click->delete
  * Check if "git fsck" resovles the problem
  * Test our [http://code.google.com/p/tortoisegit/downloads/list?q=label:Preview&sort=-uploaded preview release] if the problem is still there. If yes: File a [http://code.google.com/p/tortoisegit/issues/list bugreport]. Mention your Windows Version (also x64 or x86), your msysgit version and the used !TortoiseGit version there.
 
+= What to do if log dialog shows inaccurate information? =
+ * Close all log dialogs of that repository, then go to .git folder, delete tortoisegit.data and tortoisegit.index
+
 = There are no icon overlays on Network drives/RAM drives/Removable drives or CD drives. How to enable them? =
 You have to enable overlay icons for these devices in !TortoiseGit settings -> Icon overlays.
 
