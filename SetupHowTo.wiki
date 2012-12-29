@@ -15,7 +15,7 @@
 
 Just [Download download] the setup package for your system and install it. If you are running a 64 bit system, you do not need to download and install the 32 bit version: The 32 bit shell extension is included in the 64 bit installer since !TortoiseGit 1.7.3.0.
 
-== Windows 2000 ===
+== Windows 2000 ==
 
 If you want to use !TortoiseGit in a Win2K environment (only 1.6.5 and below support Win2K), please install [http://www.microsoft.com/download/en/details.aspx?id=18909 GDI+] before you install !TortoiseGit. However, running these old versions is not recommended (no utf-8 and separate-git-dir support).
 
