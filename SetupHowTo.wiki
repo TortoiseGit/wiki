@@ -19,6 +19,11 @@ Just [Download download] the setup package for your system and install it. If yo
 
 If you want to use !TortoiseGit in a Win2K environment (only 1.6.5 and below support Win2K), please install [http://www.microsoft.com/download/en/details.aspx?id=18909 GDI+] before you install !TortoiseGit. However, running these old versions is not recommended (no utf-8 and separate-git-dir support).
 
+== Windows XP and Vista ==
+
+Since !TortoiseGit 1.7.15.2 (Preview), Windows Installer 4.5 is required. Please install [http://www.microsoft.com/en-us/download/details.aspx?id=8483 Windows Installer 4.5] before you install !TortoiseGit.
+Older versions of !TortoiseGit do not require Windows Installer 4.5.
+
 = Upgrade =
 
 Before upgrading you should read the ReleaseNotes.
