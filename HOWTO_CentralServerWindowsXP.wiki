@@ -82,7 +82,7 @@ You must have been given:
     * Choose git only on windows path
   #. Install [http://tortoisegit.googlecode.com/files/TortoiseGit-1.4.4.0-32bit.msi TortoiseGit 1.4.4.0]
     * After installation, under Settings > Network > SSH:
-    SSH Client = {{{C:\Program Files (x86)\TortoiseGit\bin\TortoisePlink.exe}}}
+    SSH Client = {{{C:\Program Files (x86)\TortoiseGit\bin\TortoiseGitPLink.exe}}}
     * Potential gotcha: if you only work with other windows developers, you should consider disabling the auto-line-endings adjustment, and select the option to leave line endings unchanged.  Spurious diffs related to line-endings transformations have been [http://stackoverflow.com/questions/783906/git-under-windows-msys-or-cygwin/1747710#1747710 observed].
   #. Run `C:\Program Files (x86)\TortoiseGit\bin\puttygen.exe`:
     * The keys generated in CopSSH are _OpenSSH_ keys, but we want to use _putty_ keys with !TortoiseGit; here, we convert the private key to a putty type.

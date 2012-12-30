@@ -4,16 +4,16 @@
 
 This page introduces !TortoiseGit overall architecture.
 
- * *!TortoiseShell* -- Explorer Shell extension, final output is !TortoiseGit.dll, which is loaded by Explorer. It checks if a directory is git repository, provides the overlay icons (in conjunction with !TGitCache) and adds the !TortoiseGit-submenu/commands to the context menu. Since !TortoiseGit 1.7.14, !TortoiseShell is no longer directly loaded by Explorer. An extra layer !TortoiseStub has been added. !TortoiseStub is loaded by Explorer, then !TortoiseStub loads !TortoiseShell.
- * *!TortoiseProc* -- The main TGit GUI program, handles all commands such log, commit and so on.  The final output is !TortoiseProc.exe.
+ * *!TortoiseGitShell* -- Explorer Shell extension, final output is !TortoiseGit.dll, which is loaded by Explorer. It checks if a directory is git repository, provides the overlay icons (in conjunction with !TGitCache) and adds the !TortoiseGit-submenu/commands to the context menu. <br />Since !TortoiseGit 1.7.14, !TortoiseGitShell is no longer directly loaded by Explorer. An extra layer !TortoiseGitStub has been added. !TortoiseGitStub is loaded by Explorer, then !TortoiseGitStub loads !TortoiseGitShell.<br/>
+ * *!TortoiseGitProc* -- The main TGit GUI program, handles all commands such log, commit and so on.  The final output is !TortoiseGitProc.exe.
 
-Since !TortoiseGit 1.7.15.1 (Preview), they are renamed as !TortoiseGitStub.dll and !TortoiseGitProc.exe repectively. (!TortoiseGit.dll remains unchanged)
+Before !TortoiseGit 1.7.15.1 (Preview), they were called as !TortoiseStub.dll and !TortoiseProc.exe repectively. (!TortoiseGit.dll remains unchanged)
 
 = How to get into !TortoiseGit? =
 Install the latest nightly build and enable "Debug" in the
-Advanced Settings, now you will see all calls made to !TortoiseProc.
+Advanced Settings, now you will see all calls made to !TortoiseGitProc.
 
-Inside !TortoiseProc all different commands have their own handler classes
+Inside !TortoiseGitProc all different commands have their own handler classes
 and maybe dialogs (in MSVC you can see all the project directories for them).
 
 Main class for functionality is the !AppUtils.cpp, which is called by
