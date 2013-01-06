@@ -41,6 +41,9 @@ Support spell checking (English) and autocompletion of filenames
 ==Repository Browser==
 [http://tortoisegit.googlecode.com/git/doc/images/en/RepoBrowser.png]
 
+==Revision Graphic==
+[http://tortoisegit.googlecode.com/git/doc/images/en/RevsionGraph.png]
+
 ==Merge Dialog==
 [http://tortoisegit.googlecode.com/git/doc/images/en/Merge.png]
 
