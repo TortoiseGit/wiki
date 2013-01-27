@@ -1,5 +1,54 @@
 #summary Release Notes
 
+= Release 1.8.0.0 =
+Released: 2013-01-27
+
+== Features ==
+ * Fixed issue #1377: Log Dialog Working dir changes should include untracked files
+ * Fixed issue #1541: Show progress dialog when running git request-pull
+ * Fixed issue #1513: Easier to clean !TortoiseGit temporary files
+ * Fixed issue #1540: Add jump to previous / next commit in Log Dialog
+ * Fixed issue #1529: Can show and set tagopt
+ * Fixed issue #1554: Unwanted text formatting in commit dialogue (styling can be disabled using advanced settings now)
+ * Fixed issue #1563: Show repository dir on Settings Dialog title bar
+ * Fixed issue #1577: Add a retry button on Reset failure
+ * Fixed issue #1571: Warn author not set when editing notes
+ * Fixed issue #221: After resolving all merge conflicts, it's not obvious the project needs a commit
+ * Fixed issue #1568: Add support for recurse-submodules on push dialog
+ * Fixed issue #1578: Warn author not set when merging
+ * Fixed issue #1557: Submodule Diff Dialog should launch diff with working copy if the submodule is dirty
+ * Fixed issue #1066: Add 'Revision Graph' Feature
+ * Fixed issue #1435: EXE Name collision with TortoiseSVN
+  * Renamed:
+   * TortoiseIDiff.exe to TortoiseGitIDiff.exe
+   * !TortoiseMerge.exe to !TortoiseGitMerge.exe
+   * !TortoiseProc.exe to !TortoiseGitProc.exe
+   * TortoisePLink.exe to TortoiseGitPLink.exe (TortoisePLink.exe is still shipped for compatibility reasons)
+   * TortoiseUDiff.exe to TortoiseGitUDiff.exe
+ * Fixed issue #1433: Can reset to remote tracking branch after fetch
+ * Fixed issue #763: "Clean up" should show a list of to-be-deleted files
+ * Fixed issue #1581: Show/Hide tags in the log
+ * Synced !TortoiseGitMerge code with !TortoiseMerge of TortoiseSVN code (trunk)
+ * Log Dialog specially highlights branches that have a remote tracking branch
+ * Added search mechanism to reflog dialog
+ * Add No fetch, Merge and Rebase options in Submodule Update Dialog
+ * Fixed issue #1467: put remote branches at the bottom in "branches" dropdowns (can be disabled using advanced settings)
+ * Fixed issue #1285: Show Log Filter on Tags
+ * Uncheck "Track" checkbox when creating a branch with different name to remote branch
+ * Add button to push notes in Sync Dialog
+
+== Bug Fix ==
+ * Fixed issue #1535: Unclear UI in prompt dialog of Stash Save
+ * Fixed issue #1538: Deleting multiple stash list entries skips some and delete the wrong ones
+ * Fixed issue #1543: !TortoiseGit Comboboxes trim input if longer than their width
+ * Fixed issue #1544: !TortoiseGit Init warning message is not appropriate
+ * Fixed issue #1268: Paths in Windows Explorer changed to all lower case
+ * Fixed issue #1555: Commit dialog fails to warn submodule dirty state
+ * Fixed issue #1556: Narrower treeview when launching Settings Dialog with default page Remote
+ * Fixed issue #1383: Pageant is not always auto-loaded if using sync remote update (some without keys)
+ * Fixed issue #1536: Committing via log causes hidden progress dialog
+ * Fixed issue #1593: Sync dialog In !ChangeList shows wrong diff when pressing enter
+
 = Release 1.7.15.0 =
 Released: 2012-11-20
 
