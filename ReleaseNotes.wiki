@@ -1,5 +1,21 @@
 #summary Release Notes
 
+= Release 1.8.1.0 =
+Released: 2013-02-07
+
+== Features ==
+ * Fixed issue #1623: Search by email in Log window
+ * Fixed issue #1624: Easier navigation in revision graph with mouse
+
+== Bug Fix ==
+ * Fixed issue #1611: Changing Search criteria with empty search field refreshes log content
+ * Fixed issue #1620: Apply Patch serial can't open file dialog on WinXP
+ * Fixed issue #1533: Could not parse git.exe version number
+ * Fixed issue #1619: !TortoiseGitMerge: Ribbon UI/toolbars can be toggled
+ * Fixed issue #1627: !TortoiseGit gets the wrong revision if the branch name looks like git-describe format
+ * Fixed issue #1617: TortoiseGitPLink does not work with interactive ssh logins
+ * Fixed issue #1384: Commit Dialog autocompletion does not work for some pattern
+
 = Release 1.8.0.0 =
 Released: 2013-01-27
 
