@@ -27,7 +27,7 @@ Now PuTTY (!TortoiseGit and plink) will try to use this key for all new connecti
 
 Start PuTTY, fill in the servername ({{{example.com}}} here) in the _Host Name_-field and into the _Saved Sessions_ field. Change the port number to the number you need and click on _Save_. Now, when !TortoiseGit/plink uses this servername the port is automatically loaded from the session.
 
-=== One a special connection should use a different port ===
+=== One special connection should use a different port ===
 
 Start PuTTY, fill in the servername ({{{example.com}}} here) in the _Host Name_-field and put the servername followed by e.g. a number into the _Saved Sessions_ field (e.g. {{{example.com1}}} or whatever you like). Change the port number to the number you need for this connection and click on _Save_.
 
