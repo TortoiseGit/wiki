@@ -8,13 +8,13 @@ Feel free to clone https://code.google.com/p/tortoisegit.wiki/ or https://github
 
 = How to delete branch and tag =
 Press "Shift" key, right-click -> Browse Reference, 
-Choose branch or tag, right-click, choose "delete". Branches and tags can also be deleted using the Log Dialog.
+Choose branch or tag, right-click, choose "delete". Branches and tags can also be deleted using the Log Dialog, however, tags will only be deleted locally (see [[#How_to_delete_a_remote_tag here]] to find out how to delete tags on a remote repository).
 
 Or open log dialog -> choose commit with branch\tag, right->click->delete
 
 = What to do if a crash happened? =
  * Check if "git gc" resolves the problem
- * Check if "git fsck" resovles the problem
+ * Check if "git fsck" resolves the problem
  * Test our [http://code.google.com/p/tortoisegit/downloads/list?q=label:Preview&sort=-uploaded preview release] if the problem is still there. If yes: File a [http://code.google.com/p/tortoisegit/issues/list bugreport]. Mention your Windows Version (also x64 or x86), your msysgit version and the used !TortoiseGit version there.
 
 = What to do if log dialog shows inaccurate information? =
@@ -24,7 +24,7 @@ Or open log dialog -> choose commit with branch\tag, right->click->delete
 You have to enable overlay icons for these devices in !TortoiseGit settings -> Icon overlays.
 
 = How to make !TortoiseGit use OpenSSH or plink? =
-Go to !TortoiseGit settings -> Network and enter "SSH.exe" resp. Tortoiseplink.exe into the SSH client text field:
+Go to !TortoiseGit settings -> Network and enter "SSH.exe" resp. TortoiseGitPLink.exe into the SSH client text field:
 http://tortoisegit.googlecode.com/git/doc/images/en/SettingsProxy.png
 
 = How to delete a remote tag =
@@ -35,15 +35,15 @@ http://tortoisegit.googlecode.com/git/doc/images/en/SettingsProxy.png
 Press "shift" key, right-click -> Delete (keep local)
 
 = How to use PuTTY for git cli and git bash? =
-Create an environment variable called "GIT_SSH" with the path to the PuTTY plink.exe.
+Create an environment variable called "GIT_SSH" with the path to the PuTTY plink.exe or preferably to TortoiseGitPLink.exe.
 This can be done on the command line by executing "set GIT_SSH=PATH_TO_PLINK.EXE" ("C:\Program Files\!TortoiseGit\bin\TortoiseGitPLink.exe" on default installations) or [http://www.computerhope.com/issues/ch000549.htm permanently].
 
-= How to show extended menu item =
+= How to show extended menu items? =
 Press "shift" key, right-click
 
 = How to hide some menu items =
-setting -> Set Extend Menu Item. 
-Choose menu you want to hide
+setting -> Set Extend Menu Item.
+Choose the menu items you want to hide (by default), however, these items can be shown by pressing the "shift" key while doing the right-click.
 
 = How to use 32bit extension at 64bit system =
 Since version 1.7.2 the 32-bit extension is also included in the 64-bit installer.

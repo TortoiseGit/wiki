@@ -22,7 +22,7 @@ If you want to use !TortoiseGit in a Win2K environment (only 1.6.5 and below sup
 == Windows XP and Vista ==
 
 Since !TortoiseGit 1.7.15.2 (Preview), Windows Installer 4.5 is required. Please install [http://www.microsoft.com/en-us/download/details.aspx?id=8483 Windows Installer 4.5] before you install !TortoiseGit.
-Older versions of !TortoiseGit do not require Windows Installer 4.5.
+Older versions of !TortoiseGit did not require Windows Installer 4.5.
 
 = Upgrade =
 
@@ -30,7 +30,7 @@ Before upgrading you should read the ReleaseNotes.
 
 Just [Download download] the setup package for your system and install it. The old version will be replaced automatically.
 
-If you are upgrading from 1.7.3.0 or older and you have installed the 32-bit version on a 64-bit system you have to deinstall the 32-bit version first.
+If you are upgrading from 1.7.3.0 or older and you have installed the 32-bit version on a 64-bit system you have to uninstall the 32-bit version first.
 
 = Common problems (installer aborts with an error message) =
 == "This installation package is not supported by this processor type. Contact your product vendor." ==
