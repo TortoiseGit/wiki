@@ -1,5 +1,70 @@
 #summary Release Notes
 
+= Release 1.8.2.0 =
+Released: 2013-03-26
+
+== Features ==
+ * Fixed issue #1270: Log dialog can revert selected files to parent revision
+ * Fixed issue #1500: Support git merge --log option
+ * Can disable log cache (tortoisegit.data, tortoisegit.index)
+ * Revision Graph can save as graphviz dot language (`*`.gv)
+ * Support merge strategies except octopus
+ * Fixed issue #1597: Reduce chance of committing old submodule revision on cherry-pick / rebase conflicts
+ * Can specify specific paths of submodules to update
+ * Fixed issue #1661: !TortoiseGitBlame: show line date time
+ * Fixed issue #1662: skip-worktree should not be exposed via context menus or anything without confirmation
+ * Fixed issue #330: Implement --author option gui interface in the commit dialog
+ * Fixed issue #1147: Ability to filter out branches in Log dialog
+ * Fixed issue #1628: Support commit ranges in log list (from Reference Browser)
+ * Fixed issue #832: Compare commits between branches (branch1...branch2, from Reference Browser)
+ * Fixed issue #515: Sort the log window by date
+ * Fixed issue #1676: Automatically check "Make it Bare" when repository path ends in ".git"
+ * Fixed issue #1677: Clicking "revert" on a file should automatically check the file in the revert dialog
+ * Fixed issue #1667: Ability to ignore a folder in commit dialog
+ * Fixed issue #1674: Option "Push all branches" leaves out tags on pushed changes
+ * Fixed issue #1663: F5 does not refresh the revision graph
+ * Fixed issue #522: Store password for HTTP
+ * Fixed issue #1660: Save Push Dialog "Push all branches" and "Use Thin Pack" options
+ * Fixed issue #1542: Can send pull request email
+ * Fixed issue #1493: Remember Push Dialog "Push to all remotes" option state
+ * Enhanced Windows 7 taskbar grouping and highlighting of windows belonging to the same working tree
+ * .mailmap is now used for Log-Dialog Statistics
+ * Fixed issue #1610: Average values on statistics dialog graph
+ * Fixed issue #1708: Merge dialog have no saving of log message
+ * Fixed issue #1716: !TortoiseGitBlame added line parameter
+ * Allow to set a default value for ssh client in HKLM (Software\!TortoiseGit\SSH)
+
+== Bug Fixes ==
+ * Fixed issue #1642: Incorrect behavior if repo is located on root of drive
+ * Fixed issue #1643: !TortoiseGitMerge window do not maximize correctly on screeen with right-side docked start bar
+ * Fixed issue #1639: Does not work on older CPU without SSE2
+ * Fixed issue #1682: Rebase ignores commits after an error is received
+ * Fixed issue #1429: Blame: copy sha to clipboard copies the log message
+ * Fixed issue #1654: Git blame commit message tooltip flashes when tooltip window is tall
+ * Fixed issue #1658: Checkbox 'add "cherry picked from"' has wrong anchor
+ * Fixed issue #1657: Dirty submodule commit does not open the underling submodule commit dialog
+ * Fixed issue #1552: TGitCache prevents a git clone from performing successfully
+ * Fixed issue #1631: Set focus to branch menu in Switch/Checkout window
+ * Fixed issue #1646: !TortoiseGit Log gives undeterministic results (log does not apply --boundary any more by default)
+ * Fixed issue #1085: Small commit with lots of unversioned and not ignored files takes very long
+ * Fixed issue #1675: delete/ignore does not delete folder from repo when local copy is kept
+ * Fixed issue #1679: Reset dialog pick another revision has no effect
+ * Fixed issue #1609: remember my remote branch choice precisely
+ * Fixed issue #1268: Paths in Windows Explorer changed to all lower case
+ * Fixed issue #1681: High screen DPI breaks !TortoiseGitMerge's ribbon UI sprites
+ * Fixed issue #1685: Deleting remote branch blocks UI
+ * Fixed issue #1686: Wrong stash list after "Stash Apply" in !RefLog
+ * Fixed issue #1689: Option to make Git Commit GUI look different from TortoiseSVN equivalent
+ * Fixed issue #1693: Cherry pick progress bar doesn't stay green
+ * Fixed issue #1276: Cannot show diff of renamed file
+ * Fixed issue #1696: Fetch from switch dialog does not refresh branches list
+ * Fixed issue #1701: Changing commit order in rebase dialog doesn't auto scroll
+ * Fixed issue #1702: Original commit message is showen even though it is changed during rebase
+ * Fixed issue #1223: Workaround endless waiting when git.exe already exited
+ * Fixed issue #1709: Right click -> assume unchanged is irreversible
+ * Fixed issue #1713: Pre-populate commit message on squash merges
+ * Fixed issue #1566: Frequent crashes when searching log
+
 = Release 1.8.1.0 =
 Released: 2013-02-07
 
@@ -58,7 +123,6 @@ Released: 2013-01-27
  * Fixed issue #1538: Deleting multiple stash list entries skips some and delete the wrong ones
  * Fixed issue #1543: !TortoiseGit Comboboxes trim input if longer than their width
  * Fixed issue #1544: !TortoiseGit Init warning message is not appropriate
- * Fixed issue #1268: Paths in Windows Explorer changed to all lower case
  * Fixed issue #1555: Commit dialog fails to warn submodule dirty state
  * Fixed issue #1556: Narrower treeview when launching Settings Dialog with default page Remote
  * Fixed issue #1383: Pageant is not always auto-loaded if using sync remote update (some without keys)
