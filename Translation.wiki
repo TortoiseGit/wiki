@@ -2,9 +2,9 @@
 
 =Transifex=
 
-we have setup a web based translation platform at http://transifex.net like the TortoiseSVN project. This makes it easier for new translators to get started. If you want to help to translate !TortoiseGit, please register an account at transifex.net (you can also login using your google account), then request membership of one of our translation teams or request to create a new team, if your language is not yet listed.
+we have setup a web based translation platform at https://transifex.com like the TortoiseSVN project. This makes it easier for new translators to get started. If you want to help to translate !TortoiseGit, please register an account at transifex.com (you can also login using your google account), then request membership of one of our translation teams or request to create a new team, if your language is not yet listed.
 
-https://www.transifex.net/projects/p/tortoisegit/
+https://www.transifex.com/projects/p/tortoisegit/
 
 For most (unlisted) languages you do not need to start all over, a large amount of translated strings can be reused from the TortoiseSVN project: Just request a new language team and contact the !TortoiseGit developers!
 
