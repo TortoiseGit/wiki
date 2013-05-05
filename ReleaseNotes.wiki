@@ -1,5 +1,31 @@
 #summary Release Notes
 
+= Release 1.8.3.0 =
+Released: 2013-05-05
+
+== Features ==
+ * Press F5 can refresh Submodule Diff Dialog
+ * Fixed issue #1359: Drag support for files listed as being changed in the commit/log/modifications window
+ * log list: indicate annotated tag in tag shape
+ * !TortoiseGitBlame: Allow to highlight lines by age of last modification
+ * Fixed issue #1376: Daemon starting from Tortoise UI
+ * Fixed issue #1737: Make a button to rename remote
+ * Repository Browser: Allow to copy tree / blob hashes to clipboard
+ * Added sound support for indicating warnings and errors
+ * Fixed issue #1755: Add "Remove All" and "Ignore All" options in Remove from Index Prompt
+ * Fixed issue #1747: Add interface to log window to view range log
+
+== Bug Fixes ==
+ * Fixed issue #1729: crash when commit
+ * Fixed issue #1728: !TortoiseGitMerge show fake difference in the same lines if line end falls to 0x40000 byte
+ * Fixed issue #1741: Push / Pull Dialog URL combo box should not be filled unless enabled
+ * Fixed issue #1735: diff-xls.vbs not found
+ * Fixed issue #1750: Repository Browser fails for empty repository
+ * Fixed issue #1743: Remove "The target folder is not empty!" warning
+ * Fixed issue #1757: Compare single new file against working tree
+ * Fixed issue #1760: Unified diff of two revisions is inversed
+ * Fixed various possible crashes
+
 = Release 1.8.2.0 =
 Released: 2013-03-26
 
