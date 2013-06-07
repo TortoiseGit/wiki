@@ -10,7 +10,7 @@
    * Installation of msysGit can be done with preselected options, however, no need to install the "Windows explorer integration". If you know about CRLF and LF line endings and you have editors coping with that, you should select "Checkout as-is, commit as-is" in order to prevent automatic translations
    * msysGit 1.7.10+ is recommended for !TortoiseGit 1.7.9+ (msysGit 1.7.10 adds utf-8 support and is compatible to `*`nix git)
    * minimum compatible version is 1.6.1 (for !TortoiseGit < 1.7.9 you should use msysGit 1.7.6)
-   * TortoiseGit 1.8.3 is not fully compatible to msysgit 1.8.3. Msysgit 1.8.1 is recommended.
+   * !TortoiseGit 1.8.3 is not fully compatible to msysgit 1.8.3. Msysgit 1.8.1 is recommended.
 
 = Installation =
 
