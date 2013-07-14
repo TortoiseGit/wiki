@@ -5,6 +5,7 @@
 
  * For the latest version of !TortoiseGit Windows XP SP3 or newer is required.
  * Admin privileges for the installation
+ * [http://www.microsoft.com/en-us/download/details.aspx?id=8483 Windows Installer 4.5] (required since !TortoiseGit 1.7.15.2)
  * [http://code.google.com/p/msysgit msysGit] is required by !TortoiseGit
    * You do not need to download the whole msysGit development package, the [http://code.google.com/p/msysgit/downloads/list?can=2&q="Full+installer+for+official+Git+for+Windows" "Full installer for official Git for Windows"] download package is sufficient
    * Installation of msysGit can be done with preselected options, however, no need to install the "Windows explorer integration". If you know about CRLF and LF line endings and you have editors coping with that, you should select "Checkout as-is, commit as-is" in order to prevent automatic translations
@@ -18,11 +19,6 @@ Just [Download download] the setup package for your system and install it. If yo
 == Windows 2000 ==
 
 If you want to use !TortoiseGit in a Win2K environment (only 1.6.5 and below support Win2K), please install [http://www.microsoft.com/download/en/details.aspx?id=18909 GDI+] before you install !TortoiseGit. However, running these old versions is not recommended (no utf-8 and separate-git-dir support).
-
-== Windows XP and Vista ==
-
-Since !TortoiseGit 1.7.15.2 (Preview), Windows Installer 4.5 is required. Please install [http://www.microsoft.com/en-us/download/details.aspx?id=8483 Windows Installer 4.5] before you install !TortoiseGit.
-Older versions of !TortoiseGit did not require Windows Installer 4.5.
 
 = Upgrade =
 
