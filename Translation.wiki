@@ -12,4 +12,4 @@ Goal is to provide language files starting with the next releases as soon as mor
 
 You can find the language packs on our [http://code.google.com/p/tortoisegit/downloads/list download page].
 
-In order to build your own language dlls, we provide the ResText tool as well as the languagedlls for [http://code.google.com/p/tortoisegit/downloads/list?can=1&q=label%3ALanguageDll download].
+In order to build your own language dlls, we provide the !ResText tool as well as the language dlls for [http://code.google.com/p/tortoisegit/downloads/list?can=1&q=label%3ALanguageDll download].
