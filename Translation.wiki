@@ -11,3 +11,5 @@ For most (unlisted) languages you do not need to start all over, a large amount 
 Goal is to provide language files starting with the next releases as soon as more than 50 % of the strings are translated.
 
 You can find the language packs on our [http://code.google.com/p/tortoisegit/downloads/list download page].
+
+In order to build your own language dlls, we provide the ResText tool as well as the languagedlls for [http://code.google.com/p/tortoisegit/downloads/list?can=1&q=label%3ALanguageDll download].
