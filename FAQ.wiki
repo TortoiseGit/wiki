@@ -15,7 +15,7 @@ Or open log dialog -> choose commit with branch\tag, right->click->delete
 = What to do if a crash happened? =
  * Check if "git gc" resolves the problem
  * Check if "git fsck" resolves the problem
- * Test our [http://code.google.com/p/tortoisegit/downloads/list?q=label:Preview&sort=-uploaded preview release] if the problem is still there. If yes: File a [http://code.google.com/p/tortoisegit/issues/list bugreport]. Mention your Windows Version (also x64 or x86), your msysgit version and the used !TortoiseGit version there.
+ * Test our [http://download.tortoisegit.org/tgit/previews/ preview release] if the problem is still there. If yes: File a [http://code.google.com/p/tortoisegit/issues/list bugreport]. Mention your Windows Version (also x64 or x86), your msysgit version and the used !TortoiseGit version there.
 
 = What to do if log dialog shows inaccurate information? =
  * Close all log dialogs of that repository, then go to .git folder, delete tortoisegit.data and tortoisegit.index
