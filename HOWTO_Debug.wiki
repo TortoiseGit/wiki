@@ -1,4 +1,5 @@
 #summary Howto Debug TortoiseGit
+#labels Featured
 
 = Introduction =
 
