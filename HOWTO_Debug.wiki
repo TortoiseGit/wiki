@@ -3,7 +3,7 @@
 
 = Introduction =
 
-This guide will show you how to Debug !TortoiseGit. In gerneral there are three stages of debugging with increasing need of work:
+This guide will show you how to Debug !TortoiseGit. In general there are three stages of debugging with increasing need of work:
 
   # [HOWTO_Debug#Capture_Debug_Strings Capturing debug strings]
   # [HOWTO_Debug#How_to_use_a_debugger Using a debugger (to generate a stack trace)]
