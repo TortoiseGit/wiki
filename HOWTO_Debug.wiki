@@ -13,7 +13,7 @@ This guide will show you how to Debug !TortoiseGit. In gerneral there are three 
 
 !TortoiseGit has some debug statements build in which are not generated and visible by default.
 
-You can enable the generation of those debug strings by setting _!OutputDebugStrings_ to _true_ in !TortoiseGit advanced settings.
+You can enable the generation of those debug strings by setting _!DebugOutputString_ to _true_ in !TortoiseGit advanced settings.
 
 After restarting your computer (or TGitCache.exe, explorer.exe and/or !TortoiseGitProc.exe) you can capture the debug strings using a tools like [http://technet.microsoft.com/en-us/sysinternals/bb896647.aspx DebugView] from the !SysInternals suite or [http://msdn.microsoft.com/en-us/windows/hardware/gg463009.aspx WinDbg].
 
