@@ -1,5 +1,63 @@
 #summary Release Notes
 
+= Release 1.8.6.0 =
+Released: 2013-10-20
+
+== Features ==
+ * Revision Graph: Can generate output graph file through command line
+ * Fixed issue #1858: Switch-and-merge as a single command
+ * Log Dialog: Support Gravatar
+ * Implement git checkout --merge
+ * TortoiseGitIDiff: Conflict resolving for images
+ * Fixed issue #1795: Allow to put branch labels on right side of message column in log view
+ * Fixed issue #1870: Commit subset of changes selected from diff dialog
+ * Fixed issue #1785: If PuTTY defaults to anything other than type SSH port 22, !TortoiseGit acts up on SSH cloning (fixed in !TortoiseGitPlink.exe)
+ * Add setting to confirm to kill running git process in progress dialog
+ * Added support for tgit://-links to start cloning from browser (e.g. tgit://clone/https://code.google.com/p/tortoisegit/)
+ * Added optional support for git://-links to start cloning from browser
+ * Added optional support for smartgit:// and github-windows://-links to start cloning from browser
+   In order to be able to use github-windows://-links on github.com web page, you have to enable them for your !GitHub profile once.
+   Right now the only way is to install the official !GitHub client and sign in with your !GitHub profile (on any Windows machine).
+ * Allow to edit hierarchical git settings
+   If you have set "i18n.commitencoding" to something different than UTF-8 check your "user.name" setting
+ * Fixed issue #1645: enable/disable spell checking in commit dialog
+ * Fixed issue #1806: Compressed graph in the log view
+ * Fixed issue #1926: Add "No Merges" checkbox in Log Messages window
+ * Fixed issue #1779: tortoisegit does not understand include.path in global config
+   If you have relevant settings for TGitCache in an included file, you have to restard TGitCache or modify the global, system, or local config file in order to reload any included file.
+ * Support project icon as task button overlay
+ * Fixed issue #1946: In "Compare revisions", please show something to confirm when there are no differences
+
+== Bug Fixes ==
+ * Fixed issue #1859: Log too long when using Switch to New Branch option in Create Branch dialog
+ * Fixed issue #1864: Commit button did not work after revert
+ * Fixed issue #1862: Some labels not wide enough for translations to fit in
+ * Fixed issue #1790: "Clean up" window position is not preserved on multi-monitor setup
+ * Fixed issue #1876: Up/down buttons in Rebase dialog desynchronise the bottom view
+ * Fixed issue #1875: Commit selection is lost with focus in Rebase dialog
+ * Fixed issue #1873: Squash doesn't preserve original author date
+ * Fixed issue #1863: never-ending wait due to lost messages
+ * Fixed issue #1883: Option Buttons in Hook script not wide enough
+ * Fixed issue #1893: Unified diff for merge commit always shows inverted changes
+ * Fixed issue #1896: Switch/Checkout Branch name resets itself after browsing for a branch
+ * Fixed issue #1895: Context menu incomplete if working tree is located on network share
+ * Fixed issue #1618: In "Show log", mouseover triggers improper redraw of !ClearType font log descriptions in "Message" column
+ * Fixed issue #1891: Cleanup dialog unexpectedly sizable
+ * Bring back templates when creating repository with libgit2, it was "cancelled" in since !TortoiseGit 1.8.0
+ * Fixed issue #1908: "Export selection to.." fails to checkout files which names (or paths) renamed in working dir
+ * Fixed issue #1914: Repository Browser give an error (libgit2) after change branch
+ * Fixed issue #1915: Submodule Update Dialog behaves curious
+ * Fixed issue #1919: Submodule visibility with square brackets
+ * Fixed issue #1918: Settings dialog forces to use remotes
+ * Fixed issue #1923: Once Credential node is activated, pressing apply button in Settings dialog will close the dialog
+ * Fixed issue #1769: "Show Log" missing from context menu if "Shell Extended" and a file was Added but not committed
+ * Fixed issue #1917: Avoid request to stash if there is nothing to rebase or fast forward is possible
+ * Fixed issue #1929: Using "Find" in "Show log" doesn't move to commits it finds, it only selects them
+ * Fixed issue #1948: Case sensitive authors switch throw an error
+
+== Known Issues ==
+ * If you experience problems with PuTTY ssh, please see issue #1880.
+
 = Release 1.8.5.0 =
 Released: 2013-08-18
 
