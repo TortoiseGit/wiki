@@ -8,6 +8,8 @@ For detailed info on what's new, read the ReleaseNotes.
 
 [SetupHowTo System prerequisites and installation howto]
 
+*[http://redir.tortoisegit.org/donate Donate]*
+
 Please make sure that you choose the right installer for your PC, otherwise the setup will fail.
 || *for 32-bit OS* || *for 64-bit OS* ||
 || [http://download.tortoisegit.org/tgit/1.8.6.0/TortoiseGit-1.8.6.0-32bit.msi Download TortoiseGit 1.8.6.0 - 32-bit] || [http://download.tortoisegit.org/tgit/1.8.6.0/TortoiseGit-1.8.6.0-64bit.msi Download TortoiseGit 1.8.6.0 - 64-bit] ||
