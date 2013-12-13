@@ -45,12 +45,10 @@ Before reporting an issue, please check that your problem isn't fixed in our lat
 
 == Other Releases ==
 
-[http://code.google.com/p/tortoisegit/downloads/list Traditional Google Code download list]
-
 Google is going to shut down its download service, so we started to host our releases on our own server: [http://download.tortoisegit.org/tgit/]
 
 === Preview releases ===
 The [http://download.tortoisegit.org/tgit/previews/ preview releases] are built from the latest code that represents the cutting edge of the !TortoiseGit development. This version is used by the !TortoiseGit developers for their daily work (in the past these also were of good quality). Preview releases are provided on an irregular basis, however, w/o translations.
 
 === Older releases ===
-Older releases are available [http://code.google.com/p/tortoisegit/downloads/list?can=1&sort=-uploaded+-filename here].
+Older releases are available [http://download.tortoisegit.org/tgit/ here].
