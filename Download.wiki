@@ -2,7 +2,7 @@
 
 = Download =
 
-*The current version is: 1.8.6.0*
+*The current stable version is: 1.8.6.0*
 
 For detailed info on what's new, read the ReleaseNotes. 
 
