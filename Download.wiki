@@ -18,7 +18,7 @@ Before reporting an issue, please check that your problem isn't fixed in our lat
 
 == Language Packs ==
 
-You need TortoiseGit from above. The language packs have a downlaod size of 2-3.5 MB.
+The language packs contain no standalone localized version of TortoiseGit, you need !TortoiseGit from above. The language packs have a downlaod size of 2-3.5 MB.
 
 || *Country*              || *Code*   || *Completeness* || *32 Bit*                                                                                  || *64 Bit*                                                                                            ||
 || Bulgarian, Bulgaria    || bg_BG    ||  62% || [http://download.tortoisegit.org/tgit/1.8.6.0/TortoiseGit-LanguagePack-1.8.6.0-32bit-bg_BG.msi Setup]    || [http://download.tortoisegit.org/tgit/1.8.6.0/TortoiseGit-LanguagePack-1.8.6.0-64bit-bg_BG.msi Setup]    ||
