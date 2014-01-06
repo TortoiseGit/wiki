@@ -12,11 +12,13 @@ For detailed info on what's new, read the ReleaseNotes.
 
 Please make sure that you choose the right installer for your PC, otherwise the setup will fail.
 || *for 32-bit OS* || *for 64-bit OS* ||
-|| [http://download.tortoisegit.org/tgit/1.8.6.0/TortoiseGit-1.8.6.0-32bit.msi Download TortoiseGit 1.8.6.0 - 32-bit] || [http://download.tortoisegit.org/tgit/1.8.6.0/TortoiseGit-1.8.6.0-64bit.msi Download TortoiseGit 1.8.6.0 - 64-bit] ||
+|| [http://download.tortoisegit.org/tgit/1.8.6.0/TortoiseGit-1.8.6.0-32bit.msi Download TortoiseGit 1.8.6.0 - 32-bit] (~16 MB) || [http://download.tortoisegit.org/tgit/1.8.6.0/TortoiseGit-1.8.6.0-64bit.msi Download TortoiseGit 1.8.6.0 - 64-bit] (~19 MB) ||
 
 Before reporting an issue, please check that your problem isn't fixed in our latest [#Preview_releases preview release]. Also see [FAQ#What_to_do_if_a_crash_happened? What to do if a crash happened?]
 
 == Language Packs ==
+
+You need TortoiseGit from above. The language packs have a downlaod size of 2-3.5 MB.
 
 || *Country*              || *Code*   || *Completeness* || *32 Bit*                                                                                  || *64 Bit*                                                                                            ||
 || Bulgarian, Bulgaria    || bg_BG    ||  62% || [http://download.tortoisegit.org/tgit/1.8.6.0/TortoiseGit-LanguagePack-1.8.6.0-32bit-bg_BG.msi Setup]    || [http://download.tortoisegit.org/tgit/1.8.6.0/TortoiseGit-LanguagePack-1.8.6.0-64bit-bg_BG.msi Setup]    ||
