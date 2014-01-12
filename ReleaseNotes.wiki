@@ -1,5 +1,74 @@
 #summary Release Notes
 
+= Release 1.8.7.0 =
+Released: 2014-01-12
+
+== Features ==
+ * Fixed issue #1943: Add "Ignore N items by extension" in Commit dialog
+ * Fixed issue #1952: Export specific folder
+ * Fixed issue #1002: No right-drag context menu (git copy & add, git move)
+ * Fixed issue #1956: Ship more overlay icon sets as TortoiseSVN does
+ * Add Ref Compare List in Sync Dialog
+ * Fixed issue #1975: Pull Dialog should remember fast forward only
+ * Fixed issue #1981: Hotkey to focus on file list in commit dialog
+ * Fixed issue #1979: Comments are not stripped from commit message
+ * Fixed issue #1991: Disable (by default) certain operations with stash commits
+ * Updated shipped libgit2 to version 0.20
+ * Fixed issue #2010: Conflict dialog show local and remote commits
+ * Autocompletion for language-dependent keywords (usually class/method/variable names) in the commit dialog
+ * Fixed issue #2034: Show gravatar in !TortoiseGitBlame
+ * Fixed issue #871: Blame copy/move detection and other options
+ * Fixed issue #1990: !TortoiseGitBlame always takes whitespace into account
+ * Fixed issue #1988: Allow tag selection in From/To fields instead of dates only
+ * Fixed issue #2015: Save and load ref lists (selections) in "Show log" -> "Browse references"
+ * Fixed issue #1847: Option to show all local branches in log view
+ * Fixed issue #1823: Pressing tab key can insert spaces instead of tab in !TortoiseGitMerge
+ * Fixed issue #2047: Create a log file with git commands and output
+ * Fixed issue #1129: Add Fetch/Pull operations in Show Log window
+ * Fixed issue #2048: Add date to stash list / reflog
+ * Fixed issue #2049: Add pull to after commit actions
+ * Fixed issue #1980: Add Show Unified Diff entry to context menu in !TortoiseGitBlame in Revision List
+ * Fixed issue #1820: Show Assume valid/unchanged files in repo status dialog on a separate list
+ * Fixed issue #1603: Make "Show Whole Project" in log and commit dialog autosaved
+ * Fixed issue #827: add the option to autoclose the "Git command progress" window
+ * Fixed issue #1913: SVN DCommit Button in successful merge Dialog
+ * Fixed issue #1978: Use file directory on Save revision to path in Repository Browser and log dialog
+ * Updated libgit to version 1.8.5.2
+ * Fixed issue #2059: "Go to line" CLI argument support for diff command
+
+== Bug Fixes ==
+ * Fixed issue #1947: When editing git notes, spurious reformatting is done
+ * Fixed issue #1951: Slow switch/checkout dialog
+ * Fixed issue #1958: Revision graph crashes when trying to switch/checkout via context menu
+ * Fixed issue #1963: !TortoiseGitMerge: Missing color config when an added line is changed
+ * Fixed issue #1976: Commit log crashes if it receives a WM_PRINTCLIENT while opening
+ * Fixed issue #1974: bugtraq logregex does not save correctly
+ * Fixed issue #1977: Commit log: cannot select multiple branches if a branch name matches a filename
+ * Fixed issue #1992: Compare selected refs fails if tag object is selected
+ * Fixed issue #1985: !TortoiseGitBlame does not follow renames when comparing line with previous version
+ * Fixed issue #2008: Wrong reflog if hash repeated
+ * Fixed issue #2004: In create patch serial dialog, number of commits up down buttons reversed
+ * Fixed issue #2013: Double-clicking on ref log list doesn't work until after right-clicking it
+ * Fixed issue #2016: Changed files list forgets sort order after switching versions in compare revisions dialog
+ * Fixed issue #2014: "Show log" doesn't update properly when a window is dragged over it if aero is not enabled
+ * Fixed issue #2021: Disable commit template when combine commits
+ * Fixed issue #2024: Unnamed "remote" should not be created
+ * Fixed issue #2027: Failed to preserve selected commit when filter is removed
+ * Fixed issue #2030: !TortoisePlink crash on x64
+ * Fixed issue #2037: !TortoiseGit.dll sometimes does not close it's handles in explorer.exe
+ * Fixed issue #2040: "fatal: pathspec did not match any files" error when resolving deleted/modified conflict
+ * Fixed issue #1866: Check for newer version of tgit behind proxy
+ * Fixed issue #1927: Clicking on a hyperlinked commit hash leaves the target's log message un-hyperlinked
+ * Fixed issue #1835: Question mark icons on committed unchanged files
+ * Fixed issue #2053: Can't do "Combine to one commit"; changed file list wrongly empty
+ * Fixed issue #2051: Submodule update error when fetchRecurseSubmodules has value on-demand
+ * Fixed issue #1860: Race condition in git.exe Progress Dialog
+ * Fixed issue #2020: Passworddialog in background after requesting username
+ * Fixed issue #1802: submodule update module selection not always accurate
+
+== Known Issues ==
+ * If you upgraded Windows 8 to 8.1 and you experience problems with the installer, please see issue #2061.
+
 = Release 1.8.6.0 =
 Released: 2013-10-20
 
