@@ -68,6 +68,7 @@ Released: 2014-01-12
 
 == Known Issues ==
  * If you upgraded Windows 8 to 8.1 and you experience problems with the installer, please see issue #2061.
+ * If you experience problems/crashes while starting !Tortoise(Git)Merge, please see issue #2063.
 
 = Release 1.8.6.0 =
 Released: 2013-10-20
