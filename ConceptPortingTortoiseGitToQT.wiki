@@ -17,30 +17,30 @@ Information about QT: http://www.qt-project.org.
 
 == Applications using QT ==
 
-* VLC
-* KDE
-* Dreamworks Movie Tools
-* Rohde & Schwarz Oscillocopes
-* DFS - Deutsche Flugsicherung (Munich Airport)
-* Adobe Photoshop Album
-* Autodesk Maja
-* Google Earth
-* Skype
-* VirtualBox
-* Netflix
-* ...
+  * VLC
+  * KDE
+  * Dreamworks Movie Tools
+  * Rohde & Schwarz Oscillocopes  
+  * DFS - Deutsche Flugsicherung (Munich Airport)
+  * Adobe Photoshop Album
+  * Autodesk Maja
+  * Google Earth
+  * Skype
+  * VirtualBox
+  * Netflix
+  * ...
 
 == Why do i like QT == 
-* Crossplatform: Support allmost all Desktop- and Mobileplatforms (http://qt-project.org/doc/qt-5/supported-platforms.html)
-* A lot of usefull base classes in QtCore with things like list, stringclasses, vectors, dictionaries,.... (http://qt-project.org/doc/qt-5/classes.html)
-* A lot of GUI elements like list, tree views, grids, labels, webkit webbrowser, .... (http://qt-project.org/doc/qt-5/classes.html)
-* GUI elements are placed in layout with automatic resizing.
-* Automatic extraction of Text from Source for translation with QtLinguist.
-* Styleable GUI with Stylesheets (QSS).Similar to Cascading Style Sheets)
-* UI is defined in QtDesigner and is based on an XML-File (*.ui).
-* Modular Design. Extensions for Multimedia, XML, ....
-* Great OpenGL Support
-* Model View System to abstract data from the GUI. A data model can be attached to one or more TreeViews
-* QT Resource File allow to embedd any data in the executable. This will be accessed like a file system.
+  * Crossplatform: Support allmost all Desktop- and Mobileplatforms (http://qt-project.org/doc/qt-5/supported-platforms.html)
+  * A lot of usefull base classes in QtCore with things like list, stringclasses, vectors, dictionaries,.... (http://qt-project.org/doc/qt-5/classes.html)
+  * A lot of GUI elements like list, tree views, grids, labels, webkit webbrowser, .... (http://qt-project.org/doc/qt-5/classes.html)
+  * GUI elements are placed in layout with automatic resizing.
+  * Automatic extraction of Text from Source for translation with QtLinguist.
+  * Styleable GUI with Stylesheets (QSS).Similar to Cascading Style Sheets)
+  * UI is defined in QtDesigner and is based on an XML-File (.ui).
+  * Modular Design. Extensions for Multimedia, XML, ....
+  * Great OpenGL Support
+  * Model View System to abstract data from the GUI. A data model can be attached to one or more TreeViews
+  * QT Resource File allow to embedd any data in the executable. This will be accessed like a file system.
 
 ... to be continued
