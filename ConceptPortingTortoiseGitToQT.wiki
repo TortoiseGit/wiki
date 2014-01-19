@@ -53,37 +53,41 @@ https://lh4.googleusercontent.com/-MfbLNvXK5To/UthZK84IuII/AAAAAAAAAAY/L8EhOcvJP
 
 = Porting Roadmap =
 
-* Converting MFC Resource Files
-Rebuilding all dialogs in QtDesigner is a lot of work.
-It is much better to write a converter from MFC RC to QT UI.
-There was some tools like KDAB Knut that do this task, but
-AFAIK it is not available anymore.
+  * Converting MFC Resource Files
+  Rebuilding all dialogs in QtDesigner is a lot of work.
+  It is much better to write a converter from MFC RC to QT UI.
+  There was some tools like KDAB Knut that do this task, but
+  AFAIK it is not available anymore.
 
-The best way is to write a converter in python that is based
-on a real parser like Pygments to read Microsoft RC files and
-build initial UI files with this data. Of course, this ui files
-must be afterwards edited (e. g. place elements in layouts),
+  The best way is to write a converter in python that is based
+  on a real parser like ply to read Microsoft RC files and
+  build initial UI files with this data. Of course, this ui files
+  must be afterwards edited (e. g. place elements in layouts),
+
+  Since mfc2qt might be also interesting for other project,
+  there is a git repo at gitgub for that: 
+  https://github.com/dbcb/mfc2qt
 
 == RC Porting Steps ==
 
-* mfc2qt --create-qrc TortoiseProcENG.rc tortoise_proc.qrc
+  * mfc2qt --create-qrc TortoiseProcENG.rc tortoise_proc.qrc
   Creates an Qt Resource with the images, icons, ... 
-* mfc2qt -- create-dialog-list TortoiseProcENG.rc tortoise_proc_dialog.list
+  * mfc2qt -- create-dialog-list TortoiseProcENG.rc tortoise_proc_dialog.list
   This will extract all Dialog IDD's and save them in the file tortoise_proc_dialog.list.
   The developer will have to edit tortoise_proc.list and must  define a class name
-   for every dialog.
-* mfc2qt --create-control-list TortoiseProcENG.rc tortoise_proc_control.list
+  for every dialog.
+  * mfc2qt --create-control-list TortoiseProcENG.rc tortoise_proc_control.list
   This will extract the type of all controls used in all dialogs. 
   The developer must define the qt replacements for
   all all non standard guy elements (e.g scintilla)
-* mfc2qt --convert-dialogs -d tortoise_proc_dialog.list -c tortoise_proc_control.list ./qtui
+  * mfc2qt --convert-dialogs -d tortoise_proc_dialog.list -c tortoise_proc_control.list ./qtui
 
 mfc2qt must provide some templates for the source code generation.
 
 After all Dialogs are converted, they must be edited:
-* Place gui elements in layouts
-* Correct conversion errors.
-* ...
+  * Place gui elements in layouts
+  * Correct conversion errors.
+  * ...
 
 == Sourcecode ==
 
