@@ -35,7 +35,7 @@ Information about QT: http://www.qt-project.org.
   * A lot of usefull base classes in QtCore with things like list, stringclasses, vectors, dictionaries,.... (http://qt-project.org/doc/qt-5/classes.html)
   * A lot of GUI elements like list, tree views, grids, labels, webkit webbrowser, .... (http://qt-project.org/doc/qt-5/classes.html)
   * GUI elements are placed in layout with automatic resizing.
-  * Automatic extraction of Text from Source for translation with QtLinguist.
+  * Automatic extraction of Text from Source for translation with QtLinguist. (TortoiseGit currently uses po format plus a self-made converter ResText)
   * Styleable GUI with Stylesheets (QSS).Similar to Cascading Style Sheets)
   * UI is defined in QtDesigner and is based on an XML-File (.ui).
   * Modular Design. Extensions for Multimedia, XML, ....
