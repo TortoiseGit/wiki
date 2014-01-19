@@ -1,17 +1,15 @@
-#summary One-sentence summary of this page.
+#summary Concept of Porting TortoiseGit to QT.
 #labels Phase-Design,Phase-Requirements
 
 = Introduction =
 
-TortoiseGit is based on the Microsoft Foundation Classes of Visual Studio.
-The MFC is not in active development anymore and the Express-Edition of
-Visual Studio doesn't support it  anymore.
+TortoiseGit is based on the Microsoft Foundation Classes (MFC) of Visual Studio.
+The old fashioned MFC framework has many limitations in modern software UI design
+and it is not available in Express Edition of Visual Studio.
 
-A new GUI-Toolkit should support the most important
-Operating Systems (Windows, Linux, MAC-OS).
+A new GUI-Toolkit should support the most important Operating Systems (Windows, Linux, MacOSX).
 
-This page is created to bring together some ideas to port TGit to 
-the GUI Platform QT.
+This page is created to bring together some ideas to port TGit to the GUI Platform QT.
 
 Information about QT: http://www.qt-project.org.
 
@@ -31,17 +29,17 @@ Information about QT: http://www.qt-project.org.
   * ...
 
 == Why do i like QT == 
-  * Crossplatform: Support allmost all Desktop- and Mobileplatforms (http://qt-project.org/doc/qt-5/supported-platforms.html)
-  * A lot of usefull base classes in QtCore with things like list, stringclasses, vectors, dictionaries,.... (http://qt-project.org/doc/qt-5/classes.html)
+  * Cross platform: Support almost all Desktop and Mobile platforms (http://qt-project.org/doc/qt-5/supported-platforms.html)
+  * A lot of useful base classes in QtCore with things like list, stringclasses, vectors, dictionaries,.... (http://qt-project.org/doc/qt-5/classes.html)
   * A lot of GUI elements like list, tree views, grids, labels, webkit webbrowser, .... (http://qt-project.org/doc/qt-5/classes.html)
   * GUI elements are placed in layout with automatic resizing.
   * Automatic extraction of Text from Source for translation with QtLinguist. (TortoiseGit currently uses po format plus a self-made converter ResText)
-  * Styleable GUI with Stylesheets (QSS).Similar to Cascading Style Sheets)
+  * Styleable GUI with Stylesheets (QSS). Similar to Cascading Style Sheets)
   * UI is defined in QtDesigner and is based on an XML-File (.ui).
   * Modular Design. Extensions for Multimedia, XML, ....
   * Great OpenGL Support
   * Model View System to abstract data from the GUI. A data model can be attached to one or more TreeViews
-  * QT Resource File allow to embedd any data in the executable. This will be accessed like a file system.
+  * QT Resource File allow to embed any data in the executable. This will be accessed like a file system.
 
 == QT Examples ==
 
@@ -55,7 +53,7 @@ https://lh4.googleusercontent.com/-MfbLNvXK5To/UthZK84IuII/AAAAAAAAAAY/L8EhOcvJP
 
 = Porting Roadmap =
 
-* Converting MFC Resourcefiles
+* Converting MFC Resource Files
 Rebuilding all dialogs in QtDesigner is a lot of work.
 It is much better to write a converter from MFC RC to QT UI.
 There was some tools like KDAB Knut that do this task, but
