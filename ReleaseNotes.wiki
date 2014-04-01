@@ -1,5 +1,43 @@
 #summary Release Notes
 
+= Release 1.8.8.0 =
+Released: 2014-04-01
+
+== Features ==
+ * Fixed issue #2065: Add link to fetch to screen when push failed
+ * Fixed issue #1855: Support negative log filter syntax
+ * Fixed issue #1029: Add function to control the TGitCache module
+ * Fixed issue #2086: Rebase autoskip patches that are already in upstream
+ * Fixed issue #2112: Disable option for Drag & Drop Handler
+ * Fixed issue #2114: Allow to swap rebase refs
+ * Updated libgit to version 1.9.0
+ * Fixed issue #1920: Diff in log dialog like in commit dialog
+ * Fixed issue #2134: Easier to select lines to partial commit in !TortoiseGitMerge
+ * Fixed issue #2135: Add menu button to open Explorer when clone finishes
+
+== Bug Fixes ==
+ * Fixed issue #2067: Normalize email with capital letters when calculating gravatar hash
+ * Fixed issue #2071: TGitCache blocks Windows to eject USB drive
+ * Fixed issue #2074: Time field not large enough
+ * Fixed issue #1648: Issue with handles being kept when there are uncommitted changes
+ * Fixed issue #2083: !TortoiseGitBlame 'show unified diff' actually performs compare
+ * Fixed issue #2087: Rebase !ComboBox !DropDown List too short
+ * Fixed issue #2088: log entries have space in front of message without labels if right side drawing is enabled
+ * Fixed issue #2075: Commit do not show merged files after merge
+ * Fixed issue #2097: Wrong context menu when selecting ignored file in Status dialog
+ * Fixed issue #2099: Cannot cancel "Delete and add to ignore list"
+ * Fixed issue #2109: Checkout Tag without creating Branch - Remove Pull Option
+ * Fixed issue #2106: "All local branches" option is not remembered
+ * Fixed issue #2076: Issue Tracker Integration is broken in 1.8.7.0
+ * Fixed issue #2124: Rebase icon not properly displayed
+ * Fixed issue #2113: !JiraSvn bugtraq provider's commit behavior is broken
+ * Fixed issue #2128: tagopt not saved when asked to disable tag fetching
+ * Fixed issue #2127: After delete last tag in Browse references, tree of refs disappeared
+ * Fixed issue #2131: Commit message not used when merging with "squash" option
+ * Fixed issue #2147: Resolve not dealing correctly with (modify/delete) conflicts
+ * Fixed issue #2148: Cherry pick with conflicts does not add "Cherry picked from..."
+ * Fixed issue #2150: Integrate with issue tracker - bug Id can not be larger than 6 digit number
+
 = Release 1.8.7.0 =
 Released: 2014-01-12
 
