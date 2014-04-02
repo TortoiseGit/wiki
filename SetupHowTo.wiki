@@ -4,6 +4,7 @@
 = System prerequisites =
 
  * For the latest version of !TortoiseGit Windows XP SP3 or newer is required.
+ * For Windows 7, SP1 is required; For Windows Vista, SP2 is required
  * Admin privileges for the installation
  * [http://www.microsoft.com/en-us/download/details.aspx?id=8483 Windows Installer 4.5] (required since !TortoiseGit 1.7.15.2)
  * [http://code.google.com/p/msysgit Git for Windows] is required by !TortoiseGit (sometimes also mentioned as msysGit)
