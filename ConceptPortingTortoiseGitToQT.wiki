@@ -95,5 +95,10 @@ In the next step the existing source code must be added/ported
 to the new class files. Since QT support much more powerful
 controls like Model/view, signal/slots etc, developers must think about
 a better way to represent the data in the GUI.
-     
+
+= Internal Reference Links =
+
+  * [https://groups.google.com/forum/#!topic/tortoisegit-dev/FKwoflxEEVk Dev Group - TortoiseGit QT?]
+  * #Issue 2203
+
 ... to be continued
