@@ -20,7 +20,7 @@ Just [Download download] the setup package for your system and install it. If yo
 
 Before upgrading you should read the ReleaseNotes.
 
-Just [Download download] the setup package for your system and install it. The old version will be replaced automatically. If possible use the automatic updater of !TortoiseGit.
+Just [Download download] the setup package for your system and install it. The old version will be replaced automatically. If possible use the automatic updater of !TortoiseGit (in this case the binaries are cryptographically verified).
 
 If you are upgrading from 1.7.3.0 or older and you have installed the 32-bit version on a 64-bit system you have to uninstall the 32-bit version first.
 
