@@ -4,6 +4,8 @@
 
 *The current stable version is: 1.8.12.0*
 
+*Users of Windows XP, please use and stay with [http://download.tortoisegit.org/tgit/1.8.11.0/ 1.8.11.0]*
+
 For detailed info on what's new, read the ReleaseNotes. 
 
 [SetupHowTo System prerequisites and installation howto]
