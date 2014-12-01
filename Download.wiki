@@ -4,7 +4,7 @@
 
 *The current stable version is: 1.8.12.0*
 
-*Users of Windows XP, please use and stay with [http://download.tortoisegit.org/tgit/1.8.11.0/ 1.8.11.0]*
+*Users of Windows XP and Server 2003, please update [http://download.tortoisegit.org/tgit/1.8.12.0/TortoiseGit-1.8.12.0-WindowsXP-fix.zip TortoiseGitProc.exe] after installing 1.8.12.0*
 
 For detailed info on what's new, read the ReleaseNotes. 
 
