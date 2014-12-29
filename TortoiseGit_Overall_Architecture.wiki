@@ -28,4 +28,4 @@ in dialogs, such as log dialog and commit dialog.
 
 
 = How to build !TortoiseGit? =
-Get the source code and see http://code.google.com/p/tortoisegit/source/browse/build.txt.
+Get the source code and see https://code.google.com/p/tortoisegit/source/browse/build.txt.
