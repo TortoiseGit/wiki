@@ -2,9 +2,7 @@
 
 = Download =
 
-*The current stable version is: 1.8.12.0*
-
-*Users of Windows XP and Server 2003, please update [http://download.tortoisegit.org/tgit/1.8.12.0/TortoiseGit-1.8.12.0-WindowsXP-fix.zip TortoiseGitProc.exe] after installing 1.8.12.0*
+*The current stable version is: 1.8.13.0*
 
 For detailed info on what's new, read the ReleaseNotes. 
 
@@ -14,7 +12,7 @@ For detailed info on what's new, read the ReleaseNotes.
 
 Please make sure that you choose the right installer for your PC, otherwise the setup will fail.
 || *for 32-bit OS* || *for 64-bit OS* ||
-|| [http://download.tortoisegit.org/tgit/1.8.12.0/TortoiseGit-1.8.12.0-32bit.msi Download TortoiseGit 1.8.12.0 - 32-bit] (~16 MB) || [http://download.tortoisegit.org/tgit/1.8.12.0/TortoiseGit-1.8.12.0-64bit.msi Download TortoiseGit 1.8.12.0 - 64-bit] (~19 MB) ||
+|| [http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-1.8.13.0-32bit.msi Download TortoiseGit 1.8.13.0 - 32-bit] (~16 MB) || [http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-1.8.13.0-64bit.msi Download TortoiseGit 1.8.13.0 - 64-bit] (~19 MB) ||
 
 Before reporting an issue, please check that your problem isn't fixed in our latest [http://download.tortoisegit.org/tgit/previews/ preview release]. Also see [FAQ#What_to_do_if_a_crash_happened? What to do if a crash happened?]
 
@@ -23,34 +21,34 @@ Before reporting an issue, please check that your problem isn't fixed in our lat
 The language packs contain no standalone localized version of !TortoiseGit, you need !TortoiseGit from above. Each language pack has a download size of 2-5.5 MB.
 
 || *Country*              || *Code*   || *Completeness* || *32 Bit*                                                                                  || *64 Bit*                                                                                            ||
-|| Bulgarian, Bulgaria    || bg_BG    ||  56% || [http://download.tortoisegit.org/tgit/1.8.12.0/TortoiseGit-LanguagePack-1.8.12.0-32bit-bg_BG.msi Setup]    || [http://download.tortoisegit.org/tgit/1.8.12.0/TortoiseGit-LanguagePack-1.8.12.0-64bit-bg_BG.msi Setup]    ||
-|| Catalan                || ca       ||  89% || [http://download.tortoisegit.org/tgit/1.8.12.0/TortoiseGit-LanguagePack-1.8.12.0-32bit-ca.msi Setup]       || [http://download.tortoisegit.org/tgit/1.8.12.0/TortoiseGit-LanguagePack-1.8.12.0-64bit-ca.msi Setup]       ||
-|| Chinese, simplified    || zh_CN    || 100% || [http://download.tortoisegit.org/tgit/1.8.12.0/TortoiseGit-LanguagePack-1.8.12.0-32bit-zh_CN.msi Setup]    || [http://download.tortoisegit.org/tgit/1.8.12.0/TortoiseGit-LanguagePack-1.8.12.0-64bit-zh_CN.msi Setup]    ||
-|| Chinese, traditional   || zh_TW    || 100% || [http://download.tortoisegit.org/tgit/1.8.12.0/TortoiseGit-LanguagePack-1.8.12.0-32bit-zh_TW.msi Setup]    || [http://download.tortoisegit.org/tgit/1.8.12.0/TortoiseGit-LanguagePack-1.8.12.0-64bit-zh_TW.msi Setup]    ||
-|| Czech                  || cs       ||  98% || [http://download.tortoisegit.org/tgit/1.8.12.0/TortoiseGit-LanguagePack-1.8.12.0-32bit-cs.msi Setup]       || [http://download.tortoisegit.org/tgit/1.8.12.0/TortoiseGit-LanguagePack-1.8.12.0-64bit-cs.msi Setup]       ||
-|| Dutch, Netherlands     || nl_NL    ||  89% || [http://download.tortoisegit.org/tgit/1.8.12.0/TortoiseGit-LanguagePack-1.8.12.0-32bit-nl_NL.msi Setup]    || [http://download.tortoisegit.org/tgit/1.8.12.0/TortoiseGit-LanguagePack-1.8.12.0-64bit-nl_NL.msi Setup]    ||
-|| French                 || fr       ||  99% || [http://download.tortoisegit.org/tgit/1.8.12.0/TortoiseGit-LanguagePack-1.8.12.0-32bit-fr.msi Setup]       || [http://download.tortoisegit.org/tgit/1.8.12.0/TortoiseGit-LanguagePack-1.8.12.0-64bit-fr.msi Setup]       ||
-|| German                 || de       || 100% || [http://download.tortoisegit.org/tgit/1.8.12.0/TortoiseGit-LanguagePack-1.8.12.0-32bit-de.msi Setup]       || [http://download.tortoisegit.org/tgit/1.8.12.0/TortoiseGit-LanguagePack-1.8.12.0-64bit-de.msi Setup]       ||
-|| Hungarian              || hu       ||  55% || [http://download.tortoisegit.org/tgit/1.8.12.0/TortoiseGit-LanguagePack-1.8.12.0-32bit-hu.msi Setup]       || [http://download.tortoisegit.org/tgit/1.8.12.0/TortoiseGit-LanguagePack-1.8.12.0-64bit-hu.msi Setup]       ||
-|| Indonesian             || id       ||  52% || [http://download.tortoisegit.org/tgit/1.8.12.0/TortoiseGit-LanguagePack-1.8.12.0-32bit-id.msi Setup]       || [http://download.tortoisegit.org/tgit/1.8.12.0/TortoiseGit-LanguagePack-1.8.12.0-64bit-id.msi Setup]       ||
-|| Italian, Italy         || it_IT    ||  63% || [http://download.tortoisegit.org/tgit/1.8.12.0/TortoiseGit-LanguagePack-1.8.12.0-32bit-it_IT.msi Setup]    || [http://download.tortoisegit.org/tgit/1.8.12.0/TortoiseGit-LanguagePack-1.8.12.0-64bit-it_IT.msi Setup]    ||
-|| Japanese               || ja       || 100% || [http://download.tortoisegit.org/tgit/1.8.12.0/TortoiseGit-LanguagePack-1.8.12.0-32bit-ja.msi Setup]       || [http://download.tortoisegit.org/tgit/1.8.12.0/TortoiseGit-LanguagePack-1.8.12.0-64bit-ja.msi Setup]       ||
-|| Korean, Korea          || ko_KR    ||  97% || [http://download.tortoisegit.org/tgit/1.8.12.0/TortoiseGit-LanguagePack-1.8.12.0-32bit-ko_KR.msi Setup]    || [http://download.tortoisegit.org/tgit/1.8.12.0/TortoiseGit-LanguagePack-1.8.12.0-64bit-ko_KR.msi Setup]    ||
-|| Polish, Poland         || pl_PL    ||  79% || [http://download.tortoisegit.org/tgit/1.8.12.0/TortoiseGit-LanguagePack-1.8.12.0-32bit-pl_PL.msi Setup]    || [http://download.tortoisegit.org/tgit/1.8.12.0/TortoiseGit-LanguagePack-1.8.12.0-64bit-pl_PL.msi Setup]    ||
-|| Portuguese, Brazil     || pt_BR    ||  97% || [http://download.tortoisegit.org/tgit/1.8.12.0/TortoiseGit-LanguagePack-1.8.12.0-32bit-pt_BR.msi Setup]    || [http://download.tortoisegit.org/tgit/1.8.12.0/TortoiseGit-LanguagePack-1.8.12.0-64bit-pt_BR.msi Setup]    ||
-|| Portuguese, Portugal   || pt_PT    ||  55% || [http://download.tortoisegit.org/tgit/1.8.12.0/TortoiseGit-LanguagePack-1.8.12.0-32bit-pt_PT.msi Setup]    || [http://download.tortoisegit.org/tgit/1.8.12.0/TortoiseGit-LanguagePack-1.8.12.0-64bit-pt_PT.msi Setup]    ||
-|| Romanian               || ro       ||  94% || [http://download.tortoisegit.org/tgit/1.8.12.0/TortoiseGit-LanguagePack-1.8.12.0-32bit-ro.msi Setup]       || [http://download.tortoisegit.org/tgit/1.8.12.0/TortoiseGit-LanguagePack-1.8.12.0-64bit-ro.msi Setup]       ||
-|| Russian                || ru       || 100% || [http://download.tortoisegit.org/tgit/1.8.12.0/TortoiseGit-LanguagePack-1.8.12.0-32bit-ru.msi Setup]       || [http://download.tortoisegit.org/tgit/1.8.12.0/TortoiseGit-LanguagePack-1.8.12.0-64bit-ru.msi Setup]       ||
-|| Serbian latin          || sr@latin ||  54% || [http://download.tortoisegit.org/tgit/1.8.12.0/TortoiseGit-LanguagePack-1.8.12.0-32bit-sr-latin.msi Setup] || [http://download.tortoisegit.org/tgit/1.8.12.0/TortoiseGit-LanguagePack-1.8.12.0-64bit-sr-latin.msi Setup] ||
-|| Slovak                 || sk       ||  63% || [http://download.tortoisegit.org/tgit/1.8.12.0/TortoiseGit-LanguagePack-1.8.12.0-32bit-sk.msi Setup]       || [http://download.tortoisegit.org/tgit/1.8.12.0/TortoiseGit-LanguagePack-1.8.12.0-64bit-sk.msi Setup]       ||
-|| Spanish, Spain         || es_ES    || 100% || [http://download.tortoisegit.org/tgit/1.8.12.0/TortoiseGit-LanguagePack-1.8.12.0-32bit-es_ES.msi Setup]    || [http://download.tortoisegit.org/tgit/1.8.12.0/TortoiseGit-LanguagePack-1.8.12.0-64bit-es_ES.msi Setup]    ||
-|| Swedish                || sv       ||  96% || [http://download.tortoisegit.org/tgit/1.8.12.0/TortoiseGit-LanguagePack-1.8.12.0-32bit-sv.msi Setup]       || [http://download.tortoisegit.org/tgit/1.8.12.0/TortoiseGit-LanguagePack-1.8.12.0-64bit-sv.msi Setup]       ||
-|| Turkish                || tr       ||  63% || [http://download.tortoisegit.org/tgit/1.8.12.0/TortoiseGit-LanguagePack-1.8.12.0-32bit-tr.msi Setup]       || [http://download.tortoisegit.org/tgit/1.8.12.0/TortoiseGit-LanguagePack-1.8.12.0-64bit-tr.msi Setup]       ||
-|| Vietnamese             || vi       ||  60% || [http://download.tortoisegit.org/tgit/1.8.12.0/TortoiseGit-LanguagePack-1.8.12.0-32bit-vi.msi Setup]       || [http://download.tortoisegit.org/tgit/1.8.12.0/TortoiseGit-LanguagePack-1.8.12.0-64bit-vi.msi Setup]       ||
+|| Bulgarian, Bulgaria    || bg_BG    ||  56% || [http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-LanguagePack-1.8.13.0-32bit-bg_BG.msi Setup]    || [http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-LanguagePack-1.8.13.0-64bit-bg_BG.msi Setup]    ||
+|| Catalan                || ca       ||  89% || [http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-LanguagePack-1.8.13.0-32bit-ca.msi Setup]       || [http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-LanguagePack-1.8.13.0-64bit-ca.msi Setup]       ||
+|| Chinese, simplified    || zh_CN    || 100% || [http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-LanguagePack-1.8.13.0-32bit-zh_CN.msi Setup]    || [http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-LanguagePack-1.8.13.0-64bit-zh_CN.msi Setup]    ||
+|| Chinese, traditional   || zh_TW    || 100% || [http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-LanguagePack-1.8.13.0-32bit-zh_TW.msi Setup]    || [http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-LanguagePack-1.8.13.0-64bit-zh_TW.msi Setup]    ||
+|| Czech                  || cs       || 100% || [http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-LanguagePack-1.8.13.0-32bit-cs.msi Setup]       || [http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-LanguagePack-1.8.13.0-64bit-cs.msi Setup]       ||
+|| Dutch, Netherlands     || nl_NL    ||  89% || [http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-LanguagePack-1.8.13.0-32bit-nl_NL.msi Setup]    || [http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-LanguagePack-1.8.13.0-64bit-nl_NL.msi Setup]    ||
+|| French                 || fr       ||  99% || [http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-LanguagePack-1.8.13.0-32bit-fr.msi Setup]       || [http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-LanguagePack-1.8.13.0-64bit-fr.msi Setup]       ||
+|| German                 || de       || 100% || [http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-LanguagePack-1.8.13.0-32bit-de.msi Setup]       || [http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-LanguagePack-1.8.13.0-64bit-de.msi Setup]       ||
+|| Hungarian              || hu       ||  55% || [http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-LanguagePack-1.8.13.0-32bit-hu.msi Setup]       || [http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-LanguagePack-1.8.13.0-64bit-hu.msi Setup]       ||
+|| Indonesian             || id       ||  52% || [http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-LanguagePack-1.8.13.0-32bit-id.msi Setup]       || [http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-LanguagePack-1.8.13.0-64bit-id.msi Setup]       ||
+|| Italian, Italy         || it_IT    ||  63% || [http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-LanguagePack-1.8.13.0-32bit-it_IT.msi Setup]    || [http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-LanguagePack-1.8.13.0-64bit-it_IT.msi Setup]    ||
+|| Japanese               || ja       ||  99% || [http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-LanguagePack-1.8.13.0-32bit-ja.msi Setup]       || [http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-LanguagePack-1.8.13.0-64bit-ja.msi Setup]       ||
+|| Korean, Korea          || ko_KR    ||  96% || [http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-LanguagePack-1.8.13.0-32bit-ko_KR.msi Setup]    || [http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-LanguagePack-1.8.13.0-64bit-ko_KR.msi Setup]    ||
+|| Polish, Poland         || pl_PL    ||  80% || [http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-LanguagePack-1.8.13.0-32bit-pl_PL.msi Setup]    || [http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-LanguagePack-1.8.13.0-64bit-pl_PL.msi Setup]    ||
+|| Portuguese, Brazil     || pt_BR    ||  97% || [http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-LanguagePack-1.8.13.0-32bit-pt_BR.msi Setup]    || [http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-LanguagePack-1.8.13.0-64bit-pt_BR.msi Setup]    ||
+|| Portuguese, Portugal   || pt_PT    ||  55% || [http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-LanguagePack-1.8.13.0-32bit-pt_PT.msi Setup]    || [http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-LanguagePack-1.8.13.0-64bit-pt_PT.msi Setup]    ||
+|| Romanian               || ro       ||  96% || [http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-LanguagePack-1.8.13.0-32bit-ro.msi Setup]       || [http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-LanguagePack-1.8.13.0-64bit-ro.msi Setup]       ||
+|| Russian                || ru       || 100% || [http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-LanguagePack-1.8.13.0-32bit-ru.msi Setup]       || [http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-LanguagePack-1.8.13.0-64bit-ru.msi Setup]       ||
+|| Serbian latin          || sr@latin ||  54% || [http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-LanguagePack-1.8.13.0-32bit-sr-latin.msi Setup] || [http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-LanguagePack-1.8.13.0-64bit-sr-latin.msi Setup] ||
+|| Slovak                 || sk       ||  63% || [http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-LanguagePack-1.8.13.0-32bit-sk.msi Setup]       || [http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-LanguagePack-1.8.13.0-64bit-sk.msi Setup]       ||
+|| Spanish, Spain         || es_ES    || 100% || [http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-LanguagePack-1.8.13.0-32bit-es_ES.msi Setup]    || [http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-LanguagePack-1.8.13.0-64bit-es_ES.msi Setup]    ||
+|| Swedish                || sv       ||  96% || [http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-LanguagePack-1.8.13.0-32bit-sv.msi Setup]       || [http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-LanguagePack-1.8.13.0-64bit-sv.msi Setup]       ||
+|| Turkish                || tr       ||  63% || [http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-LanguagePack-1.8.13.0-32bit-tr.msi Setup]       || [http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-LanguagePack-1.8.13.0-64bit-tr.msi Setup]       ||
+|| Vietnamese             || vi       ||  59% || [http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-LanguagePack-1.8.13.0-32bit-vi.msi Setup]       || [http://download.tortoisegit.org/tgit/1.8.13.0/TortoiseGit-LanguagePack-1.8.13.0-64bit-vi.msi Setup]       ||
 
 == Other resources ==
 
-Debug symbols, language dlls and other resources can be found here [http://download.tortoisegit.org/tgit/1.8.12.0/]
+Debug symbols, language dlls and other resources can be found here [http://download.tortoisegit.org/tgit/1.8.13.0/]
 
 === Preview releases ===
 The [http://download.tortoisegit.org/tgit/previews/ preview releases] are built from the latest code that represents the cutting edge of the !TortoiseGit development. This version is used by the !TortoiseGit developers for their daily work (in the past these also were of good quality). Preview releases are provided on an irregular basis, however, w/o translations.

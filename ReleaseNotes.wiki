@@ -1,5 +1,49 @@
 #summary Release Notes
 
+= Release 1.8.13.0 =
+Released: 2015-02-15
+
+== Features ==
+ * Improved auto update
+   Version checks will use SSL (on Vista or newer systems)
+   New version.txt file format with more options
+ * Fixed issue #2243: Submodule red-icon doesn't propagate to higher folders (configurable now)
+ * Improved overlay icon accuracy
+   You might need to kill TGitCache.exe once using the !TaskManager in order to reset its cache
+ * Fixed issue #2388: See the exact time when the Relative time in log enabled
+ * Fixed issue #2346: Add drag'n'drop to "Apply patches" window
+ * Fixed issue #2357: Save the state of Search criteria checkboxes in Log dialog
+ * Fixed issue #2420: Make push available in log for arbitrary commits (when pressing the shift key)
+ * Fixed issue #2351: Allow upstream to be separate from onto in rebase
+ * Fixed issue #1400: Allow the use of tags within the Git Rebase dialog
+ * Fixes issue #2417: Resolving a conflict forces refresh of Commit Dialog
+   A new advanced option (!RefreshFileListAfterResolvingConflict) was added which controls
+   whether file lists are refreshed after resolving conflicts. By default this is set to
+   true, but can be disabled in cases where refreshing the list takes lots of time or
+   people don't want the list to automatically scroll to the top (this also mitigates
+   issue #1949 until we have a cleaner fix). F5 for manual refresh is needed if enabled.
+ * Fixed issue #56: Ability to use Cygwin's git instead of msysGit
+   Check out the manual (keyword "Cygwin git") regarding Cygwin Git support and configuration hints.
+   Please note that Cygwin Git is not officially supported by !TortoiseGit as the developers only
+   use Git for Windows. Bugreports, however, are welcome.
+
+== Bug Fixes ==
+ * Fixed issue #2359: Selected files counter not updated after revert
+ * Fixed issue #2362: git.exe get stuck on Win XP
+ * Fixed issue #2372: Remote Config Tags Dropdown doesn't enable Apply-Button when switching to Reachable
+ * Updated libgit2 in order to fix CVE-2014-9390.
+   !TortoiseGit is not affected in its default configuration (libgit2 has to be manually enabled for cloning).
+   Git for Windows and mSysGit < 1.9.5 are affected, so an update highly recommended.
+ * Fixed issue #2385: 'Mail' - 'Use configured server' & 'none'... seems can not be localized
+ * Fixed issue #2356: Rebase dialog should also auto-link to issue tracker
+ * Fixed issue #2390: /command:log /outfile not written
+ * Fixed issue #2391: Cannot clear "Load Putty Key" in clone dialog persistently
+ * Fixed issue #1789: Tooltips not properly displayed in Log List if that commit has refs
+ * Fixed issue #2353: Link to bug tracker not available in Show Log dialog on Win8+
+ * Fixed issue #2368: CTRL+ENTER locks up GUI on Updating Index...
+ * Fixed issue #2414: !SendMail doesn't correctly place the mail in to list
+ * Fixed several issues in libgit2 regarding !SafeCrLf and !AutoCrlf
+
 = Release 1.8.12.0 =
 Released: 2014-11-25
 
