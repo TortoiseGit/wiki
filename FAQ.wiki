@@ -6,6 +6,16 @@
 = How to add new Wiki pages or update Wiki pages? =
 Feel free to clone https://code.google.com/p/tortoisegit.wiki/ or https://github.com/TortoiseGit/wiki and send a pull request. Also everyone who is on our mailing list (https://groups.google.com/group/tortoisegit-dev) can edit the wiki using the web editor. 
 
+= TortoiseGit icons are not displayed (correctly) ==
+
+Windows explorer can just handle a fixed number different overlay providers and TortoiseGit is using 6 of these (these 6 are handled by TortoiseOverlays and, thus, shared with TortoiseSVN and TortoiseCVS).
+
+If the TortoiseGit icons are not correctly displayed this is likely caused by other programs which provide overlays (like Dropbox, Owncloud, BoxSync and various others) and register with a higher priority.
+
+See https://code.google.com/p/tortoisegit/issues/detail?id=692#c45 for a few steps on how to solve this.
+
+You can see which ones the Tortoise clients use in the TortoiseGit settings dialog (https://tortoisegit.org/docs/tortoisegit/tgit-dug-settings.html#tgit-dug-settings-overlay-handlers). Here also a button with direct access to the registry is provided where all overlay handlers are configured.
+
 = How to delete branch and tag =
 Press "Shift" key, right-click -> Browse Reference, 
 Choose branch or tag, right-click, choose "delete". Branches and tags can also be deleted using the Log Dialog, however, tags will only be deleted locally (see [[#How_to_delete_a_remote_tag here]] to find out how to delete tags on a remote repository).
