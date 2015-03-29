@@ -12,7 +12,7 @@ Windows explorer can just handle a fixed number different overlay providers and 
 
 If the !TortoiseGit icons are not correctly displayed this is likely caused by other programs which provide overlays (like Dropbox, Owncloud, !BoxSync and various others) and register with a higher priority.
 
-See https://code.google.com/p/tortoisegit/issues/detail?id=692#c45 for a few steps on how to solve this.
+See https://code.google.com/p/tortoisegit/issues/detail?id=692#c45 for a few steps on how to solve this. The TortoiseSVN team also has a nice FAQ for this: http://tortoisesvn.net/faq.html#ovlnotshowing
 
 You can see which ones the Tortoise clients use in the !TortoiseGit settings dialog (https://tortoisegit.org/docs/tortoisegit/tgit-dug-settings.html#tgit-dug-settings-overlay-handlers). Here also a button with direct access to the registry is provided where all overlay handlers are configured.
 
