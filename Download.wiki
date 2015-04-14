@@ -2,7 +2,7 @@
 
 = Download =
 
-*!GoogleCode will be shut down soon, so please note our note website: https://tortoisegit.org *
+*!GoogleCode will be shut down soon, so please note our website: https://tortoisegit.org *
 
 *The current stable version is: 1.8.14.0*
 
