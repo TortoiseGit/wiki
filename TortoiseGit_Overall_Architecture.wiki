@@ -1,31 +1,3 @@
 #summary TortoiseGit Overall architecture
 
-= Introduction =
-
-This page introduces !TortoiseGit overall architecture.
-
- * *!TortoiseGitShell* -- Explorer Shell extension, final output is !TortoiseGit.dll, which is loaded by Explorer. It checks if a directory is git repository, provides the overlay icons (in conjunction with TGitCache) and adds the !TortoiseGit-submenu/commands to the context menu. <br />Since !TortoiseGit 1.7.14, !TortoiseGitShell is no longer directly loaded by Explorer. An extra layer !TortoiseGitStub has been added. !TortoiseGitStub is loaded by Explorer, then !TortoiseGitStub loads !TortoiseGitShell.<br/>For every command selected in the context menu, !TortoiseGitProc is executed to handle it.<br/>
- * *!TortoiseGitProc* -- The main TGit GUI program, handles all commands such log, commit and so on.  The final output is !TortoiseGitProc.exe.
-
-Before !TortoiseGit 1.7.15.1 (Preview), they were called as !TortoiseStub.dll and !TortoiseProc.exe repectively. (!TortoiseGit.dll remains unchanged)
-
-= How to get into !TortoiseGit? =
-Install the latest nightly build and enable "Debug" in the
-Advanced Settings, now you will see all calls made to !TortoiseGitProc.
-
-Inside !TortoiseGitProc all different commands have their own handler classes
-and maybe dialogs (in MSVC you can see all the project directories for them).
-
-Main class for functionality is the !AppUtils.cpp, which is called by
-many commands.
-
-The log dialog and other revision lists are handled by the
-!GitLogListBase.cpp or derived classes (action handlers are in
-!GitLogListAction.cpp).
-
-!GitStatusListCtrl.cpp is used everywhere where file lists are displayed
-in dialogs, such as log dialog and commit dialog.
-
-
-= How to build !TortoiseGit? =
-Get the source code and see https://code.google.com/p/tortoisegit/source/browse/build.txt.
+Moved to https://github.com/TortoiseGit/TortoiseGit/blob/master/architecture.txt

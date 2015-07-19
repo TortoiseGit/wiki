@@ -16,7 +16,7 @@ Please make sure that you choose the right installer for your PC, otherwise the 
 || *for 32-bit OS* || *for 64-bit OS* ||
 || [http://download.tortoisegit.org/tgit/1.8.14.0/TortoiseGit-1.8.14.0-32bit.msi Download TortoiseGit 1.8.14.0 - 32-bit] (~16 MB) || [http://download.tortoisegit.org/tgit/1.8.14.0/TortoiseGit-1.8.14.0-64bit.msi Download TortoiseGit 1.8.14.0 - 64-bit] (~19 MB) ||
 
-Before reporting an issue, please check that your problem isn't fixed in our latest [http://download.tortoisegit.org/tgit/previews/ preview release]. Also see [FAQ#What_to_do_if_a_crash_happened? What to do if a crash happened?]
+Before reporting an issue, please check that your problem isn't fixed in our latest [https://download.tortoisegit.org/tgit/previews/ preview release]. Also see [FAQ#What_to_do_if_a_crash_happened? What to do if a crash happened?]
 
 == Language Packs ==
 
@@ -51,10 +51,10 @@ The language packs contain no standalone localized version of !TortoiseGit, you 
 
 == Other resources ==
 
-Debug symbols, language dlls and other resources can be found here [http://download.tortoisegit.org/tgit/1.8.14.0/]
+Debug symbols, language dlls and other resources can be found here [https://download.tortoisegit.org/tgit/1.8.14.0/]
 
 === Preview releases ===
-The [http://download.tortoisegit.org/tgit/previews/ preview releases] are built from the latest code that represents the cutting edge of the !TortoiseGit development. This version is used by the !TortoiseGit developers for their daily work (in the past these also were of good quality). Preview releases are provided on an irregular basis, however, w/o translations.
+The [https://download.tortoisegit.org/tgit/previews/ preview releases] are built from the latest code that represents the cutting edge of the !TortoiseGit development. This version is used by the !TortoiseGit developers for their daily work (in the past these also were of good quality). Preview releases are provided on an irregular basis, however, w/o translations.
 
 === Older releases ===
-Older releases are available [http://download.tortoisegit.org/tgit/ here].
+Older releases are available [https://download.tortoisegit.org/tgit/ here].
