@@ -9,9 +9,9 @@
  * [http://www.microsoft.com/en-us/download/details.aspx?id=8483 Windows Installer 4.5] (required since !TortoiseGit 1.7.15.2)
  * [https://msysgit.github.io/ Git for Windows] is required by !TortoiseGit (sometimes also mentioned as msysGit)
    * Installation of Git for Windows can be done with preselected options, however, no need to install the "Windows explorer integration". If you know about CRLF and LF line endings and you have editors coping with that, you should select "Checkout as-is, commit as-is" in order to prevent automatic translations
-   * Git for Windows/msysGit 1.7.10+ is recommended for !TortoiseGit 1.7.9+ (Git for Windows/msysGit 1.7.10 adds utf-8 support and is compatible to `*`nix git)
+   * Git for Windows/msysGit 1.9.5+ is recommended for !TortoiseGit 1.7.9+ (Git for Windows/msysGit 1.7.10 adds utf-8 support and is compatible to `*`nix git)
    * minimum compatible version is 1.6.1 (for !TortoiseGit < 1.7.9 you should use Git for Windows/msysGit 1.7.6)
-   * (Cygwin Git also works, see [https://tortoisegit.org/docs/tortoisegit/tgit-dug-settings.html#tgit-dug-settings-main manual] for configuration. Please note that Cygwin Git is not officially supported by !TortoiseGit as the developers only use Git for Windows. Bugreports, however, are welcome. 
+   * (Cygwin and Msys2 Git also work, see [https://tortoisegit.org/docs/tortoisegit/tgit-dug-settings.html#tgit-dug-settings-main manual] for configuration. Please note that Cygwin and Msys2 Git are not officially supported by !TortoiseGit as the developers only use Git for Windows. Bug reports, however, are welcome. 
 
 = Installation =
 
