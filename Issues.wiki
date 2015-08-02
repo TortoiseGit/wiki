@@ -1,0 +1,13 @@
+#summary Issue tracker
+
+*Moved to:* https://tortoisegit.org/issues
+
+Google is shutting down !GoogleCode. We're still in the middle of our migration. The following URLs will always point to the current locations:
+ * Website: https://tortoisegit.org
+ * Download: https://tortoisegit.org/download
+ * Manual: https://tortoisegit.org/docs/tortoisegit/
+ * Issue tracker: https://tortoisegit.org/issues
+ * Mailing lists:
+  * [https://groups.google.com/group/tortoisegit-announce tortoisegit-announce],
+  * [https://groups.google.com/group/tortoisegit-users tortoisegit-users] and
+  * [https://groups.google.com/group/tortoisegit-dev tortoisegit-dev]
