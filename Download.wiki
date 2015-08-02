@@ -1,7 +1,5 @@
 #summary Download overview page
 
-= Download =
-
 Google is shutting down !GoogleCode. We're still in the middle of our migration. The following URLs will always point to the current locations:
  * Website: https://tortoisegit.org
  * Download: https://tortoisegit.org/download
@@ -11,6 +9,8 @@ Google is shutting down !GoogleCode. We're still in the middle of our migration.
   * [https://groups.google.com/group/tortoisegit-announce tortoisegit-announce],
   * [https://groups.google.com/group/tortoisegit-users tortoisegit-users] and
   * [https://groups.google.com/group/tortoisegit-dev tortoisegit-dev]
+
+= Download =
 
 *The current stable version is: 1.8.15.0*
 
