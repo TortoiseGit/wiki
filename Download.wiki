@@ -24,7 +24,7 @@ Please make sure that you choose the right installer for your PC, otherwise the 
 || *for 32-bit OS* || *for 64-bit OS* ||
 || [http://download.tortoisegit.org/tgit/1.8.15.0/TortoiseGit-1.8.15.0-32bit.msi Download TortoiseGit 1.8.15.0 - 32-bit] (~16 MB) || [http://download.tortoisegit.org/tgit/1.8.15.0/TortoiseGit-1.8.15.0-64bit.msi Download TortoiseGit 1.8.15.0 - 64-bit] (~19 MB) ||
 
-Before reporting an issue, please check that your problem isn't fixed in our latest [https://download.tortoisegit.org/tgit/previews/ preview release]. Also see [FAQ#What_to_do_if_a_crash_happened? What to do if a crash happened?]
+Before reporting an issue, please check that your problem isn't fixed in our latest [https://download.tortoisegit.org/tgit/previews/ preview release]. Also see [https://gitlab.com/tortoisegit/tortoisegit#what-to-do-if-things-go-wrong-or-a-crash-happened What to do if a crash happened?]
 
 == Language Packs ==
 
